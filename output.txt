@@ -123,7 +123,7 @@ in Oct 2021 these browsers were released: [
   { browser: 'safari', version: '15.1' },
   { browser: 'safari_ios', version: '15.1' }
 ]
-and these features became stable across all major browsers: Set(113) {
+and these features became stable across all major browsers: Set(175) {
   'api.EXT_float_blend',
   'api.FormDataEvent',
   'api.ImageBitmapRenderingContext',
@@ -181,6 +181,13 @@ and these features became stable across all major browsers: Set(113) {
   'webextensions.api.cookies.remove',
   'webextensions.api.cookies.sameSiteStatus',
   'webextensions.api.cookies.set',
+  'webextensions.api.extension.ViewType',
+  'webextensions.api.extension.getBackgroundPage',
+  'webextensions.api.extension.getURL',
+  'webextensions.api.extension.getViews',
+  'webextensions.api.extension.inIncognitoContext',
+  'webextensions.api.extension.isAllowedFileSchemeAccess',
+  'webextensions.api.extension.isAllowedIncognitoAccess',
   'webextensions.api.extensionTypes.ImageDetails',
   'webextensions.api.extensionTypes.ImageFormat',
   'webextensions.api.extensionTypes.RunAt',
@@ -230,17 +237,73 @@ and these features became stable across all major browsers: Set(113) {
   'webextensions.api.storage.local',
   'webextensions.api.storage.onChanged',
   'webextensions.api.storage.sync',
+  'webextensions.api.tabs.TAB_ID_NONE',
+  'webextensions.api.tabs.Tab.active',
+  'webextensions.api.tabs.Tab.audible',
+  'webextensions.api.tabs.Tab.height',
+  'webextensions.api.tabs.Tab.highlighted',
+  'webextensions.api.tabs.Tab.id',
+  'webextensions.api.tabs.Tab.incognito',
+  'webextensions.api.tabs.Tab.index',
+  'webextensions.api.tabs.Tab.openerTabId',
+  'webextensions.api.tabs.Tab.selected',
+  'webextensions.api.tabs.Tab.status',
+  'webextensions.api.tabs.Tab.title',
+  'webextensions.api.tabs.Tab.url',
+  'webextensions.api.tabs.Tab.width',
+  'webextensions.api.tabs.Tab.windowId',
+  'webextensions.api.tabs.TabStatus',
+  'webextensions.api.tabs.WindowType',
+  'webextensions.api.tabs.captureVisibleTab',
+  'webextensions.api.tabs.connect',
+  'webextensions.api.tabs.create',
+  'webextensions.api.tabs.detectLanguage',
+  'webextensions.api.tabs.duplicate',
+  'webextensions.api.tabs.executeScript',
+  'webextensions.api.tabs.get',
+  'webextensions.api.tabs.getCurrent',
+  'webextensions.api.tabs.getZoom',
+  'webextensions.api.tabs.goBack',
+  'webextensions.api.tabs.goForward',
+  'webextensions.api.tabs.insertCSS',
+  'webextensions.api.tabs.onActivated',
+  'webextensions.api.tabs.onAttached',
+  'webextensions.api.tabs.onCreated',
+  'webextensions.api.tabs.onDetached',
+  'webextensions.api.tabs.onHighlighted',
+  'webextensions.api.tabs.onMoved',
+  'webextensions.api.tabs.onRemoved',
+  'webextensions.api.tabs.onUpdated',
+  'webextensions.api.tabs.query',
+  'webextensions.api.tabs.reload',
+  'webextensions.api.tabs.remove',
+  'webextensions.api.tabs.sendMessage',
+  'webextensions.api.tabs.setZoom',
+  'webextensions.api.tabs.update',
   'webextensions.api.webNavigation.getAllFrames',
   'webextensions.api.webNavigation.getFrame',
   'webextensions.api.webNavigation.onBeforeNavigate',
   'webextensions.api.webNavigation.onCommitted',
   'webextensions.api.webNavigation.onCompleted',
   'webextensions.api.webNavigation.onDOMContentLoaded',
-  'webextensions.api.webNavigation.onErrorOccurred'
+  'webextensions.api.webNavigation.onErrorOccurred',
+  'webextensions.api.windows.CreateType',
+  'webextensions.api.windows.WINDOW_ID_CURRENT',
+  'webextensions.api.windows.WINDOW_ID_NONE',
+  'webextensions.api.windows.Window',
+  'webextensions.api.windows.WindowType',
+  'webextensions.api.windows.get',
+  'webextensions.api.windows.getAll',
+  'webextensions.api.windows.getCurrent',
+  'webextensions.api.windows.getLastFocused',
+  'webextensions.api.windows.onCreated',
+  'webextensions.api.windows.onFocusChanged',
+  'webextensions.api.windows.update'
 }
 ------------------------
 in Nov 2021 these browsers were released: [
   { browser: 'chrome', version: '96' },
+  { browser: 'edge', version: '96' },
   { browser: 'firefox', version: '94' }
 ]
 and these features became stable across all major browsers: Set(1) { 'api.PerformanceNavigationTiming' }
@@ -254,13 +317,13 @@ and these features became stable across all major browsers: Set(1) { 'html.globa
 
 
 in Jan 2022 these browsers were released: [
-  { browser: 'chrome', version: '97' },
+  { browser: 'chrome', version: '98' },
   { browser: 'firefox', version: '96' }
 ]
 and these features became stable across all major browsers: Set(0) {}
 ------------------------
 in Feb 2022 these browsers were released: [ { browser: 'firefox', version: '97' } ]
-and these features became stable across all major browsers: Set(0) {}
+and these features became stable across all major browsers: Set(1) { 'css.properties.color-scheme' }
 ------------------------
 in Mar 2022 these browsers were released: [ { browser: 'firefox', version: '98' } ]
 and these features became stable across all major browsers: Set(0) {}
