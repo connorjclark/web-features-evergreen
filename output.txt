@@ -1,0 +1,296 @@
+======== 2021 ========
+
+
+in Jan 2021 these browsers were released: [
+  { browser: 'chrome', version: '88' },
+  { browser: 'edge', version: '88' },
+  { browser: 'firefox', version: '85' }
+]
+and these features became stable across all major browsers: Set(0) {}
+------------------------
+in Feb 2021 these browsers were released: [ { browser: 'firefox', version: '86' } ]
+and these features became stable across all major browsers: Set(2) { 'css.selectors.is', 'css.selectors.where' }
+------------------------
+in Mar 2021 these browsers were released: [
+  { browser: 'chrome', version: '89' },
+  { browser: 'edge', version: '89' },
+  { browser: 'firefox', version: '87' }
+]
+and these features became stable across all major browsers: Set(0) {}
+------------------------
+in Apr 2021 these browsers were released: [
+  { browser: 'chrome', version: '90' },
+  { browser: 'edge', version: '90' },
+  { browser: 'firefox', version: '88' },
+  { browser: 'safari', version: '14.1' },
+  { browser: 'safari_ios', version: '14.5' }
+]
+and these features became stable across all major browsers: Set(1) { 'css.properties.text-decoration-thickness' }
+------------------------
+in May 2021 these browsers were released: [
+  { browser: 'chrome', version: '91' },
+  { browser: 'edge', version: '91' },
+  { browser: 'firefox', version: '89' }
+]
+and these features became stable across all major browsers: Set(56) {
+  'api.AbstractRange',
+  'api.AudioContext',
+  'api.AudioParamMap',
+  'api.AudioWorklet',
+  'api.AudioWorkletGlobalScope',
+  'api.AudioWorkletNode',
+  'api.AudioWorkletProcessor',
+  'api.BaseAudioContext',
+  'api.ConstantSourceNode',
+  'api.IIRFilterNode',
+  'api.OfflineAudioContext',
+  'api.PannerNode',
+  'api.PerformancePaintTiming',
+  'api.StereoPannerNode',
+  'api.Worklet',
+  'api.WorkletGlobalScope',
+  'css.properties.border-block-color',
+  'css.properties.border-block-style',
+  'css.properties.border-block-width',
+  'css.properties.border-block',
+  'css.properties.border-inline-color',
+  'css.properties.border-inline-style',
+  'css.properties.border-inline-width',
+  'css.properties.border-inline',
+  'css.properties.column-gap.flex_context',
+  'css.properties.gap.flex_context',
+  'css.properties.inset-block-end',
+  'css.properties.inset-block-start',
+  'css.properties.inset-block',
+  'css.properties.inset-inline-end',
+  'css.properties.inset-inline-start',
+  'css.properties.inset-inline',
+  'css.properties.inset',
+  'css.properties.margin-block',
+  'css.properties.margin-inline',
+  'css.properties.padding-block',
+  'css.properties.padding-inline',
+  'css.properties.row-gap.flex_context',
+  'css.properties.scroll-margin-block-end',
+  'css.properties.scroll-margin-block-start',
+  'css.properties.scroll-margin-block',
+  'css.properties.scroll-margin-bottom',
+  'css.properties.scroll-margin-inline-end',
+  'css.properties.scroll-margin-inline-start',
+  'css.properties.scroll-margin-inline',
+  'css.properties.scroll-margin-left',
+  'css.properties.scroll-margin-right',
+  'css.properties.scroll-margin-top',
+  'css.properties.scroll-padding-bottom',
+  'css.properties.scroll-padding-left',
+  'css.properties.scroll-padding-right',
+  'css.properties.scroll-padding-top',
+  'css.properties.scroll-padding',
+  'css.selectors.file-selector-button',
+  'javascript.builtins.FinalizationRegistry',
+  'javascript.builtins.WeakRef'
+}
+------------------------
+in Jun 2021 these browsers were released: []
+and these features became stable across all major browsers: Set(0) {}
+------------------------
+in Jul 2021 these browsers were released: [
+  { browser: 'chrome', version: '92' },
+  { browser: 'edge', version: '92' },
+  { browser: 'firefox', version: '90' }
+]
+and these features became stable across all major browsers: Set(0) {}
+------------------------
+in Aug 2021 these browsers were released: [
+  { browser: 'chrome', version: '93' },
+  { browser: 'firefox', version: '91' }
+]
+and these features became stable across all major browsers: Set(1) { 'css.properties.scroll-margin' }
+------------------------
+in Sep 2021 these browsers were released: [
+  { browser: 'chrome', version: '94' },
+  { browser: 'edge', version: '94' },
+  { browser: 'firefox', version: '92' },
+  { browser: 'safari', version: '15' },
+  { browser: 'safari_ios', version: '15' }
+]
+and these features became stable across all major browsers: Set(2) { 'api.VisualViewport', 'css.properties.tab-size' }
+------------------------
+in Oct 2021 these browsers were released: [
+  { browser: 'chrome', version: '95' },
+  { browser: 'edge', version: '95' },
+  { browser: 'firefox', version: '93' },
+  { browser: 'safari', version: '15.1' },
+  { browser: 'safari_ios', version: '15.1' }
+]
+and these features became stable across all major browsers: Set(113) {
+  'api.EXT_float_blend',
+  'api.FormDataEvent',
+  'api.ImageBitmapRenderingContext',
+  'api.MediaMetadata',
+  'api.MediaSession',
+  'api.SubmitEvent',
+  'api.WEBGL_color_buffer_float',
+  'api.WEBGL_draw_buffers',
+  'api.WebGL2RenderingContext',
+  'api.WebGLTransformFeedback',
+  'api.WebGLVertexArrayObject',
+  'api.createImageBitmap',
+  'css.properties.aspect-ratio',
+  'css.properties.border-end-end-radius',
+  'css.properties.border-end-start-radius',
+  'css.properties.border-start-end-radius',
+  'css.properties.border-start-start-radius',
+  'css.properties.scroll-padding-block-end',
+  'css.properties.scroll-padding-block-start',
+  'css.properties.scroll-padding-block',
+  'css.properties.scroll-padding-inline-end',
+  'css.properties.scroll-padding-inline-start',
+  'css.properties.scroll-padding-inline',
+  'javascript.builtins.BigInt64Array',
+  'javascript.builtins.BigUint64Array',
+  'webextensions.api.alarms.Alarm',
+  'webextensions.api.alarms.clear',
+  'webextensions.api.alarms.clearAll',
+  'webextensions.api.alarms.create',
+  'webextensions.api.alarms.get',
+  'webextensions.api.alarms.getAll',
+  'webextensions.api.alarms.onAlarm',
+  'webextensions.api.browserAction.ColorArray',
+  'webextensions.api.browserAction.ImageDataType',
+  'webextensions.api.browserAction.disable',
+  'webextensions.api.browserAction.enable',
+  'webextensions.api.browserAction.getBadgeBackgroundColor',
+  'webextensions.api.browserAction.getBadgeText',
+  'webextensions.api.browserAction.getPopup',
+  'webextensions.api.browserAction.getTitle',
+  'webextensions.api.browserAction.onClicked',
+  'webextensions.api.browserAction.setBadgeBackgroundColor',
+  'webextensions.api.browserAction.setBadgeText',
+  'webextensions.api.browserAction.setIcon',
+  'webextensions.api.browserAction.setPopup',
+  'webextensions.api.browserAction.setTitle',
+  'webextensions.api.commands.Command',
+  'webextensions.api.commands.getAll',
+  'webextensions.api.commands.onCommand',
+  'webextensions.api.cookies.Cookie',
+  'webextensions.api.cookies.CookieStore',
+  'webextensions.api.cookies.get',
+  'webextensions.api.cookies.getAll',
+  'webextensions.api.cookies.getAllCookieStores',
+  'webextensions.api.cookies.remove',
+  'webextensions.api.cookies.sameSiteStatus',
+  'webextensions.api.cookies.set',
+  'webextensions.api.extensionTypes.ImageDetails',
+  'webextensions.api.extensionTypes.ImageFormat',
+  'webextensions.api.extensionTypes.RunAt',
+  'webextensions.api.i18n.getAcceptLanguages',
+  'webextensions.api.i18n.getMessage',
+  'webextensions.api.i18n.getUILanguage',
+  'webextensions.api.pageAction.ImageDataType',
+  'webextensions.api.pageAction.getPopup',
+  'webextensions.api.pageAction.getTitle',
+  'webextensions.api.pageAction.onClicked',
+  'webextensions.api.pageAction.setIcon',
+  'webextensions.api.pageAction.setPopup',
+  'webextensions.api.pageAction.setTitle',
+  'webextensions.api.permissions.contains',
+  'webextensions.api.permissions.getAll',
+  'webextensions.api.permissions.onAdded',
+  'webextensions.api.permissions.onRemoved',
+  'webextensions.api.permissions.Permissions',
+  'webextensions.api.permissions.remove',
+  'webextensions.api.permissions.request',
+  'webextensions.api.runtime.MessageSender',
+  'webextensions.api.runtime.OnInstalledReason',
+  'webextensions.api.runtime.PlatformArch',
+  'webextensions.api.runtime.PlatformInfo',
+  'webextensions.api.runtime.PlatformOs',
+  'webextensions.api.runtime.Port',
+  'webextensions.api.runtime.connect',
+  'webextensions.api.runtime.connectNative',
+  'webextensions.api.runtime.getBackgroundPage',
+  'webextensions.api.runtime.getManifest',
+  'webextensions.api.runtime.getPlatformInfo',
+  'webextensions.api.runtime.getURL',
+  'webextensions.api.runtime.id',
+  'webextensions.api.runtime.lastError',
+  'webextensions.api.runtime.onConnect',
+  'webextensions.api.runtime.onInstalled',
+  'webextensions.api.runtime.onMessage',
+  'webextensions.api.runtime.onMessageExternal',
+  'webextensions.api.runtime.onStartup',
+  'webextensions.api.runtime.openOptionsPage',
+  'webextensions.api.runtime.reload',
+  'webextensions.api.runtime.sendMessage',
+  'webextensions.api.runtime.sendNativeMessage',
+  'webextensions.api.runtime.setUninstallURL',
+  'webextensions.api.storage.StorageArea',
+  'webextensions.api.storage.StorageChange',
+  'webextensions.api.storage.local',
+  'webextensions.api.storage.onChanged',
+  'webextensions.api.storage.sync',
+  'webextensions.api.webNavigation.getAllFrames',
+  'webextensions.api.webNavigation.getFrame',
+  'webextensions.api.webNavigation.onBeforeNavigate',
+  'webextensions.api.webNavigation.onCommitted',
+  'webextensions.api.webNavigation.onCompleted',
+  'webextensions.api.webNavigation.onDOMContentLoaded',
+  'webextensions.api.webNavigation.onErrorOccurred'
+}
+------------------------
+in Nov 2021 these browsers were released: [
+  { browser: 'chrome', version: '96' },
+  { browser: 'firefox', version: '94' }
+]
+and these features became stable across all major browsers: Set(1) { 'api.PerformanceNavigationTiming' }
+------------------------
+in Dec 2021 these browsers were released: [ { browser: 'firefox', version: '95' } ]
+and these features became stable across all major browsers: Set(1) { 'html.global_attributes.enterkeyhint' }
+------------------------
+
+
+======== 2022 ========
+
+
+in Jan 2022 these browsers were released: [
+  { browser: 'chrome', version: '97' },
+  { browser: 'firefox', version: '96' }
+]
+and these features became stable across all major browsers: Set(0) {}
+------------------------
+in Feb 2022 these browsers were released: [ { browser: 'firefox', version: '97' } ]
+and these features became stable across all major browsers: Set(0) {}
+------------------------
+in Mar 2022 these browsers were released: [ { browser: 'firefox', version: '98' } ]
+and these features became stable across all major browsers: Set(0) {}
+------------------------
+in Apr 2022 these browsers were released: []
+and these features became stable across all major browsers: Set(0) {}
+------------------------
+in May 2022 these browsers were released: []
+and these features became stable across all major browsers: Set(0) {}
+------------------------
+in Jun 2022 these browsers were released: []
+and these features became stable across all major browsers: Set(0) {}
+------------------------
+in Jul 2022 these browsers were released: []
+and these features became stable across all major browsers: Set(0) {}
+------------------------
+in Aug 2022 these browsers were released: []
+and these features became stable across all major browsers: Set(0) {}
+------------------------
+in Sep 2022 these browsers were released: []
+and these features became stable across all major browsers: Set(0) {}
+------------------------
+in Oct 2022 these browsers were released: []
+and these features became stable across all major browsers: Set(0) {}
+------------------------
+in Nov 2022 these browsers were released: []
+and these features became stable across all major browsers: Set(0) {}
+------------------------
+in Dec 2022 these browsers were released: []
+and these features became stable across all major browsers: Set(0) {}
+------------------------
+
+
