@@ -5,14 +5,14 @@
 
 ## May 2023
 ### Browsers released:
-   - {'browser':'firefox','version':'113'}
+  - {'browser':'firefox','version':'113'}
 
 ## Apr 2023
 ### Browsers released:
-   - {'browser':'edge','version':'112'}
+  - {'browser':'edge','version':'112'}
   - {'browser':'firefox','version':'112'}
 ### These Features became stable across all major browsers:
-   - `css.types.acos`
+  - `css.types.acos`
   - `css.types.asin`
   - `css.types.atan`
   - `css.types.atan2`
@@ -22,22 +22,22 @@
 
 ## Mar 2023
 ### Browsers released:
-   - {'browser':'chrome','version':'112'}
+  - {'browser':'chrome','version':'112'}
   - {'browser':'edge','version':'111'}
   - {'browser':'firefox','version':'111'}
 ### These Features became stable across all major browsers:
-   - `css.at-rules.container`
+  - `css.at-rules.container`
   - `css.properties.container`
   - `css.properties.container-name`
   - `css.properties.container-type`
 
 ## Feb 2023
 ### Browsers released:
-   - {'browser':'chrome','version':'111'}
+  - {'browser':'chrome','version':'111'}
   - {'browser':'edge','version':'110'}
   - {'browser':'firefox','version':'110'}
 ### These Features became stable across all major browsers:
-   - `api.MathMLElement`
+  - `api.MathMLElement`
   - `mathml.elements.maction`
   - `mathml.elements.math`
   - `mathml.elements.merror`
@@ -74,13 +74,13 @@
 
 ## Jan 2023
 ### Browsers released:
-   - {'browser':'chrome','version':'109'}
+  - {'browser':'chrome','version':'109'}
   - {'browser':'edge','version':'109'}
   - {'browser':'firefox','version':'109'}
   - {'browser':'safari','version':'16.3'}
   - {'browser':'safari_ios','version':'16.3'}
 ### These Features became stable across all major browsers:
-   - `api.OES_draw_buffers_indexed`
+  - `api.OES_draw_buffers_indexed`
   - `api.WEBGL_compressed_texture_astc`
   - `api.WEBGL_compressed_texture_etc`
 
@@ -92,32 +92,32 @@
 
 ## Dec 2022
 ### Browsers released:
-   - {'browser':'edge','version':'108'}
+  - {'browser':'edge','version':'108'}
   - {'browser':'firefox','version':'108'}
   - {'browser':'safari','version':'16.2'}
   - {'browser':'safari_ios','version':'16.2'}
 ### These Features became stable across all major browsers:
-   - `api.CSSFontPaletteValuesRule`
+  - `api.CSSFontPaletteValuesRule`
   - `css.at-rules.font-palette-values`
   - `css.properties.font-palette`
 
 ## Nov 2022
 ### Browsers released:
-   - {'browser':'chrome','version':'108'}
+  - {'browser':'chrome','version':'108'}
   - {'browser':'firefox','version':'107'}
 ### These Features became stable across all major browsers:
-   - `api.EXT_texture_compression_bptc`
+  - `api.EXT_texture_compression_bptc`
   - `css.properties.hyphenate-character`
 
 ## Oct 2022
 ### Browsers released:
-   - {'browser':'chrome','version':'107'}
+  - {'browser':'chrome','version':'107'}
   - {'browser':'edge','version':'107'}
   - {'browser':'firefox','version':'106'}
   - {'browser':'safari','version':'16.1'}
   - {'browser':'safari_ios','version':'16.1'}
 ### These Features became stable across all major browsers:
-   - `api.PermissionStatus`
+  - `api.PermissionStatus`
   - `api.Permissions`
   - `api.SharedWorker`
   - `api.SharedWorkerGlobalScope`
@@ -134,40 +134,40 @@
 
 ## Sep 2022
 ### Browsers released:
-   - {'browser':'chrome','version':'106'}
+  - {'browser':'chrome','version':'106'}
   - {'browser':'firefox','version':'105'}
   - {'browser':'safari','version':'16'}
   - {'browser':'safari_ios','version':'16'}
 ### These Features became stable across all major browsers:
-   - `css.properties.rotate`
+  - `css.properties.rotate`
   - `css.properties.scale`
   - `css.properties.translate`
 
 ## Aug 2022
 ### Browsers released:
-   - {'browser':'chrome','version':'104'}
+  - {'browser':'chrome','version':'104'}
   - {'browser':'edge','version':'105'}
   - {'browser':'firefox','version':'104'}
 ### These Features became stable across all major browsers:
-   - `css.properties.backdrop-filter`
+  - `css.properties.backdrop-filter`
   - `css.properties.scroll-snap-stop`
 
 ## Jul 2022
 ### Browsers released:
-   - {'browser':'firefox','version':'103'}
+  - {'browser':'firefox','version':'103'}
   - {'browser':'safari','version':'15.6'}
   - {'browser':'safari_ios','version':'15.6'}
 ### These Features became stable across all major browsers:
-   - `api.TransformStream`
+  - `api.TransformStream`
   - `api.TransformStreamDefaultController`
 
 ## Jun 2022
 ### Browsers released:
-   - {'browser':'chrome','version':'103'}
+  - {'browser':'chrome','version':'103'}
   - {'browser':'edge','version':'103'}
   - {'browser':'firefox','version':'102'}
 ### These Features became stable across all major browsers:
-   - `api.WritableStream`
+  - `api.WritableStream`
   - `api.WritableStreamDefaultController`
   - `api.WritableStreamDefaultWriter`
   - `webextensions.api.scripting.InjectionTarget`
@@ -179,22 +179,22 @@
 
 ## May 2022
 ### Browsers released:
-   - {'browser':'chrome','version':'102'}
+  - {'browser':'chrome','version':'102'}
   - {'browser':'edge','version':'102'}
   - {'browser':'firefox','version':'101'}
   - {'browser':'safari','version':'15.5'}
   - {'browser':'safari_ios','version':'15.5'}
 ### These Features became stable across all major browsers:
-   - `api.NavigationPreloadManager`
+  - `api.NavigationPreloadManager`
   - `css.properties.scroll-snap-type`
 
 ## Apr 2022
 ### Browsers released:
-   - {'browser':'chrome','version':'101'}
+  - {'browser':'chrome','version':'101'}
   - {'browser':'edge','version':'101'}
   - {'browser':'firefox','version':'99'}
 ### These Features became stable across all major browsers:
-   - `api.BroadcastChannel`
+  - `api.BroadcastChannel`
   - `api.CSSLayerBlockRule`
   - `api.CSSLayerStatementRule`
   - `api.HTMLDialogElement`
@@ -229,7 +229,7 @@
 
 ## Mar 2022
 ### Browsers released:
-   - {'browser':'chrome','version':'100'}
+  - {'browser':'chrome','version':'100'}
   - {'browser':'edge','version':'100'}
   - {'browser':'firefox','version':'98'}
   - {'browser':'safari','version':'15.4'}
@@ -237,22 +237,22 @@
 
 ## Feb 2022
 ### Browsers released:
-   - {'browser':'chrome','version':'99'}
+  - {'browser':'chrome','version':'99'}
   - {'browser':'edge','version':'98'}
   - {'browser':'firefox','version':'97'}
 ### These Features became stable across all major browsers:
-   - `css.properties.color-scheme`
+  - `css.properties.color-scheme`
   - `css.properties.font-synthesis`
 
 ## Jan 2022
 ### Browsers released:
-   - {'browser':'chrome','version':'98'}
+  - {'browser':'chrome','version':'98'}
   - {'browser':'edge','version':'97'}
   - {'browser':'firefox','version':'96'}
   - {'browser':'safari','version':'15.3'}
   - {'browser':'safari_ios','version':'15.3'}
 ### These Features became stable across all major browsers:
-   - `api.StorageManager`
+  - `api.StorageManager`
   - `api.crossOriginIsolated`
   - `http.headers.Cross-Origin-Embedder-Policy`
   - `http.headers.Cross-Origin-Opener-Policy`
@@ -267,29 +267,29 @@
 
 ## Dec 2021
 ### Browsers released:
-   - {'browser':'firefox','version':'95'}
+  - {'browser':'firefox','version':'95'}
   - {'browser':'safari','version':'15.2'}
   - {'browser':'safari_ios','version':'15.2'}
 ### These Features became stable across all major browsers:
-   - `html.global_attributes.enterkeyhint`
+  - `html.global_attributes.enterkeyhint`
 
 ## Nov 2021
 ### Browsers released:
-   - {'browser':'chrome','version':'96'}
+  - {'browser':'chrome','version':'96'}
   - {'browser':'edge','version':'96'}
   - {'browser':'firefox','version':'94'}
 ### These Features became stable across all major browsers:
-   - `api.PerformanceNavigationTiming`
+  - `api.PerformanceNavigationTiming`
 
 ## Oct 2021
 ### Browsers released:
-   - {'browser':'chrome','version':'95'}
+  - {'browser':'chrome','version':'95'}
   - {'browser':'edge','version':'95'}
   - {'browser':'firefox','version':'93'}
   - {'browser':'safari','version':'15.1'}
   - {'browser':'safari_ios','version':'15.1'}
 ### These Features became stable across all major browsers:
-   - `api.EXT_color_buffer_float`
+  - `api.EXT_color_buffer_float`
   - `api.FormDataEvent`
   - `api.ImageBitmap`
   - `api.ImageBitmapRenderingContext`
@@ -492,25 +492,25 @@
 
 ## Sep 2021
 ### Browsers released:
-   - {'browser':'chrome','version':'94'}
+  - {'browser':'chrome','version':'94'}
   - {'browser':'edge','version':'94'}
   - {'browser':'firefox','version':'92'}
   - {'browser':'safari','version':'15'}
   - {'browser':'safari_ios','version':'15'}
 ### These Features became stable across all major browsers:
-   - `api.VisualViewport`
+  - `api.VisualViewport`
   - `css.properties.tab-size`
 
 ## Aug 2021
 ### Browsers released:
-   - {'browser':'chrome','version':'93'}
+  - {'browser':'chrome','version':'93'}
   - {'browser':'firefox','version':'91'}
 ### These Features became stable across all major browsers:
-   - `css.properties.scroll-margin`
+  - `css.properties.scroll-margin`
 
 ## Jul 2021
 ### Browsers released:
-   - {'browser':'chrome','version':'92'}
+  - {'browser':'chrome','version':'92'}
   - {'browser':'edge','version':'92'}
   - {'browser':'firefox','version':'90'}
 
@@ -518,11 +518,11 @@
 
 ## May 2021
 ### Browsers released:
-   - {'browser':'chrome','version':'91'}
+  - {'browser':'chrome','version':'91'}
   - {'browser':'edge','version':'91'}
   - {'browser':'firefox','version':'89'}
 ### These Features became stable across all major browsers:
-   - `api.AbstractRange`
+  - `api.AbstractRange`
   - `api.AudioContext`
   - `api.AudioParamMap`
   - `api.AudioWorklet`
@@ -581,31 +581,31 @@
 
 ## Apr 2021
 ### Browsers released:
-   - {'browser':'chrome','version':'90'}
+  - {'browser':'chrome','version':'90'}
   - {'browser':'edge','version':'90'}
   - {'browser':'firefox','version':'88'}
   - {'browser':'safari','version':'14.1'}
   - {'browser':'safari_ios','version':'14.5'}
 ### These Features became stable across all major browsers:
-   - `css.properties.text-decoration-thickness`
+  - `css.properties.text-decoration-thickness`
 
 ## Mar 2021
 ### Browsers released:
-   - {'browser':'chrome','version':'89'}
+  - {'browser':'chrome','version':'89'}
   - {'browser':'edge','version':'89'}
   - {'browser':'firefox','version':'87'}
 
 ## Feb 2021
 ### Browsers released:
-   - {'browser':'firefox','version':'86'}
+  - {'browser':'firefox','version':'86'}
 ### These Features became stable across all major browsers:
-   - `css.selectors.is`
+  - `css.selectors.is`
   - `css.selectors.where`
   - `http.headers.Permissions-Policy`
 
 ## Jan 2021
 ### Browsers released:
-   - {'browser':'chrome','version':'88'}
+  - {'browser':'chrome','version':'88'}
   - {'browser':'edge','version':'88'}
   - {'browser':'firefox','version':'85'}
 
@@ -617,9 +617,9 @@
 
 ## Dec 2020
 ### Browsers released:
-   - {'browser':'firefox','version':'84'}
+  - {'browser':'firefox','version':'84'}
 ### These Features became stable across all major browsers:
-   - `css.properties.margin-block-end`
+  - `css.properties.margin-block-end`
   - `css.properties.margin-block-start`
   - `css.properties.margin-inline-end`
   - `css.properties.margin-inline-start`
@@ -631,19 +631,19 @@
 
 ## Nov 2020
 ### Browsers released:
-   - {'browser':'chrome','version':'87'}
+  - {'browser':'chrome','version':'87'}
   - {'browser':'edge','version':'87'}
   - {'browser':'firefox','version':'83'}
 ### These Features became stable across all major browsers:
-   - `css.selectors.marker`
+  - `css.selectors.marker`
 
 ## Oct 2020
 ### Browsers released:
-   - {'browser':'chrome','version':'86'}
+  - {'browser':'chrome','version':'86'}
   - {'browser':'edge','version':'86'}
   - {'browser':'firefox','version':'82'}
 ### These Features became stable across all major browsers:
-   - `api.AudioScheduledSourceNode`
+  - `api.AudioScheduledSourceNode`
   - `api.BlobEvent`
   - `api.EXT_color_buffer_half_float`
   - `api.MediaQueryListEvent`
@@ -659,17 +659,17 @@
 
 ## Sep 2020
 ### Browsers released:
-   - {'browser':'firefox','version':'81'}
+  - {'browser':'firefox','version':'81'}
   - {'browser':'safari','version':'14'}
   - {'browser':'safari_ios','version':'14'}
 
 ## Aug 2020
 ### Browsers released:
-   - {'browser':'chrome','version':'85'}
+  - {'browser':'chrome','version':'85'}
   - {'browser':'edge','version':'85'}
   - {'browser':'firefox','version':'80'}
 ### These Features became stable across all major browsers:
-   - `api.AnimationPlaybackEvent`
+  - `api.AnimationPlaybackEvent`
   - `api.AnimationTimeline`
   - `api.CSSAnimation`
   - `api.CSSTransition`
@@ -678,25 +678,25 @@
 
 ## Jul 2020
 ### Browsers released:
-   - {'browser':'chrome','version':'84'}
+  - {'browser':'chrome','version':'84'}
   - {'browser':'edge','version':'84'}
   - {'browser':'firefox','version':'79'}
 ### These Features became stable across all major browsers:
-   - `css.selectors.read-only`
+  - `css.selectors.read-only`
   - `css.selectors.read-write`
   - `svg.attributes.presentation.transform-origin`
 
 ## Jun 2020
 ### Browsers released:
-   - {'browser':'firefox','version':'78'}
+  - {'browser':'firefox','version':'78'}
 
 ## May 2020
 ### Browsers released:
-   - {'browser':'chrome','version':'83'}
+  - {'browser':'chrome','version':'83'}
   - {'browser':'edge','version':'83'}
   - {'browser':'firefox','version':'76'}
 ### These Features became stable across all major browsers:
-   - `css.properties.image-orientation`
+  - `css.properties.image-orientation`
   - `css.types.clamp`
   - `css.types.max`
   - `css.types.min`
@@ -704,11 +704,11 @@
 
 ## Apr 2020
 ### Browsers released:
-   - {'browser':'chrome','version':'81'}
+  - {'browser':'chrome','version':'81'}
   - {'browser':'edge','version':'81'}
   - {'browser':'firefox','version':'75'}
 ### These Features became stable across all major browsers:
-   - `api.Animation`
+  - `api.Animation`
   - `api.AnimationEffect`
   - `api.Clipboard`
   - `api.GeolocationCoordinates`
@@ -730,21 +730,21 @@
 
 ## Mar 2020
 ### Browsers released:
-   - {'browser':'firefox','version':'74'}
+  - {'browser':'firefox','version':'74'}
   - {'browser':'safari','version':'13.1'}
   - {'browser':'safari_ios','version':'13.4'}
 ### These Features became stable across all major browsers:
-   - `api.EXT_sRGB`
+  - `api.EXT_sRGB`
   - `svg.attributes.presentation.letter-spacing`
   - `svg.attributes.presentation.word-spacing`
 
 ## Feb 2020
 ### Browsers released:
-   - {'browser':'chrome','version':'80'}
+  - {'browser':'chrome','version':'80'}
   - {'browser':'edge','version':'80'}
   - {'browser':'firefox','version':'73'}
 ### These Features became stable across all major browsers:
-   - `api.BeforeUnloadEvent`
+  - `api.BeforeUnloadEvent`
   - `api.CustomElementRegistry`
   - `api.DOMMatrix`
   - `api.DOMMatrixReadOnly`
@@ -877,10 +877,10 @@
 
 ## Jan 2020
 ### Browsers released:
-   - {'browser':'edge','version':'79'}
+  - {'browser':'edge','version':'79'}
   - {'browser':'firefox','version':'72'}
 ### These Features became stable across all major browsers:
-   - `css.properties.column-span`
+  - `css.properties.column-span`
   - `css.properties.font-optical-sizing`
 
 
@@ -891,21 +891,21 @@
 
 ## Dec 2019
 ### Browsers released:
-   - {'browser':'chrome','version':'79'}
+  - {'browser':'chrome','version':'79'}
   - {'browser':'firefox','version':'71'}
 
 ## Nov 2019
 ### These Features became stable across all major browsers:
-   - `css.properties.grid-auto-columns`
+  - `css.properties.grid-auto-columns`
   - `css.properties.grid-auto-rows`
   - `http.headers.Origin`
 
 ## Oct 2019
 ### Browsers released:
-   - {'browser':'chrome','version':'78'}
+  - {'browser':'chrome','version':'78'}
   - {'browser':'firefox','version':'70'}
 ### These Features became stable across all major browsers:
-   - `api.AuthenticatorAssertionResponse`
+  - `api.AuthenticatorAssertionResponse`
   - `api.AuthenticatorAttestationResponse`
   - `api.AuthenticatorResponse`
   - `api.Credential`
@@ -921,33 +921,33 @@
 
 ## Sep 2019
 ### Browsers released:
-   - {'browser':'chrome','version':'77'}
+  - {'browser':'chrome','version':'77'}
   - {'browser':'firefox','version':'69'}
   - {'browser':'safari','version':'13'}
   - {'browser':'safari_ios','version':'13'}
 
 ## Aug 2019
 ### These Features became stable across all major browsers:
-   - `css.properties.-webkit-line-clamp`
+  - `css.properties.-webkit-line-clamp`
 
 ## Jul 2019
 ### Browsers released:
-   - {'browser':'chrome','version':'76'}
+  - {'browser':'chrome','version':'76'}
   - {'browser':'firefox','version':'68'}
 
 ## Jun 2019
 ### Browsers released:
-   - {'browser':'chrome','version':'75'}
+  - {'browser':'chrome','version':'75'}
 
 ## May 2019
 ### Browsers released:
-   - {'browser':'firefox','version':'67'}
+  - {'browser':'firefox','version':'67'}
 
 ## Apr 2019
 ### Browsers released:
-   - {'browser':'chrome','version':'74'}
+  - {'browser':'chrome','version':'74'}
 ### These Features became stable across all major browsers:
-   - `api.AbortController`
+  - `api.AbortController`
   - `api.HTMLDataListElement`
   - `api.IntersectionObserver`
   - `api.IntersectionObserverEntry`
@@ -962,14 +962,14 @@
 
 ## Mar 2019
 ### Browsers released:
-   - {'browser':'chrome','version':'73'}
+  - {'browser':'chrome','version':'73'}
   - {'browser':'firefox','version':'66'}
   - {'browser':'safari','version':'12.1'}
   - {'browser':'safari_ios','version':'12.2'}
 
 ## Feb 2019
 ### These Features became stable across all major browsers:
-   - `api.ByteLengthQueuingStrategy`
+  - `api.ByteLengthQueuingStrategy`
   - `api.CountQueuingStrategy`
   - `api.HTMLMarqueeElement`
   - `api.ReadableStream`
@@ -980,7 +980,7 @@
 
 ## Jan 2019
 ### Browsers released:
-   - {'browser':'chrome','version':'72'}
+  - {'browser':'chrome','version':'72'}
   - {'browser':'firefox','version':'65'}
 
 
@@ -991,12 +991,12 @@
 
 ## Dec 2018
 ### Browsers released:
-   - {'browser':'chrome','version':'71'}
+  - {'browser':'chrome','version':'71'}
   - {'browser':'firefox','version':'64'}
 
 ## Nov 2018
 ### These Features became stable across all major browsers:
-   - `api.MediaStreamAudioDestinationNode`
+  - `api.MediaStreamAudioDestinationNode`
   - `api.SecurityPolicyViolationEvent`
   - `api.origin`
   - `css.properties.-webkit-mask-composite`
@@ -1006,16 +1006,16 @@
 
 ## Oct 2018
 ### Browsers released:
-   - {'browser':'chrome','version':'70'}
+  - {'browser':'chrome','version':'70'}
   - {'browser':'edge','version':'18'}
   - {'browser':'firefox','version':'63'}
 ### These Features became stable across all major browsers:
-   - `api.RTCPeerConnectionIceEvent`
+  - `api.RTCPeerConnectionIceEvent`
   - `css.properties.font-variation-settings`
 
 ## Sep 2018
 ### Browsers released:
-   - {'browser':'chrome','version':'69'}
+  - {'browser':'chrome','version':'69'}
   - {'browser':'firefox','version':'62'}
   - {'browser':'safari','version':'12'}
   - {'browser':'safari_ios','version':'12'}
@@ -1024,22 +1024,22 @@
 
 ## Jul 2018
 ### Browsers released:
-   - {'browser':'chrome','version':'68'}
+  - {'browser':'chrome','version':'68'}
 
 ## Jun 2018
 ### Browsers released:
-   - {'browser':'firefox','version':'61'}
+  - {'browser':'firefox','version':'61'}
 ### These Features became stable across all major browsers:
-   - `css.properties.paint-order`
+  - `css.properties.paint-order`
   - `javascript.statements.export`
   - `javascript.statements.import`
 
 ## May 2018
 ### Browsers released:
-   - {'browser':'chrome','version':'67'}
+  - {'browser':'chrome','version':'67'}
   - {'browser':'firefox','version':'60'}
 ### These Features became stable across all major browsers:
-   - `api.AbortSignal`
+  - `api.AbortSignal`
   - `api.Cache`
   - `api.CacheStorage`
   - `api.Client`
@@ -1062,24 +1062,24 @@
 
 ## Apr 2018
 ### Browsers released:
-   - {'browser':'chrome','version':'66'}
+  - {'browser':'chrome','version':'66'}
   - {'browser':'edge','version':'17'}
   - {'browser':'safari','version':'11.1'}
 
 ## Mar 2018
 ### Browsers released:
-   - {'browser':'chrome','version':'65'}
+  - {'browser':'chrome','version':'65'}
   - {'browser':'firefox','version':'59'}
   - {'browser':'safari_ios','version':'11.3'}
 
 ## Feb 2018
 ### These Features became stable across all major browsers:
-   - `api.RTCRtpSender`
+  - `api.RTCRtpSender`
   - `http.headers.X-Content-Type-Options`
 
 ## Jan 2018
 ### Browsers released:
-   - {'browser':'chrome','version':'64'}
+  - {'browser':'chrome','version':'64'}
   - {'browser':'firefox','version':'58'}
 
 
