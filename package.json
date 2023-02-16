@@ -1,6 +1,9 @@
 {
   "name": "web-features-evergreen",
   "main": "index.js",
+  "scripts": {
+    "update": "node main.js > output.txt"
+  },
   "license": "MIT",
   "dependencies": {
     "@mdn/browser-compat-data": "5.2.35",
