@@ -181,6 +181,7 @@ function yearInReview(year) {
 
 yearInReview(2021);
 yearInReview(2022);
+yearInReview(2023);
 
 // console.log(getFeatureSetForBrowserVersion({ browser: 'safari', version: '15.1' }).has('api.AudioWorkletNode'));
 // console.log(browserCompat.api.AudioWorkletNode.__compat.support);
