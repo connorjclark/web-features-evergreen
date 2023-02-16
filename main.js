@@ -173,7 +173,8 @@ function yearInReview(year) {
     const difference = setDifference(lastMonthFeatureSet, thisMonthFeatureSet);
 
     console.log(`in ${thisMonth.toLocaleString('en-us', { month: 'short', year: 'numeric' })} these browsers were released:`, newReleases);
-    console.log(`and these features became stable across all major browsers:`, difference);
+    console.log(`and these features became stable across all major browsers:`,
+      JSON.stringify([...difference], null, 2).replace(/"/g, `'`));
     console.log('------------------------');
   }
   console.log('\n');
