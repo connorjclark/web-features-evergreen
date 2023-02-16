@@ -2,7 +2,7 @@
   "name": "web-features-evergreen",
   "main": "index.js",
   "scripts": {
-    "update": "node main.js > output.txt"
+    "update": "node main.js > readme.md"
   },
   "license": "MIT",
   "dependencies": {
