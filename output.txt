@@ -9,7 +9,11 @@ in Jan 2021 these browsers were released: [
 and these features became stable across all major browsers: Set(0) {}
 ------------------------
 in Feb 2021 these browsers were released: [ { browser: 'firefox', version: '86' } ]
-and these features became stable across all major browsers: Set(2) { 'css.selectors.is', 'css.selectors.where' }
+and these features became stable across all major browsers: Set(3) {
+  'css.selectors.is',
+  'css.selectors.where',
+  'http.headers.Permissions-Policy'
+}
 ------------------------
 in Mar 2021 these browsers were released: [
   { browser: 'chrome', version: '89' },
@@ -41,51 +45,51 @@ and these features became stable across all major browsers: Set(56) {
   'api.AudioWorkletNode',
   'api.AudioWorkletProcessor',
   'api.BaseAudioContext',
+  'api.CSSConditionRule',
+  'api.CSSGroupingRule',
   'api.ConstantSourceNode',
   'api.IIRFilterNode',
+  'api.OES_fbo_render_mipmap',
   'api.OfflineAudioContext',
   'api.PannerNode',
   'api.PerformancePaintTiming',
   'api.StereoPannerNode',
   'api.Worklet',
   'api.WorkletGlobalScope',
+  'css.properties.border-block',
   'css.properties.border-block-color',
   'css.properties.border-block-style',
   'css.properties.border-block-width',
-  'css.properties.border-block',
+  'css.properties.border-inline',
   'css.properties.border-inline-color',
   'css.properties.border-inline-style',
   'css.properties.border-inline-width',
-  'css.properties.border-inline',
-  'css.properties.column-gap.flex_context',
-  'css.properties.gap.flex_context',
+  'css.properties.inset',
+  'css.properties.inset-block',
   'css.properties.inset-block-end',
   'css.properties.inset-block-start',
-  'css.properties.inset-block',
+  'css.properties.inset-inline',
   'css.properties.inset-inline-end',
   'css.properties.inset-inline-start',
-  'css.properties.inset-inline',
-  'css.properties.inset',
   'css.properties.margin-block',
   'css.properties.margin-inline',
   'css.properties.padding-block',
   'css.properties.padding-inline',
-  'css.properties.row-gap.flex_context',
+  'css.properties.scroll-margin-block',
   'css.properties.scroll-margin-block-end',
   'css.properties.scroll-margin-block-start',
-  'css.properties.scroll-margin-block',
   'css.properties.scroll-margin-bottom',
+  'css.properties.scroll-margin-inline',
   'css.properties.scroll-margin-inline-end',
   'css.properties.scroll-margin-inline-start',
-  'css.properties.scroll-margin-inline',
   'css.properties.scroll-margin-left',
   'css.properties.scroll-margin-right',
   'css.properties.scroll-margin-top',
+  'css.properties.scroll-padding',
   'css.properties.scroll-padding-bottom',
   'css.properties.scroll-padding-left',
   'css.properties.scroll-padding-right',
   'css.properties.scroll-padding-top',
-  'css.properties.scroll-padding',
   'css.selectors.file-selector-button',
   'javascript.builtins.FinalizationRegistry',
   'javascript.builtins.WeakRef'
@@ -123,9 +127,10 @@ in Oct 2021 these browsers were released: [
   { browser: 'safari', version: '15.1' },
   { browser: 'safari_ios', version: '15.1' }
 ]
-and these features became stable across all major browsers: Set(175) {
-  'api.EXT_float_blend',
+and these features became stable across all major browsers: Set(200) {
+  'api.EXT_color_buffer_float',
   'api.FormDataEvent',
+  'api.ImageBitmap',
   'api.ImageBitmapRenderingContext',
   'api.MediaMetadata',
   'api.MediaSession',
@@ -141,12 +146,14 @@ and these features became stable across all major browsers: Set(175) {
   'css.properties.border-end-start-radius',
   'css.properties.border-start-end-radius',
   'css.properties.border-start-start-radius',
+  'css.properties.outline',
+  'css.properties.scroll-padding-block',
   'css.properties.scroll-padding-block-end',
   'css.properties.scroll-padding-block-start',
-  'css.properties.scroll-padding-block',
+  'css.properties.scroll-padding-inline',
   'css.properties.scroll-padding-inline-end',
   'css.properties.scroll-padding-inline-start',
-  'css.properties.scroll-padding-inline',
+  'css.selectors.autofill',
   'javascript.builtins.BigInt64Array',
   'javascript.builtins.BigUint64Array',
   'webextensions.api.alarms.Alarm',
@@ -181,6 +188,7 @@ and these features became stable across all major browsers: Set(175) {
   'webextensions.api.cookies.remove',
   'webextensions.api.cookies.sameSiteStatus',
   'webextensions.api.cookies.set',
+  'webextensions.api.events.UrlFilter',
   'webextensions.api.extension.ViewType',
   'webextensions.api.extension.getBackgroundPage',
   'webextensions.api.extension.getURL',
@@ -201,11 +209,11 @@ and these features became stable across all major browsers: Set(175) {
   'webextensions.api.pageAction.setIcon',
   'webextensions.api.pageAction.setPopup',
   'webextensions.api.pageAction.setTitle',
+  'webextensions.api.permissions.Permissions',
   'webextensions.api.permissions.contains',
   'webextensions.api.permissions.getAll',
   'webextensions.api.permissions.onAdded',
   'webextensions.api.permissions.onRemoved',
-  'webextensions.api.permissions.Permissions',
   'webextensions.api.permissions.remove',
   'webextensions.api.permissions.request',
   'webextensions.api.runtime.MessageSender',
@@ -220,85 +228,7 @@ and these features became stable across all major browsers: Set(175) {
   'webextensions.api.runtime.getManifest',
   'webextensions.api.runtime.getPlatformInfo',
   'webextensions.api.runtime.getURL',
-  'webextensions.api.runtime.id',
-  'webextensions.api.runtime.lastError',
-  'webextensions.api.runtime.onConnect',
-  'webextensions.api.runtime.onInstalled',
-  'webextensions.api.runtime.onMessage',
-  'webextensions.api.runtime.onMessageExternal',
-  'webextensions.api.runtime.onStartup',
-  'webextensions.api.runtime.openOptionsPage',
-  'webextensions.api.runtime.reload',
-  'webextensions.api.runtime.sendMessage',
-  'webextensions.api.runtime.sendNativeMessage',
-  'webextensions.api.runtime.setUninstallURL',
-  'webextensions.api.storage.StorageArea',
-  'webextensions.api.storage.StorageChange',
-  'webextensions.api.storage.local',
-  'webextensions.api.storage.onChanged',
-  'webextensions.api.storage.sync',
-  'webextensions.api.tabs.TAB_ID_NONE',
-  'webextensions.api.tabs.Tab.active',
-  'webextensions.api.tabs.Tab.audible',
-  'webextensions.api.tabs.Tab.height',
-  'webextensions.api.tabs.Tab.highlighted',
-  'webextensions.api.tabs.Tab.id',
-  'webextensions.api.tabs.Tab.incognito',
-  'webextensions.api.tabs.Tab.index',
-  'webextensions.api.tabs.Tab.openerTabId',
-  'webextensions.api.tabs.Tab.selected',
-  'webextensions.api.tabs.Tab.status',
-  'webextensions.api.tabs.Tab.title',
-  'webextensions.api.tabs.Tab.url',
-  'webextensions.api.tabs.Tab.width',
-  'webextensions.api.tabs.Tab.windowId',
-  'webextensions.api.tabs.TabStatus',
-  'webextensions.api.tabs.WindowType',
-  'webextensions.api.tabs.captureVisibleTab',
-  'webextensions.api.tabs.connect',
-  'webextensions.api.tabs.create',
-  'webextensions.api.tabs.detectLanguage',
-  'webextensions.api.tabs.duplicate',
-  'webextensions.api.tabs.executeScript',
-  'webextensions.api.tabs.get',
-  'webextensions.api.tabs.getCurrent',
-  'webextensions.api.tabs.getZoom',
-  'webextensions.api.tabs.goBack',
-  'webextensions.api.tabs.goForward',
-  'webextensions.api.tabs.insertCSS',
-  'webextensions.api.tabs.onActivated',
-  'webextensions.api.tabs.onAttached',
-  'webextensions.api.tabs.onCreated',
-  'webextensions.api.tabs.onDetached',
-  'webextensions.api.tabs.onHighlighted',
-  'webextensions.api.tabs.onMoved',
-  'webextensions.api.tabs.onRemoved',
-  'webextensions.api.tabs.onUpdated',
-  'webextensions.api.tabs.query',
-  'webextensions.api.tabs.reload',
-  'webextensions.api.tabs.remove',
-  'webextensions.api.tabs.sendMessage',
-  'webextensions.api.tabs.setZoom',
-  'webextensions.api.tabs.update',
-  'webextensions.api.webNavigation.getAllFrames',
-  'webextensions.api.webNavigation.getFrame',
-  'webextensions.api.webNavigation.onBeforeNavigate',
-  'webextensions.api.webNavigation.onCommitted',
-  'webextensions.api.webNavigation.onCompleted',
-  'webextensions.api.webNavigation.onDOMContentLoaded',
-  'webextensions.api.webNavigation.onErrorOccurred',
-  'webextensions.api.windows.CreateType',
-  'webextensions.api.windows.WINDOW_ID_CURRENT',
-  'webextensions.api.windows.WINDOW_ID_NONE',
-  'webextensions.api.windows.Window',
-  'webextensions.api.windows.WindowType',
-  'webextensions.api.windows.get',
-  'webextensions.api.windows.getAll',
-  'webextensions.api.windows.getCurrent',
-  'webextensions.api.windows.getLastFocused',
-  'webextensions.api.windows.onCreated',
-  'webextensions.api.windows.onFocusChanged',
-  'webextensions.api.windows.update'
+  ... 100 more items
 }
 ------------------------
 in Nov 2021 these browsers were released: [
@@ -308,7 +238,11 @@ in Nov 2021 these browsers were released: [
 ]
 and these features became stable across all major browsers: Set(1) { 'api.PerformanceNavigationTiming' }
 ------------------------
-in Dec 2021 these browsers were released: [ { browser: 'firefox', version: '95' } ]
+in Dec 2021 these browsers were released: [
+  { browser: 'firefox', version: '95' },
+  { browser: 'safari', version: '15.2' },
+  { browser: 'safari_ios', version: '15.2' }
+]
 and these features became stable across all major browsers: Set(1) { 'html.global_attributes.enterkeyhint' }
 ------------------------
 
@@ -318,42 +252,184 @@ and these features became stable across all major browsers: Set(1) { 'html.globa
 
 in Jan 2022 these browsers were released: [
   { browser: 'chrome', version: '98' },
-  { browser: 'firefox', version: '96' }
+  { browser: 'edge', version: '97' },
+  { browser: 'firefox', version: '96' },
+  { browser: 'safari', version: '15.3' },
+  { browser: 'safari_ios', version: '15.3' }
+]
+and these features became stable across all major browsers: Set(6) {
+  'api.StorageManager',
+  'api.crossOriginIsolated',
+  'http.headers.Cross-Origin-Embedder-Policy',
+  'http.headers.Cross-Origin-Opener-Policy',
+  'javascript.builtins.Atomics',
+  'javascript.builtins.SharedArrayBuffer'
+}
+------------------------
+in Feb 2022 these browsers were released: [
+  { browser: 'chrome', version: '99' },
+  { browser: 'edge', version: '98' },
+  { browser: 'firefox', version: '97' }
+]
+and these features became stable across all major browsers: Set(2) {
+  'css.properties.color-scheme',
+  'css.properties.font-synthesis'
+}
+------------------------
+in Mar 2022 these browsers were released: [
+  { browser: 'chrome', version: '100' },
+  { browser: 'edge', version: '100' },
+  { browser: 'firefox', version: '98' },
+  { browser: 'safari', version: '15.4' },
+  { browser: 'safari_ios', version: '15.4' }
 ]
 and these features became stable across all major browsers: Set(0) {}
 ------------------------
-in Feb 2022 these browsers were released: [ { browser: 'firefox', version: '97' } ]
-and these features became stable across all major browsers: Set(1) { 'css.properties.color-scheme' }
+in Apr 2022 these browsers were released: [
+  { browser: 'chrome', version: '101' },
+  { browser: 'edge', version: '101' },
+  { browser: 'firefox', version: '99' }
+]
+and these features became stable across all major browsers: Set(32) {
+  'api.BroadcastChannel',
+  'api.CSSLayerBlockRule',
+  'api.CSSLayerStatementRule',
+  'api.HTMLDialogElement',
+  'api.Lock',
+  'api.LockManager',
+  'api.ResizeObserverSize',
+  'api.reportError',
+  'api.structuredClone',
+  'css.at-rules.layer',
+  'css.properties.accent-color',
+  'css.properties.appearance',
+  'css.properties.backface-visibility',
+  'css.properties.contain',
+  'css.properties.mask-clip',
+  'css.properties.mask-image',
+  'css.properties.mask-origin',
+  'css.properties.mask-position',
+  'css.properties.mask-repeat',
+  'css.properties.mask-size',
+  'css.properties.offset-path',
+  'css.properties.print-color-adjust',
+  'css.properties.scroll-behavior',
+  'css.properties.text-decoration-skip-ink',
+  'css.properties.text-emphasis',
+  'css.properties.text-emphasis-color',
+  'css.properties.text-emphasis-position',
+  'css.properties.text-emphasis-style',
+  'css.selectors.backdrop',
+  'css.selectors.focus-visible',
+  'html.elements.dialog',
+  'webextensions.api.runtime.onMessageExternal'
+}
 ------------------------
-in Mar 2022 these browsers were released: [ { browser: 'firefox', version: '98' } ]
-and these features became stable across all major browsers: Set(0) {}
+in May 2022 these browsers were released: [
+  { browser: 'chrome', version: '102' },
+  { browser: 'edge', version: '102' },
+  { browser: 'firefox', version: '101' },
+  { browser: 'safari', version: '15.5' },
+  { browser: 'safari_ios', version: '15.5' }
+]
+and these features became stable across all major browsers: Set(2) {
+  'api.NavigationPreloadManager',
+  'css.properties.scroll-snap-type'
+}
 ------------------------
-in Apr 2022 these browsers were released: []
-and these features became stable across all major browsers: Set(0) {}
+in Jun 2022 these browsers were released: [
+  { browser: 'chrome', version: '103' },
+  { browser: 'edge', version: '103' },
+  { browser: 'firefox', version: '102' }
+]
+and these features became stable across all major browsers: Set(9) {
+  'api.WritableStream',
+  'api.WritableStreamDefaultController',
+  'api.WritableStreamDefaultWriter',
+  'webextensions.api.scripting.InjectionTarget',
+  'webextensions.api.scripting.executeScript',
+  'webextensions.api.scripting.insertCSS',
+  'webextensions.api.scripting.removeCSS',
+  'webextensions.manifest.action',
+  'webextensions.manifest.host_permissions'
+}
 ------------------------
-in May 2022 these browsers were released: []
-and these features became stable across all major browsers: Set(0) {}
+in Jul 2022 these browsers were released: [
+  { browser: 'firefox', version: '103' },
+  { browser: 'safari', version: '15.6' },
+  { browser: 'safari_ios', version: '15.6' }
+]
+and these features became stable across all major browsers: Set(2) {
+  'api.TransformStream',
+  'api.TransformStreamDefaultController'
+}
 ------------------------
-in Jun 2022 these browsers were released: []
-and these features became stable across all major browsers: Set(0) {}
+in Aug 2022 these browsers were released: [
+  { browser: 'chrome', version: '104' },
+  { browser: 'edge', version: '105' },
+  { browser: 'firefox', version: '104' }
+]
+and these features became stable across all major browsers: Set(2) {
+  'css.properties.backdrop-filter',
+  'css.properties.scroll-snap-stop'
+}
 ------------------------
-in Jul 2022 these browsers were released: []
-and these features became stable across all major browsers: Set(0) {}
+in Sep 2022 these browsers were released: [
+  { browser: 'chrome', version: '106' },
+  { browser: 'firefox', version: '105' },
+  { browser: 'safari', version: '16' },
+  { browser: 'safari_ios', version: '16' }
+]
+and these features became stable across all major browsers: Set(3) {
+  'css.properties.rotate',
+  'css.properties.scale',
+  'css.properties.translate'
+}
 ------------------------
-in Aug 2022 these browsers were released: []
-and these features became stable across all major browsers: Set(0) {}
+in Oct 2022 these browsers were released: [
+  { browser: 'chrome', version: '107' },
+  { browser: 'edge', version: '107' },
+  { browser: 'firefox', version: '106' },
+  { browser: 'safari', version: '16.1' },
+  { browser: 'safari_ios', version: '16.1' }
+]
+and these features became stable across all major browsers: Set(14) {
+  'api.PermissionStatus',
+  'api.Permissions',
+  'api.SharedWorker',
+  'api.SharedWorkerGlobalScope',
+  'api.TextDecoderStream',
+  'api.TextEncoderStream',
+  'css.properties.offset',
+  'css.properties.overscroll-behavior',
+  'css.properties.overscroll-behavior-block',
+  'css.properties.overscroll-behavior-inline',
+  'css.properties.overscroll-behavior-x',
+  'css.properties.overscroll-behavior-y',
+  'css.properties.text-align-last',
+  'css.selectors.modal'
+}
 ------------------------
-in Sep 2022 these browsers were released: []
-and these features became stable across all major browsers: Set(0) {}
+in Nov 2022 these browsers were released: [
+  { browser: 'chrome', version: '108' },
+  { browser: 'firefox', version: '107' }
+]
+and these features became stable across all major browsers: Set(2) {
+  'api.EXT_texture_compression_bptc',
+  'css.properties.hyphenate-character'
+}
 ------------------------
-in Oct 2022 these browsers were released: []
-and these features became stable across all major browsers: Set(0) {}
-------------------------
-in Nov 2022 these browsers were released: []
-and these features became stable across all major browsers: Set(0) {}
-------------------------
-in Dec 2022 these browsers were released: []
-and these features became stable across all major browsers: Set(0) {}
+in Dec 2022 these browsers were released: [
+  { browser: 'edge', version: '108' },
+  { browser: 'firefox', version: '108' },
+  { browser: 'safari', version: '16.2' },
+  { browser: 'safari_ios', version: '16.2' }
+]
+and these features became stable across all major browsers: Set(3) {
+  'api.CSSFontPaletteValuesRule',
+  'css.at-rules.font-palette-values',
+  'css.properties.font-palette'
+}
 ------------------------
 
 
