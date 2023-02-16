@@ -123,7 +123,6 @@ function getFeatureSetForBrowserVersion({ browser, version }) {
       features.push(feature.id);
     }
   }
-  browserCompat.javascript.operators.optional_chaining.__compat.support
 
   return new Set(features);
 }
@@ -161,10 +160,12 @@ function setDifference(a, b) {
 }
 
 function yearInReview(year) {
-  console.log(`======== ${year} ========\n\n`);
-  for (let i = 1; i <= 12; i++) {
+  const twoMonthsFromToday = new Date(new Date() - -1000 * 60 * 60 * 24 * 30 * 3);
+  console.log(`\n# ${year}\n\n`);
+  for (let i = 12; i >= 1; i--) {
     const lastMonth = new Date(i === 1 ? `${year - 1}/12/01` : `${year}/${i - 1}/01`);
     const thisMonth = new Date(`${year}/${i}/01`);
+    if (thisMonth > twoMonthsFromToday) continue;
     const newReleases = findBrowsersReleasedInMonth(new Date(thisMonth));
     const lastMonthStableBrowsers = findStableBrowsersInMonth(lastMonth);
     const thisMonthStableBrowsers = findStableBrowsersInMonth(thisMonth);
@@ -172,17 +173,18 @@ function yearInReview(year) {
     const thisMonthFeatureSet = getFeatureSetForBrowserVersions(thisMonthStableBrowsers);
     const difference = setDifference(lastMonthFeatureSet, thisMonthFeatureSet);
 
-    console.log(`in ${thisMonth.toLocaleString('en-us', { month: 'short', year: 'numeric' })} these browsers were released:`, newReleases);
-    console.log(`and these features became stable across all major browsers:`,
-      JSON.stringify([...difference], null, 2).replace(/"/g, `'`));
-    console.log('------------------------');
+    console.log(`\n## ${thisMonth.toLocaleString('en-us', { month: 'short', year: 'numeric' })}`);
+    newReleases.length && console.log(`### Browsers released:\n`, 
+      ' - ' + newReleases.map(r => JSON.stringify(r).replace(/"/g, `'`)).join('\n  - '));
+    difference.size && console.log(`### These Features became stable across all major browsers:\n`, 
+      ' - ' + Array.from(difference).map(f => '`' + f + '`').join('\n  - '));
   }
   console.log('\n');
 }
 
-yearInReview(2021);
-yearInReview(2022);
-yearInReview(2023);
+for (let year = 2023; year >= 2018; year--) {
+  yearInReview(year);
+}
 
 // console.log(getFeatureSetForBrowserVersion({ browser: 'safari', version: '15.1' }).has('api.AudioWorkletNode'));
 // console.log(browserCompat.api.AudioWorkletNode.__compat.support);
