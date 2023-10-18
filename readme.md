@@ -3,15 +3,139 @@
 
 
 
+## Dec 2023
+### Browsers released:
+  - {'browser':'chrome','version':'120'}
+  - {'browser':'edge','version':'120'}
+  - {'browser':'firefox','version':'121'}
+### These Features became stable across all major browsers:
+  - `css.selectors.user-invalid`
+  - `css.selectors.user-valid`
+
+## Nov 2023
+### Browsers released:
+  - {'browser':'edge','version':'119'}
+  - {'browser':'firefox','version':'120'}
+### These Features became stable across all major browsers:
+  - `html.elements.search`
+
+## Oct 2023
+### Browsers released:
+  - {'browser':'chrome','version':'119'}
+  - {'browser':'edge','version':'118'}
+  - {'browser':'firefox','version':'119'}
+### These Features became stable across all major browsers:
+  - `api.CSSCounterStyleRule`
+  - `api.DeviceMotionEvent`
+  - `api.DeviceOrientationEvent`
+  - `css.at-rules.counter-style`
+  - `css.properties.contain-intrinsic-block-size`
+  - `css.properties.contain-intrinsic-height`
+  - `css.properties.contain-intrinsic-inline-size`
+  - `css.properties.contain-intrinsic-size`
+  - `css.properties.contain-intrinsic-width`
+  - `css.properties.font-variant-position`
+  - `css.properties.hyphenate-character`
+  - `css.properties.hyphens`
+
+## Sep 2023
+### Browsers released:
+  - {'browser':'chrome','version':'117'}
+  - {'browser':'edge','version':'117'}
+  - {'browser':'firefox','version':'118'}
+  - {'browser':'safari','version':'17'}
+  - {'browser':'safari_ios','version':'17'}
+### These Features became stable across all major browsers:
+  - `api.RTCEncodedAudioFrame`
+  - `api.RTCEncodedVideoFrame`
+  - `css.properties.math-style`
+  - `css.selectors.nesting`
+
+## Aug 2023
+### Browsers released:
+  - {'browser':'chrome','version':'116'}
+  - {'browser':'edge','version':'116'}
+  - {'browser':'firefox','version':'117'}
+### These Features became stable across all major browsers:
+  - `css.properties.animation-composition`
+  - `css.selectors.first`
+  - `webextensions.api.runtime.setUninstallURL`
+  - `webextensions.api.storage.session`
+
+## Jul 2023
+### Browsers released:
+  - {'browser':'chrome','version':'115'}
+  - {'browser':'edge','version':'115'}
+  - {'browser':'firefox','version':'116'}
+  - {'browser':'safari','version':'16.6'}
+  - {'browser':'safari_ios','version':'16.6'}
+### These Features became stable across all major browsers:
+  - `css.properties.-webkit-text-security`
+
+## Jun 2023
+### Browsers released:
+  - {'browser':'edge','version':'114'}
+  - {'browser':'firefox','version':'114'}
+### These Features became stable across all major browsers:
+  - `api.CompressionStream`
+  - `api.DecompressionStream`
+  - `api.RTCSctpTransport`
+  - `webextensions.api.declarativeNetRequest.MAX_NUMBER_OF_DYNAMIC_AND_SESSION_RULES`
+  - `webextensions.api.declarativeNetRequest.MAX_NUMBER_OF_STATIC_RULESETS`
+  - `webextensions.api.declarativeNetRequest.Redirect`
+  - `webextensions.api.declarativeNetRequest.ResourceType`
+  - `webextensions.api.declarativeNetRequest.Rule`
+  - `webextensions.api.declarativeNetRequest.RuleAction`
+  - `webextensions.api.declarativeNetRequest.RuleCondition`
+  - `webextensions.api.declarativeNetRequest.URLTransform`
+  - `webextensions.api.declarativeNetRequest.getDynamicRules`
+  - `webextensions.api.declarativeNetRequest.getEnabledRulesets`
+  - `webextensions.api.declarativeNetRequest.getSessionRules`
+  - `webextensions.api.declarativeNetRequest.isRegexSupported`
+  - `webextensions.api.declarativeNetRequest.updateDynamicRules`
+  - `webextensions.api.declarativeNetRequest.updateEnabledRulesets`
+  - `webextensions.api.declarativeNetRequest.updateSessionRules`
+  - `webextensions.manifest.declarative_net_request`
+
 ## May 2023
 ### Browsers released:
+  - {'browser':'chrome','version':'114'}
+  - {'browser':'edge','version':'113'}
   - {'browser':'firefox','version':'113'}
+  - {'browser':'safari','version':'16.5'}
+  - {'browser':'safari_ios','version':'16.5'}
+### These Features became stable across all major browsers:
+  - `html.global_attributes.inert`
 
 ## Apr 2023
 ### Browsers released:
+  - {'browser':'chrome','version':'112'}
   - {'browser':'edge','version':'112'}
   - {'browser':'firefox','version':'112'}
 ### These Features became stable across all major browsers:
+  - `api.CSSFontFeatureValuesRule`
+  - `api.ElementInternals`
+  - `api.FileSystemDirectoryHandle`
+  - `api.FileSystemFileHandle`
+  - `api.FileSystemHandle`
+  - `api.FileSystemSyncAccessHandle`
+  - `api.GamepadHapticActuator`
+  - `api.Notification`
+  - `api.NotificationEvent`
+  - `api.OffscreenCanvas`
+  - `api.OffscreenCanvasRenderingContext2D`
+  - `api.PerformanceServerTiming`
+  - `api.PushEvent`
+  - `api.PushManager`
+  - `api.PushMessageData`
+  - `api.PushSubscription`
+  - `api.PushSubscriptionOptions`
+  - `api.ScreenOrientation`
+  - `css.properties.font-synthesis-small-caps`
+  - `css.properties.font-synthesis-style`
+  - `css.properties.font-synthesis-weight`
+  - `css.properties.font-variant-alternates`
+  - `css.properties.outline`
   - `css.types.acos`
   - `css.types.asin`
   - `css.types.atan`
@@ -19,13 +143,23 @@
   - `css.types.cos`
   - `css.types.sin`
   - `css.types.tan`
+  - `html.global_attributes.translate`
+  - `http.headers.Sec-Fetch-Dest`
+  - `http.headers.Sec-Fetch-Mode`
+  - `http.headers.Sec-Fetch-Site`
+  - `http.headers.Sec-Fetch-User`
+  - `javascript.regular_expressions.lookbehind_assertion`
+  - `webassembly.fixed-width-SIMD`
 
 ## Mar 2023
 ### Browsers released:
-  - {'browser':'chrome','version':'112'}
+  - {'browser':'chrome','version':'111'}
   - {'browser':'edge','version':'111'}
   - {'browser':'firefox','version':'111'}
+  - {'browser':'safari','version':'16.4'}
+  - {'browser':'safari_ios','version':'16.4'}
 ### These Features became stable across all major browsers:
+  - `api.CSSContainerRule`
   - `css.at-rules.container`
   - `css.properties.container`
   - `css.properties.container-name`
@@ -33,7 +167,7 @@
 
 ## Feb 2023
 ### Browsers released:
-  - {'browser':'chrome','version':'111'}
+  - {'browser':'chrome','version':'110'}
   - {'browser':'edge','version':'110'}
   - {'browser':'firefox','version':'110'}
 ### These Features became stable across all major browsers:
@@ -70,7 +204,9 @@
   - `mathml.global_attributes.mathbackground`
   - `mathml.global_attributes.mathcolor`
   - `mathml.global_attributes.mathsize`
-  - `mathml.global_attributes.mathvariant`
+  - `webextensions.api.action`
+  - `webextensions.manifest.action`
+  - `webextensions.manifest.host_permissions`
 
 ## Jan 2023
 ### Browsers released:
@@ -81,8 +217,7 @@
   - {'browser':'safari_ios','version':'16.3'}
 ### These Features became stable across all major browsers:
   - `api.OES_draw_buffers_indexed`
-  - `api.WEBGL_compressed_texture_astc`
-  - `api.WEBGL_compressed_texture_etc`
+  - `css.types.calc-constant`
 
 
 
@@ -105,9 +240,6 @@
 ### Browsers released:
   - {'browser':'chrome','version':'108'}
   - {'browser':'firefox','version':'107'}
-### These Features became stable across all major browsers:
-  - `api.EXT_texture_compression_bptc`
-  - `css.properties.hyphenate-character`
 
 ## Oct 2022
 ### Browsers released:
@@ -160,6 +292,7 @@
 ### These Features became stable across all major browsers:
   - `api.TransformStream`
   - `api.TransformStreamDefaultController`
+  - `webextensions.api.scripting`
 
 ## Jun 2022
 ### Browsers released:
@@ -170,12 +303,7 @@
   - `api.WritableStream`
   - `api.WritableStreamDefaultController`
   - `api.WritableStreamDefaultWriter`
-  - `webextensions.api.scripting.InjectionTarget`
-  - `webextensions.api.scripting.executeScript`
-  - `webextensions.api.scripting.insertCSS`
-  - `webextensions.api.scripting.removeCSS`
-  - `webextensions.manifest.action`
-  - `webextensions.manifest.host_permissions`
+  - `webassembly.exception-handling`
 
 ## May 2022
 ### Browsers released:
@@ -200,6 +328,7 @@
   - `api.HTMLDialogElement`
   - `api.Lock`
   - `api.LockManager`
+  - `api.RTCDtlsTransport`
   - `api.ResizeObserverSize`
   - `api.reportError`
   - `api.structuredClone`
@@ -217,6 +346,7 @@
   - `css.properties.offset-path`
   - `css.properties.print-color-adjust`
   - `css.properties.scroll-behavior`
+  - `css.properties.text-combine-upright`
   - `css.properties.text-decoration-skip-ink`
   - `css.properties.text-emphasis`
   - `css.properties.text-emphasis-color`
@@ -272,6 +402,7 @@
   - {'browser':'safari_ios','version':'15.2'}
 ### These Features became stable across all major browsers:
   - `html.global_attributes.enterkeyhint`
+  - `webassembly.reference-types`
 
 ## Nov 2021
 ### Browsers released:
@@ -292,13 +423,14 @@
   - `api.EXT_color_buffer_float`
   - `api.FormDataEvent`
   - `api.ImageBitmap`
-  - `api.ImageBitmapRenderingContext`
-  - `api.MediaMetadata`
   - `api.MediaSession`
   - `api.SubmitEvent`
   - `api.WEBGL_color_buffer_float`
   - `api.WEBGL_draw_buffers`
   - `api.WebGL2RenderingContext`
+  - `api.WebGLQuery`
+  - `api.WebGLSampler`
+  - `api.WebGLSync`
   - `api.WebGLTransformFeedback`
   - `api.WebGLVertexArrayObject`
   - `api.createImageBitmap`
@@ -307,7 +439,12 @@
   - `css.properties.border-end-start-radius`
   - `css.properties.border-start-end-radius`
   - `css.properties.border-start-start-radius`
-  - `css.properties.outline`
+  - `css.properties.scroll-margin-block`
+  - `css.properties.scroll-margin-block-end`
+  - `css.properties.scroll-margin-block-start`
+  - `css.properties.scroll-margin-inline`
+  - `css.properties.scroll-margin-inline-end`
+  - `css.properties.scroll-margin-inline-start`
   - `css.properties.scroll-padding-block`
   - `css.properties.scroll-padding-block-end`
   - `css.properties.scroll-padding-block-start`
@@ -399,7 +536,6 @@
   - `webextensions.api.runtime.reload`
   - `webextensions.api.runtime.sendMessage`
   - `webextensions.api.runtime.sendNativeMessage`
-  - `webextensions.api.runtime.setUninstallURL`
   - `webextensions.api.storage.StorageArea`
   - `webextensions.api.storage.StorageChange`
   - `webextensions.api.storage.local`
@@ -534,11 +670,12 @@
   - `api.CSSGroupingRule`
   - `api.ConstantSourceNode`
   - `api.IIRFilterNode`
+  - `api.MediaRecorder`
   - `api.OES_fbo_render_mipmap`
   - `api.OfflineAudioContext`
-  - `api.PannerNode`
   - `api.PerformancePaintTiming`
   - `api.StereoPannerNode`
+  - `api.WEBGL_compressed_texture_s3tc_srgb`
   - `api.Worklet`
   - `api.WorkletGlobalScope`
   - `css.properties.border-block`
@@ -560,13 +697,7 @@
   - `css.properties.margin-inline`
   - `css.properties.padding-block`
   - `css.properties.padding-inline`
-  - `css.properties.scroll-margin-block`
-  - `css.properties.scroll-margin-block-end`
-  - `css.properties.scroll-margin-block-start`
   - `css.properties.scroll-margin-bottom`
-  - `css.properties.scroll-margin-inline`
-  - `css.properties.scroll-margin-inline-end`
-  - `css.properties.scroll-margin-inline-start`
   - `css.properties.scroll-margin-left`
   - `css.properties.scroll-margin-right`
   - `css.properties.scroll-margin-top`
@@ -578,6 +709,7 @@
   - `css.selectors.file-selector-button`
   - `javascript.builtins.FinalizationRegistry`
   - `javascript.builtins.WeakRef`
+  - `webassembly.BigInt-to-i64-integration`
 
 ## Apr 2021
 ### Browsers released:
@@ -619,14 +751,6 @@
 ### Browsers released:
   - {'browser':'firefox','version':'84'}
 ### These Features became stable across all major browsers:
-  - `css.properties.margin-block-end`
-  - `css.properties.margin-block-start`
-  - `css.properties.margin-inline-end`
-  - `css.properties.margin-inline-start`
-  - `css.properties.padding-block-end`
-  - `css.properties.padding-block-start`
-  - `css.properties.padding-inline-end`
-  - `css.properties.padding-inline-start`
   - `css.properties.text-underline-offset`
 
 ## Nov 2020
@@ -635,6 +759,7 @@
   - {'browser':'edge','version':'87'}
   - {'browser':'firefox','version':'83'}
 ### These Features became stable across all major browsers:
+  - `api.MediaMetadata`
   - `css.selectors.marker`
 
 ## Oct 2020
@@ -647,8 +772,7 @@
   - `api.BlobEvent`
   - `api.EXT_color_buffer_half_float`
   - `api.MediaQueryListEvent`
-  - `api.MediaRecorder`
-  - `css.properties.background-clip`
+  - `api.WEBGL_debug_shaders`
   - `css.properties.flex-direction`
   - `css.properties.text-orientation`
   - `javascript.builtins.AggregateError`
@@ -684,6 +808,9 @@
 ### These Features became stable across all major browsers:
   - `css.selectors.read-only`
   - `css.selectors.read-write`
+  - `javascript.regular_expressions.named_backreference`
+  - `javascript.regular_expressions.named_capturing_group`
+  - `javascript.regular_expressions.unicode_character_class_escape`
   - `svg.attributes.presentation.transform-origin`
 
 ## Jun 2020
@@ -719,11 +846,11 @@
   - `api.RTCDTMFToneChangeEvent`
   - `api.ResizeObserver`
   - `api.ResizeObserverEntry`
+  - `css.properties.text-underline-position`
   - `css.selectors.part`
   - `html.global_attributes.exportparts`
   - `html.global_attributes.part`
   - `http.headers.Cross-Origin-Resource-Policy`
-  - `http.headers.Feature-Policy`
   - `javascript.grammar.hashbang_comments`
   - `javascript.operators.nullish_coalescing`
   - `javascript.operators.optional_chaining`
@@ -745,6 +872,7 @@
   - {'browser':'firefox','version':'73'}
 ### These Features became stable across all major browsers:
   - `api.BeforeUnloadEvent`
+  - `api.CanvasCaptureMediaStreamTrack`
   - `api.CustomElementRegistry`
   - `api.DOMMatrix`
   - `api.DOMMatrixReadOnly`
@@ -762,6 +890,7 @@
   - `api.FontFaceSet`
   - `api.HTMLDetailsElement`
   - `api.HTMLSlotElement`
+  - `api.ImageBitmapRenderingContext`
   - `api.InputDeviceInfo`
   - `api.InputEvent`
   - `api.MediaCapabilities`
@@ -784,6 +913,7 @@
   - `api.ShadowRoot`
   - `api.TextDecoder`
   - `api.TextEncoder`
+  - `api.WEBGL_compressed_texture_astc`
   - `api.queueMicrotask`
   - `css.properties.all`
   - `css.properties.background-blend-mode`
@@ -813,10 +943,13 @@
   - `css.properties.font-variant-east-asian`
   - `css.properties.font-variant-ligatures`
   - `css.properties.font-variant-numeric`
-  - `css.properties.hyphens`
   - `css.properties.image-rendering`
   - `css.properties.inline-size`
   - `css.properties.isolation`
+  - `css.properties.margin-block-end`
+  - `css.properties.margin-block-start`
+  - `css.properties.margin-inline-end`
+  - `css.properties.margin-inline-start`
   - `css.properties.mask`
   - `css.properties.mask-type`
   - `css.properties.max-block-size`
@@ -826,6 +959,10 @@
   - `css.properties.mix-blend-mode`
   - `css.properties.object-fit`
   - `css.properties.object-position`
+  - `css.properties.padding-block-end`
+  - `css.properties.padding-block-start`
+  - `css.properties.padding-inline-end`
+  - `css.properties.padding-inline-start`
   - `css.properties.place-content`
   - `css.properties.place-items`
   - `css.properties.place-self`
@@ -856,13 +993,14 @@
   - `css.types.blend-mode`
   - `html.elements.bdi`
   - `html.elements.details`
+  - `html.elements.image`
   - `html.elements.rb`
   - `html.elements.rp`
   - `html.elements.rt`
   - `html.elements.slot`
   - `html.elements.summary`
+  - `html.elements.wbr`
   - `html.global_attributes.autofocus`
-  - `html.global_attributes.dir`
   - `http.headers.Referrer-Policy`
   - `javascript.builtins.AsyncGenerator`
   - `javascript.builtins.AsyncGeneratorFunction`
@@ -874,6 +1012,8 @@
   - `javascript.operators.import_meta`
   - `javascript.statements.async_generator_function`
   - `javascript.statements.for_await_of`
+  - `svg.attributes.presentation.vector-effect`
+  - `svg.elements.feDropShadow`
 
 ## Jan 2020
 ### Browsers released:
@@ -1048,6 +1188,7 @@
   - `api.ExtendableEvent`
   - `api.ExtendableMessageEvent`
   - `api.FetchEvent`
+  - `api.InstallEvent`
   - `api.OES_vertex_array_object`
   - `api.ServiceWorker`
   - `api.ServiceWorkerContainer`
@@ -1055,6 +1196,7 @@
   - `api.ServiceWorkerRegistration`
   - `api.URLSearchParams`
   - `api.WEBGL_lose_context`
+  - `api.WebGLVertexArrayObjectOES`
   - `api.WindowClient`
   - `api.caches`
   - `api.isSecureContext`
