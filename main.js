@@ -176,8 +176,13 @@ function yearInReview(year) {
     console.log(`\n## ${thisMonth.toLocaleString('en-us', { month: 'short', year: 'numeric' })}`);
     newReleases.length && console.log(`### Browsers released:\n`, 
       ' - ' + newReleases.map(r => JSON.stringify(r).replace(/"/g, `'`)).join('\n  - '));
-    difference.size && console.log(`### These Features became stable across all major browsers:\n`, 
-      ' - ' + Array.from(difference).map(f => '`' + f + '`').join('\n  - '));
+    if (difference.size) {
+      console.log(`### These Features became stable across all major browsers:`);
+      for (const feature of difference) {
+        const mdn_url = compatData.find(f => f.id === feature)?.compat?.mdn_url;
+        console.log(mdn_url ? `  - [\`${feature}\`](${mdn_url})` : `  - \`${feature}\``);
+      }
+    }
   }
   console.log('\n');
 }
