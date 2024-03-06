@@ -1,4 +1,8 @@
+const fs = require('node:fs');
 const browserCompat = require('@mdn/browser-compat-data');
+
+let output = '';
+const print = (...args) => output += '\n' + args.join(' ');
 
 const browsersToConsider = [
   'chrome',
@@ -87,14 +91,14 @@ function getCompatData() {
     if (!(typeof obj === 'object' && obj)) return;
 
     for (const [key, child] of Object.entries(obj)) {
+      if (!child) continue;
       if (child.__compat) {
         compats.push({
           id: [...path, key].join('.'),
           compat: child.__compat,
         });
-      } else {
-        findCompats(child, [...path, key]);
       }
+      findCompats(child, [...path, key]);
     }
   }
 
@@ -119,7 +123,7 @@ function getFeatureSetForBrowserVersion({ browser, version }) {
     const isSupported = supportStatement.version_added === true ||
       findBrowserVersionReleaseIndex(browser, version) <= findBrowserVersionReleaseIndex(browser, supportStatement.version_added);
     if (isSupported) {
-      if (supportStatement.flags) console.log(feature.id, supportStatement);
+      if (supportStatement.flags) print(feature.id, supportStatement);
       features.push(feature.id);
     }
   }
@@ -160,12 +164,12 @@ function setDifference(a, b) {
 }
 
 function yearInReview(year) {
-  const twoMonthsFromToday = new Date(new Date() - -1000 * 60 * 60 * 24 * 30 * 3);
-  console.log(`\n# ${year}\n\n`);
+  const threeMonthsFromToday = new Date(new Date() - -1000 * 60 * 60 * 24 * 30 * 3);
+  print(`\n# ${year}\n\n`);
   for (let i = 12; i >= 1; i--) {
     const lastMonth = new Date(i === 1 ? `${year - 1}/12/01` : `${year}/${i - 1}/01`);
     const thisMonth = new Date(`${year}/${i}/01`);
-    if (thisMonth > twoMonthsFromToday) continue;
+    if (thisMonth > threeMonthsFromToday) continue;
     const newReleases = findBrowsersReleasedInMonth(new Date(thisMonth));
     const lastMonthStableBrowsers = findStableBrowsersInMonth(lastMonth);
     const thisMonthStableBrowsers = findStableBrowsersInMonth(thisMonth);
@@ -173,23 +177,30 @@ function yearInReview(year) {
     const thisMonthFeatureSet = getFeatureSetForBrowserVersions(thisMonthStableBrowsers);
     const difference = setDifference(lastMonthFeatureSet, thisMonthFeatureSet);
 
-    console.log(`\n## ${thisMonth.toLocaleString('en-us', { month: 'short', year: 'numeric' })}`);
-    newReleases.length && console.log(`### Browsers released:\n`, 
+    print(`\n## ${thisMonth.toLocaleString('en-us', { month: 'short', year: 'numeric' })}`);
+    newReleases.length && print(`### Browsers released:\n`, 
       ' - ' + newReleases.map(r => JSON.stringify(r).replace(/"/g, `'`)).join('\n  - '));
     if (difference.size) {
-      console.log(`### These Features became stable across all major browsers:`);
+      print(`### These Features became stable across all major browsers:`);
+
       for (const feature of difference) {
+        // Skip sub-features if their parent feature (eg `api.OffscreenCanvasRenderingContext2D`) shipped.
+        if (difference.has(feature.substr(0, feature.lastIndexOf('.')))) continue;
+
         const mdn_url = compatData.find(f => f.id === feature)?.compat?.mdn_url;
-        console.log(mdn_url ? `  - [\`${feature}\`](${mdn_url})` : `  - \`${feature}\``);
+        print(mdn_url ? `  - [\`${feature}\`](${mdn_url})` : `  - \`${feature}\``);
       }
     }
   }
-  console.log('\n');
+  print('\n');
 }
 
-for (let year = 2023; year >= 2018; year--) {
+for (let year = new Date().getFullYear(); year >= 2018; year--) {
   yearInReview(year);
 }
+fs.writeFileSync('./readme.md', output, 'utf-8');
+
+
 
 // console.log(getFeatureSetForBrowserVersion({ browser: 'safari', version: '15.1' }).has('api.AudioWorkletNode'));
 // console.log(browserCompat.api.AudioWorkletNode.__compat.support);
