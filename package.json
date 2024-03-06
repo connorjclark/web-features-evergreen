@@ -2,11 +2,11 @@
   "name": "web-features-evergreen",
   "main": "index.js",
   "scripts": {
-    "update": "node main.js > readme.md"
+    "update": "node main.js"
   },
   "license": "MIT",
   "dependencies": {
-    "@mdn/browser-compat-data": "5.3.24",
-    "caniuse-db": "1.0.30001550"
+    "@mdn/browser-compat-data": "5.5.14",
+    "caniuse-db": "1.0.30001594"
   }
 }
