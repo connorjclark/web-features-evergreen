@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@mdn/browser-compat-data@5.3.24":
-  version "5.3.24"
-  resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-5.3.24.tgz#a663e36cbf6a29e737726fa0a227d074eded350a"
-  integrity sha512-0USwV4F7T4vWGqPoefi0j103sq6Nut2YEXqLz9TUyoj7LBbqXSeWseNRHA7C6LXXm0glrvllKXdeju4oHqIxZw==
+"@mdn/browser-compat-data@5.5.14":
+  version "5.5.14"
+  resolved "https://registry.yarnpkg.com/@mdn/browser-compat-data/-/browser-compat-data-5.5.14.tgz#31d8174c2d153288e97d67cc7c5484ffc49147c0"
+  integrity sha512-K7e35i4XtNWpiOr+aPiy3UccAhFop0HsfVz9RSzlcgaaHb2aD/nN0J3uPPLedyTokMiebxN0gxkL/WXpzNQuKg==
 
-caniuse-db@1.0.30001550:
-  version "1.0.30001550"
-  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30001550.tgz#97ed54b325bca6b5e62c9a545bbd7be4b43e9bac"
-  integrity sha512-5hmk/Y7yfsKN1o5Im/6e0lBdxkL39UqIswDe0/PXY4YWVndpQ59h6XCWLHoaVSRxhMJU+BsDuMvKcDNl8JBpKg==
+caniuse-db@1.0.30001594:
+  version "1.0.30001594"
+  resolved "https://registry.yarnpkg.com/caniuse-db/-/caniuse-db-1.0.30001594.tgz#c87e5956d30b56c270db52f910bb0d12da7a5395"
+  integrity sha512-XARJYymQ8g91GQCGIIBTlQ/8xdtizKKcMtTXbjW8qLfzpimqKUN+CdM2nOVB2q5YyF5GY8L5gthplgJTZa/2gw==
