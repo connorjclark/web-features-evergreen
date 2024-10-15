@@ -4,14 +4,241 @@
 
 
 
+## Dec 2024
+
+## Nov 2024
+### Browsers released:
+  - {'browser':'chrome','version':'131'}
+  - {'browser':'edge','version':'131'}
+  - {'browser':'firefox','version':'133'}
+### These Features became stable across all major browsers:
+  - [`api.HTMLImageElement.fetchPriority`](https://developer.mozilla.org/docs/Web/API/HTMLImageElement/fetchPriority)
+  - [`api.HTMLLinkElement.fetchPriority`](https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/fetchPriority)
+  - [`api.HTMLScriptElement.fetchPriority`](https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/fetchPriority)
+  - [`api.HTMLVideoElement.cancelVideoFrameCallback`](https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/cancelVideoFrameCallback)
+  - [`api.HTMLVideoElement.requestVideoFrameCallback`](https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/requestVideoFrameCallback)
+  - [`api.MediaStreamTrack.getCapabilities`](https://developer.mozilla.org/docs/Web/API/MediaStreamTrack/getCapabilities)
+  - [`api.Notification.silent`](https://developer.mozilla.org/docs/Web/API/Notification/silent)
+  - `api.Request.Request.init_priority_parameter`
+  - [`api.WebGL2RenderingContext.drawingBufferColorSpace`](https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/drawingBufferColorSpace)
+  - [`api.WebGLRenderingContext.drawingBufferColorSpace`](https://developer.mozilla.org/docs/Web/API/WebGLRenderingContext/drawingBufferColorSpace)
+  - [`css.properties.box-decoration-break`](https://developer.mozilla.org/docs/Web/CSS/box-decoration-break)
+  - [`css.properties.text-wrap-style`](https://developer.mozilla.org/docs/Web/CSS/text-wrap-style)
+  - `html.elements.img.fetchpriority`
+  - `html.elements.link.fetchpriority`
+  - `html.elements.script.fetchpriority`
+  - `http.headers.Link.fetchpriority`
+
+## Oct 2024
+### Browsers released:
+  - {'browser':'chrome','version':'130'}
+  - {'browser':'edge','version':'130'}
+  - {'browser':'firefox','version':'132'}
+### These Features became stable across all major browsers:
+  - [`api.ContentVisibilityAutoStateChangeEvent`](https://developer.mozilla.org/docs/Web/API/ContentVisibilityAutoStateChangeEvent)
+  - [`api.Element.ariaBrailleLabel`](https://developer.mozilla.org/docs/Web/API/Element/ariaBrailleLabel)
+  - [`api.Element.ariaBrailleRoleDescription`](https://developer.mozilla.org/docs/Web/API/Element/ariaBrailleRoleDescription)
+  - [`api.Element.getHTML`](https://developer.mozilla.org/docs/Web/API/Element/getHTML)
+  - `api.ElementInternals.ariaBrailleLabel`
+  - `api.ElementInternals.ariaBrailleRoleDescription`
+  - [`api.EncodedVideoChunk`](https://developer.mozilla.org/docs/Web/API/EncodedVideoChunk)
+  - [`api.GeolocationCoordinates.toJSON`](https://developer.mozilla.org/docs/Web/API/GeolocationCoordinates/toJSON)
+  - [`api.GeolocationPosition.toJSON`](https://developer.mozilla.org/docs/Web/API/GeolocationPosition/toJSON)
+  - `api.HTMLCanvasElement.getContext.2d_context.options_willReadFrequently_parameter`
+  - [`api.HTMLDetailsElement.name`](https://developer.mozilla.org/docs/Web/API/HTMLDetailsElement/open)
+  - [`api.HTMLTemplateElement.shadowRootClonable`](https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootClonable)
+  - [`api.HTMLTemplateElement.shadowRootDelegatesFocus`](https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootDelegatesFocus)
+  - [`api.HTMLTemplateElement.shadowRootSerializable`](https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootSerializable)
+  - [`api.Navigator.cookieEnabled`](https://developer.mozilla.org/docs/Web/API/Navigator/cookieEnabled)
+  - `api.RTCDataChannel.binaryType.blob_value`
+  - [`api.ShadowRoot.getHTML`](https://developer.mozilla.org/docs/Web/API/ShadowRoot/getHTML)
+  - [`api.ShadowRoot.serializable`](https://developer.mozilla.org/docs/Web/API/ShadowRoot/serializable)
+  - [`api.URL.parse_static`](https://developer.mozilla.org/docs/Web/API/URL/parse_static)
+  - [`api.VideoColorSpace`](https://developer.mozilla.org/docs/Web/API/VideoColorSpace)
+  - [`api.VideoDecoder`](https://developer.mozilla.org/docs/Web/API/VideoDecoder)
+  - [`api.VideoEncoder`](https://developer.mozilla.org/docs/Web/API/VideoEncoder)
+  - [`api.VideoFrame`](https://developer.mozilla.org/docs/Web/API/VideoFrame)
+  - [`css.properties.backdrop-filter`](https://developer.mozilla.org/docs/Web/CSS/backdrop-filter)
+  - [`css.properties.content-visibility`](https://developer.mozilla.org/docs/Web/CSS/content-visibility)
+  - `css.properties.hyphens.language_czech`
+  - `css.properties.offset-path.basic_shape`
+  - `css.properties.offset-path.coord_box`
+  - `html.elements.a.text_fragments`
+  - `html.elements.details.name`
+  - `webextensions.api.scripting.insertCSS.origin`
+  - `webextensions.api.scripting.removeCSS.origin`
+  - [`webextensions.api.storage.session.QUOTA_BYTES`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/storage/session/QUOTA_BYTES)
+  - [`webextensions.api.storage.session.getBytesInUse`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageArea/getBytesInUse)
+  - `webextensions.api.tabs.insertCSS.cssOrigin`
+  - `webextensions.api.tabs.update.updateProperties_openerTabId_parameter`
+  - `webextensions.manifest.content_scripts.world`
+
+## Sep 2024
+### Browsers released:
+  - {'browser':'chrome','version':'129'}
+  - {'browser':'edge','version':'129'}
+  - {'browser':'firefox','version':'131'}
+  - {'browser':'safari','version':'18'}
+  - {'browser':'safari_ios','version':'18'}
+### These Features became stable across all major browsers:
+  - [`api.CSSStartingStyleRule`](https://developer.mozilla.org/docs/Web/API/CSSStartingStyleRule)
+  - `api.MediaSession.setActionHandler.skipad_type`
+  - [`api.RTCDTMFSender.canInsertDTMF`](https://developer.mozilla.org/docs/Web/API/RTCDTMFSender/canInsertDTMF)
+  - [`api.TextEvent`](https://developer.mozilla.org/docs/Web/API/TextEvent)
+  - [`css.at-rules.starting-style`](https://developer.mozilla.org/docs/Web/CSS/@starting-style)
+  - [`css.properties.transition-behavior`](https://developer.mozilla.org/docs/Web/CSS/transition-behavior)
+  - `javascript.regular_expressions.named_capturing_group.duplicate_named_capturing_groups`
+
+## Aug 2024
+### Browsers released:
+  - {'browser':'chrome','version':'128'}
+  - {'browser':'edge','version':'128'}
+  - {'browser':'firefox','version':'129'}
+### These Features became stable across all major browsers:
+  - [`api.CSS.registerProperty_static`](https://developer.mozilla.org/docs/Web/API/CSS/registerProperty_static)
+  - [`api.CSSPropertyRule`](https://developer.mozilla.org/docs/Web/API/CSSPropertyRule)
+  - [`api.Document.parseHTMLUnsafe_static`](https://developer.mozilla.org/docs/Web/API/Document/parseHTMLUnsafe_static)
+  - `api.HTMLBaseElement.href.forbid_special_characters`
+  - [`api.RTCRtpTransceiver.setCodecPreferences`](https://developer.mozilla.org/docs/Web/API/RTCRtpTransceiver/setCodecPreferences)
+  - [`css.at-rules.property`](https://developer.mozilla.org/docs/Web/CSS/@property)
+  - `css.properties.align-content.flex_context.safe_unsafe`
+  - `css.properties.align-items.flex_context.safe_unsafe`
+  - `css.properties.align-self.flex_context.safe_unsafe`
+  - `css.properties.content.alt_text`
+  - [`css.properties.font-size-adjust`](https://developer.mozilla.org/docs/Web/CSS/font-size-adjust)
+  - `css.properties.justify-content.flex_context.safe_unsafe`
+  - `css.types.calc.color_component`
+  - `css.types.color.color.relative_syntax`
+  - `css.types.color.hsl.relative_syntax`
+  - `css.types.color.hwb.relative_syntax`
+  - `css.types.color.lab.relative_syntax`
+  - `css.types.color.lch.relative_syntax`
+  - `css.types.color.oklab.relative_syntax`
+  - `css.types.color.oklch.relative_syntax`
+  - `css.types.color.rgb.relative_syntax`
+  - `javascript.builtins.ArrayBuffer.ArrayBuffer.maxByteLength_option`
+  - [`javascript.builtins.ArrayBuffer.maxByteLength`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/maxByteLength)
+  - [`javascript.builtins.ArrayBuffer.resizable`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/resizable)
+  - [`javascript.builtins.ArrayBuffer.resize`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/resize)
+  - `javascript.builtins.SharedArrayBuffer.SharedArrayBuffer.maxByteLength_option`
+  - [`javascript.builtins.SharedArrayBuffer.grow`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/grow)
+  - [`javascript.builtins.SharedArrayBuffer.growable`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/growable)
+  - [`javascript.builtins.SharedArrayBuffer.maxByteLength`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/maxByteLength)
+  - [`svg.global_attributes.font-size-adjust`](https://developer.mozilla.org/docs/Web/SVG/Attribute/font-size-adjust)
+  - `webextensions.api.declarativeNetRequest.RuleCondition.domainType`
+  - `webextensions.api.scripting.ExecutionWorld.MAIN`
+  - `webextensions.api.scripting.executeScript.world.MAIN`
+  - [`webextensions.manifest.optional_host_permissions`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_host_permissions)
+
+## Jul 2024
+### Browsers released:
+  - {'browser':'chrome','version':'127'}
+  - {'browser':'edge','version':'127'}
+  - {'browser':'firefox','version':'128'}
+  - {'browser':'safari','version':'17.6'}
+  - {'browser':'safari_ios','version':'17.6'}
+### These Features became stable across all major browsers:
+  - [`api.Clipboard.read`](https://developer.mozilla.org/docs/Web/API/Clipboard/read)
+  - `api.Clipboard.type_image-png`
+  - `api.Clipboard.type_text-html`
+  - `api.Clipboard.type_text-plain`
+  - [`api.Clipboard.write`](https://developer.mozilla.org/docs/Web/API/Clipboard/write)
+  - [`api.ClipboardItem`](https://developer.mozilla.org/docs/Web/API/ClipboardItem)
+  - `css.types.image.gradient.conic-gradient.hue_interpolation_method`
+  - `css.types.image.gradient.conic-gradient.interpolation_color_space`
+  - `css.types.image.gradient.linear-gradient.hue_interpolation_method`
+  - `css.types.image.gradient.linear-gradient.interpolation_color_space`
+  - `css.types.image.gradient.radial-gradient.hue_interpolation_method`
+  - `css.types.image.gradient.radial-gradient.interpolation_color_space`
+  - `css.types.image.gradient.repeating-conic-gradient.hue_interpolation_method`
+  - `css.types.image.gradient.repeating-conic-gradient.interpolation_color_space`
+  - `css.types.image.gradient.repeating-linear-gradient.hue_interpolation_method`
+  - `css.types.image.gradient.repeating-linear-gradient.interpolation_color_space`
+  - `css.types.image.gradient.repeating-radial-gradient.hue_interpolation_method`
+  - `css.types.image.gradient.repeating-radial-gradient.interpolation_color_space`
+  - `html.elements.base.href.forbid_data_javascript_urls`
+  - [`javascript.builtins.Set.difference`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/difference)
+  - [`javascript.builtins.Set.intersection`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/intersection)
+  - [`javascript.builtins.Set.isDisjointFrom`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/isDisjointFrom)
+  - [`javascript.builtins.Set.isSubsetOf`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/isSubsetOf)
+  - [`javascript.builtins.Set.isSupersetOf`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/isSupersetOf)
+  - [`javascript.builtins.Set.symmetricDifference`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/symmetricDifference)
+  - [`javascript.builtins.Set.union`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/union)
+
 ## Jun 2024
+### Browsers released:
+  - {'browser':'chrome','version':'126'}
+  - {'browser':'edge','version':'126'}
+  - {'browser':'firefox','version':'127'}
+### These Features became stable across all major browsers:
+  - [`api.CSSImportRule.supportsText`](https://developer.mozilla.org/docs/Web/API/CSSImportRule/supportsText)
+  - [`api.CustomStateSet`](https://developer.mozilla.org/docs/Web/API/CustomStateSet)
+  - [`api.ElementInternals.states`](https://developer.mozilla.org/docs/Web/API/ElementInternals/states)
+  - [`api.IDBFactory.databases`](https://developer.mozilla.org/docs/Web/API/IDBFactory/databases)
+  - [`api.IDBTransaction.durability`](https://developer.mozilla.org/docs/Web/API/IDBTransaction/durability)
+  - [`api.Navigator.wakeLock`](https://developer.mozilla.org/docs/Web/API/Navigator/wakeLock)
+  - [`api.RTCIceCandidate.address`](https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/address)
+  - [`api.RTCIceCandidate.component`](https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/component)
+  - [`api.RTCIceCandidate.foundation`](https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/foundation)
+  - [`api.RTCIceCandidate.port`](https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/port)
+  - [`api.RTCIceCandidate.priority`](https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/priority)
+  - [`api.RTCIceCandidate.protocol`](https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/protocol)
+  - [`api.RTCIceCandidate.relatedAddress`](https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/relatedAddress)
+  - [`api.RTCIceCandidate.relatedPort`](https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/relatedPort)
+  - [`api.RTCIceCandidate.tcpType`](https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/tcpType)
+  - [`api.RTCIceCandidate.type`](https://developer.mozilla.org/docs/Web/API/RTCIceCandidate/type)
+  - [`api.WakeLock`](https://developer.mozilla.org/docs/Web/API/WakeLock)
+  - [`api.WakeLockSentinel`](https://developer.mozilla.org/docs/Web/API/WakeLockSentinel)
+  - `api.WebSocket.WebSocket.url_parameter_http_https_relative`
+  - [`css.properties.text-wrap.balance`](https://developer.mozilla.org/docs/Web/CSS/text-wrap#balance)
+  - [`css.properties.zoom`](https://developer.mozilla.org/docs/Web/CSS/zoom)
+  - [`css.selectors.state`](https://developer.mozilla.org/docs/Web/CSS/:state)
+  - [`css.types.color.light-dark`](https://developer.mozilla.org/docs/Web/CSS/color_value/light-dark)
+  - [`css.types.mod`](https://developer.mozilla.org/docs/Web/CSS/mod)
+  - [`css.types.rem`](https://developer.mozilla.org/docs/Web/CSS/rem)
+  - [`css.types.round`](https://developer.mozilla.org/docs/Web/CSS/round)
+  - [`http.headers.Permissions-Policy.screen-wake-lock`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Permissions-Policy/screen-wake-lock)
 
 ## May 2024
 ### Browsers released:
+  - {'browser':'chrome','version':'125'}
+  - {'browser':'edge','version':'125'}
   - {'browser':'firefox','version':'126'}
+  - {'browser':'safari','version':'17.5'}
+  - {'browser':'safari_ios','version':'17.5'}
 ### These Features became stable across all major browsers:
+  - [`api.Clipboard.readText`](https://developer.mozilla.org/docs/Web/API/Clipboard/readText)
+  - [`api.Element.attachShadow.options_clonable_parameter`](https://developer.mozilla.org/docs/Web/API/Element/attachShadow#clonable)
+  - [`api.Element.setHTMLUnsafe`](https://developer.mozilla.org/docs/Web/API/Element/setHTMLUnsafe)
+  - [`api.HTMLButtonElement.popoverTargetAction`](https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/popoverTargetAction)
+  - [`api.HTMLButtonElement.popoverTargetElement`](https://developer.mozilla.org/docs/Web/API/HTMLButtonElement/popoverTargetElement)
+  - [`api.HTMLElement.beforetoggle_event`](https://developer.mozilla.org/docs/Web/API/HTMLElement/beforetoggle_event)
+  - [`api.HTMLElement.hidePopover`](https://developer.mozilla.org/docs/Web/API/HTMLElement/hidePopover)
+  - [`api.HTMLElement.popover`](https://developer.mozilla.org/docs/Web/API/HTMLElement/popover)
+  - [`api.HTMLElement.showPopover`](https://developer.mozilla.org/docs/Web/API/HTMLElement/showPopover)
+  - [`api.HTMLElement.togglePopover`](https://developer.mozilla.org/docs/Web/API/HTMLElement/togglePopover)
+  - [`api.HTMLElement.toggle_event`](https://developer.mozilla.org/docs/Web/API/HTMLElement/toggle_event)
+  - [`api.HTMLInputElement.popoverTargetAction`](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/popoverTargetAction)
+  - [`api.HTMLInputElement.popoverTargetElement`](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/popoverTargetElement)
+  - [`api.RTCDtlsTransport.iceTransport`](https://developer.mozilla.org/docs/Web/API/RTCDtlsTransport/iceTransport)
+  - [`api.RTCIceTransport`](https://developer.mozilla.org/docs/Web/API/RTCIceTransport)
+  - [`api.ShadowRoot.clonable`](https://developer.mozilla.org/docs/Web/API/ShadowRoot/clonable)
+  - [`api.ShadowRoot.setHTMLUnsafe`](https://developer.mozilla.org/docs/Web/API/ShadowRoot/setHTMLUnsafe)
+  - `css.properties.align-content.block_context`
+  - `css.properties.direction.vertical_slider_direction`
+  - `css.properties.transform-box.content-box`
+  - `css.properties.transform-box.stroke-box`
   - `css.properties.writing-mode.vertical_oriented_form_controls`
+  - `css.selectors.backdrop.popover`
+  - [`css.selectors.popover-open`](https://developer.mozilla.org/docs/Web/CSS/:popover-open)
+  - [`html.elements.button.popovertarget`](https://developer.mozilla.org/docs/Web/HTML/Element/button#popovertarget)
+  - [`html.elements.button.popovertargetaction`](https://developer.mozilla.org/docs/Web/HTML/Element/button#popovertargetaction)
+  - [`html.elements.input.popovertarget`](https://developer.mozilla.org/docs/Web/HTML/Element/input#popovertarget)
+  - [`html.elements.input.popovertargetaction`](https://developer.mozilla.org/docs/Web/HTML/Element/input#popovertargetaction)
   - `html.elements.input.type_range.vertical_orientation`
+  - [`html.global_attributes.popover`](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/popover)
+  - [`javascript.builtins.Intl.Segmenter`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter)
+  - [`javascript.builtins.Intl.Segments`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Segmenter/segment/Segments)
 
 ## Apr 2024
 ### Browsers released:
@@ -20,19 +247,19 @@
   - {'browser':'firefox','version':'125'}
 ### These Features became stable across all major browsers:
   - [`api.AbortSignal.any_static`](https://developer.mozilla.org/docs/Web/API/AbortSignal/any_static)
-  - [`api.DOMMatrixReadOnly.scaleNonUniform`](https://developer.mozilla.org/docs/Web/API/DOMMatrixReadOnly/scaleNonUniform)
+  - [`api.CSSKeyframesRule.length`](https://developer.mozilla.org/docs/Web/API/CSSKeyframesRule/length)
+  - `api.DOMMatrixReadOnly.scaleNonUniform`
   - [`api.Element.ariaDescription`](https://developer.mozilla.org/docs/Web/API/Element/ariaDescription)
   - [`api.Element.checkVisibility`](https://developer.mozilla.org/docs/Web/API/Element/checkVisibility)
-  - [`api.Navigator.wakeLock`](https://developer.mozilla.org/docs/Web/API/Navigator/wakeLock)
   - `api.SVGFESpecularLightingElement.kernelUnitLengthX`
   - `api.SVGFESpecularLightingElement.kernelUnitLengthY`
-  - [`api.WakeLock`](https://developer.mozilla.org/docs/Web/API/WakeLock)
-  - [`api.WakeLockSentinel`](https://developer.mozilla.org/docs/Web/API/WakeLockSentinel)
   - [`css.properties.paint-order`](https://developer.mozilla.org/docs/Web/CSS/paint-order)
   - `css.properties.text-decoration-thickness.percentage`
   - [`css.properties.text-wrap`](https://developer.mozilla.org/docs/Web/CSS/text-wrap)
+  - [`css.properties.white-space-collapse`](https://developer.mozilla.org/docs/Web/CSS/white-space-collapse)
   - `css.selectors.backdrop.inherit_from_originating_element`
-  - [`http.headers.Permissions-Policy.screen-wake-lock`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Permissions-Policy/screen-wake-lock)
+  - `html.elements.hr.hr_in_select`
+  - `html.elements.select.hr_in_select`
   - [`javascript.builtins.ArrayBuffer.detached`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/detached)
   - [`javascript.builtins.ArrayBuffer.transfer`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/transfer)
   - [`javascript.builtins.ArrayBuffer.transferToFixedLength`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/transferToFixedLength)
@@ -50,8 +277,8 @@
   - {'browser':'safari','version':'17.4'}
   - {'browser':'safari_ios','version':'17.4'}
 ### These Features became stable across all major browsers:
-  - `api.HTMLTemplateElement.shadowRootMode`
-  - `html.elements.template.shadowrootmode`
+  - [`api.HTMLTemplateElement.shadowRootMode`](https://developer.mozilla.org/docs/Web/API/HTMLTemplateElement/shadowRootMode)
+  - [`html.elements.template.shadowrootmode`](https://developer.mozilla.org/docs/Web/HTML/Element/template#shadowrootmode)
 
 ## Feb 2024
 ### Browsers released:
@@ -83,12 +310,14 @@
   - `api.HTMLLinkElement.imageSizes`
   - `api.HTMLLinkElement.imageSrcset`
   - [`api.HTMLMediaElement.preservesPitch`](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/preservesPitch)
-  - [`api.OffscreenCanvasRenderingContext2D.reset`](https://developer.mozilla.org/docs/Web/API/OffscreenCanvasRenderingContext2D#canvasrenderingcontext2d.reset)
-  - [`api.SVGImageElement.crossOrigin`](https://developer.mozilla.org/docs/Web/API/SVGImageElement/crossorigin)
+  - [`api.OffscreenCanvasRenderingContext2D.reset`](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/reset)
+  - `api.SVGImageElement.crossOrigin`
   - [`api.URL.canParse_static`](https://developer.mozilla.org/docs/Web/API/URL/canParse_static)
+  - `api.createImageBitmap.svgimageelement_as_source_image`
   - [`css.at-rules.media.scripting`](https://developer.mozilla.org/docs/Web/CSS/@media/scripting)
   - `css.properties.background-clip.text`
   - [`css.properties.counter-set`](https://developer.mozilla.org/docs/Web/CSS/counter-set)
+  - [`css.properties.mask`](https://developer.mozilla.org/docs/Web/CSS/mask)
   - [`css.properties.mask-clip`](https://developer.mozilla.org/docs/Web/CSS/mask-clip)
   - [`css.properties.mask-composite`](https://developer.mozilla.org/docs/Web/CSS/mask-composite)
   - [`css.properties.mask-image`](https://developer.mozilla.org/docs/Web/CSS/mask-image)
@@ -110,7 +339,9 @@
   - `html.elements.iframe.loading`
   - `html.elements.link.imagesizes`
   - `html.elements.link.imagesrcset`
+  - `javascript.builtins.Intl.PluralRules.PluralRules.options_parameter.options_roundingMode_parameter`
   - [`svg.elements.image.crossorigin`](https://developer.mozilla.org/docs/Web/SVG/Attribute/crossorigin)
+  - [`svg.global_attributes.mask`](https://developer.mozilla.org/docs/Web/SVG/Attribute/mask)
 
 
 
@@ -126,9 +357,8 @@
   - {'browser':'safari','version':'17.2'}
   - {'browser':'safari_ios','version':'17.2'}
 ### These Features became stable across all major browsers:
-  - `api.BeforeUnloadEvent.returnValue`
   - [`api.Navigator.userActivation`](https://developer.mozilla.org/docs/Web/API/Navigator/userActivation)
-  - `api.PublicKeyCredential.authenticatorAttachment`
+  - [`api.PublicKeyCredential.authenticatorAttachment`](https://developer.mozilla.org/docs/Web/API/PublicKeyCredential/authenticatorAttachment)
   - [`api.ToggleEvent`](https://developer.mozilla.org/docs/Web/API/ToggleEvent)
   - [`api.UserActivation`](https://developer.mozilla.org/docs/Web/API/UserActivation)
   - `css.properties.clip-path.fill-box`
@@ -137,6 +367,8 @@
   - [`css.selectors.user-valid`](https://developer.mozilla.org/docs/Web/CSS/:user-valid)
   - `css.types.length.lh`
   - `css.types.length.rlh`
+  - [`http.headers.Link`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Link)
+  - [`http.status.103`](https://developer.mozilla.org/docs/Web/HTTP/Status/103)
 
 ## Nov 2023
 ### Browsers released:
@@ -147,6 +379,7 @@
   - [`api.AuthenticatorAttestationResponse.getPublicKey`](https://developer.mozilla.org/docs/Web/API/AuthenticatorAttestationResponse/getPublicKey)
   - [`api.AuthenticatorAttestationResponse.getPublicKeyAlgorithm`](https://developer.mozilla.org/docs/Web/API/AuthenticatorAttestationResponse/getPublicKeyAlgorithm)
   - [`api.AuthenticatorAttestationResponse.getTransports`](https://developer.mozilla.org/docs/Web/API/AuthenticatorAttestationResponse/getTransports)
+  - [`api.BeforeUnloadEvent.returnValue`](https://developer.mozilla.org/docs/Web/API/BeforeUnloadEvent/returnValue)
   - [`api.Document.hasStorageAccess`](https://developer.mozilla.org/docs/Web/API/Document/hasStorageAccess)
   - [`api.Document.requestStorageAccess`](https://developer.mozilla.org/docs/Web/API/Document/requestStorageAccess)
   - [`api.Element.ariaAtomic`](https://developer.mozilla.org/docs/Web/API/Element/ariaAtomic)
@@ -227,6 +460,9 @@
   - [`api.ElementInternals.ariaValueNow`](https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaValueNow)
   - [`api.ElementInternals.ariaValueText`](https://developer.mozilla.org/docs/Web/API/ElementInternals/ariaValueText)
   - [`api.ElementInternals.role`](https://developer.mozilla.org/docs/Web/API/ElementInternals/role)
+  - [`api.PublicKeyCredential.isConditionalMediationAvailable_static`](https://developer.mozilla.org/docs/Web/API/PublicKeyCredential/isConditionalMediationAvailable_static)
+  - [`api.SubtleCrypto.deriveKey.derivedKeyAlgorithm_option_hkdf`](https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey)
+  - [`api.SubtleCrypto.deriveKey.derivedKeyAlgorithm_option_pbkdf2`](https://developer.mozilla.org/docs/Web/API/SubtleCrypto/deriveKey)
   - [`api.TextMetrics.alphabeticBaseline`](https://developer.mozilla.org/docs/Web/API/TextMetrics/alphabeticBaseline)
   - [`api.TextMetrics.hangingBaseline`](https://developer.mozilla.org/docs/Web/API/TextMetrics/hangingBaseline)
   - [`api.TextMetrics.ideographicBaseline`](https://developer.mozilla.org/docs/Web/API/TextMetrics/ideographicBaseline)
@@ -234,8 +470,6 @@
   - `css.properties.clear.inline-start`
   - `css.properties.float.inline-end`
   - `css.properties.float.inline-start`
-  - `css.properties.resize.block`
-  - `css.properties.resize.inline`
   - `css.properties.transform-box.border-box`
   - [`html.elements.search`](https://developer.mozilla.org/docs/Web/HTML/Element/search)
   - [`javascript.builtins.String.isWellFormed`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/isWellFormed)
@@ -259,31 +493,42 @@
   - [`api.DeviceMotionEvent`](https://developer.mozilla.org/docs/Web/API/DeviceMotionEvent)
   - [`api.DeviceOrientationEvent`](https://developer.mozilla.org/docs/Web/API/DeviceOrientationEvent)
   - [`api.Headers.getSetCookie`](https://developer.mozilla.org/docs/Web/API/Headers/getSetCookie)
+  - `api.OffscreenCanvas.getContext.webgl2_context`
+  - `api.OffscreenCanvas.getContext.webgl_context`
   - [`api.Response.json_static`](https://developer.mozilla.org/docs/Web/API/Response/json_static)
   - [`api.Selection.removeRange`](https://developer.mozilla.org/docs/Web/API/Selection/removeRange)
   - [`api.StorageManager.estimate`](https://developer.mozilla.org/docs/Web/API/StorageManager/estimate)
+  - `api.URLSearchParams.delete.value_parameter`
+  - `api.URLSearchParams.has.value_parameter`
   - [`api.URLSearchParams.size`](https://developer.mozilla.org/docs/Web/API/URLSearchParams/size)
   - [`api.Window.devicemotion_event`](https://developer.mozilla.org/docs/Web/API/Window/devicemotion_event)
   - [`api.Window.deviceorientation_event`](https://developer.mozilla.org/docs/Web/API/Window/deviceorientation_event)
+  - `api.createImageBitmap.options_premultiplyAlpha_parameter`
   - [`css.at-rules.counter-style`](https://developer.mozilla.org/docs/Web/CSS/@counter-style)
   - [`css.at-rules.font-face.size-adjust`](https://developer.mozilla.org/docs/Web/CSS/@font-face/size-adjust)
+  - `css.at-rules.font-face.src.tech_keyword`
   - [`css.at-rules.media.overflow-block`](https://developer.mozilla.org/docs/Web/CSS/@media/overflow-block)
   - [`css.at-rules.media.overflow-inline`](https://developer.mozilla.org/docs/Web/CSS/@media/overflow-inline)
-  - [`css.at-rules.media.update`](https://developer.mozilla.org/docs/Web/CSS/@media/update-frequency)
+  - [`css.at-rules.media.update`](https://developer.mozilla.org/docs/Web/CSS/@media/update)
   - `css.at-rules.supports.font-format`
   - `css.at-rules.supports.font-tech`
-  - [`css.properties.contain-intrinsic-block-size`](https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-contain-intrinsic-block-size)
+  - [`css.properties.background-image.image-set`](https://developer.mozilla.org/docs/Web/CSS/image/image-set)
+  - [`css.properties.contain-intrinsic-block-size`](https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-block-size)
   - [`css.properties.contain-intrinsic-height`](https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-height)
-  - [`css.properties.contain-intrinsic-inline-size`](https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-contain-intrinsic-inline-size)
+  - [`css.properties.contain-intrinsic-inline-size`](https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-inline-size)
   - [`css.properties.contain-intrinsic-size`](https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-size)
   - [`css.properties.contain-intrinsic-width`](https://developer.mozilla.org/docs/Web/CSS/contain-intrinsic-width)
-  - [`css.properties.font-variant-position`](https://developer.mozilla.org/docs/Web/CSS/font-variant-position)
-  - [`css.properties.grid-template-columns.subgrid`](https://developer.mozilla.org/docs/Web/CSS/CSS_Grid_Layout/Subgrid)
-  - [`css.properties.grid-template-rows.subgrid`](https://developer.mozilla.org/docs/Web/CSS/CSS_Grid_Layout/Subgrid)
+  - [`css.properties.content.image-set`](https://developer.mozilla.org/docs/Web/CSS/image/image-set)
+  - [`css.properties.grid-template-columns.subgrid`](https://developer.mozilla.org/docs/Web/CSS/CSS_grid_layout/Subgrid)
+  - [`css.properties.grid-template-rows.subgrid`](https://developer.mozilla.org/docs/Web/CSS/CSS_grid_layout/Subgrid)
   - [`css.properties.hyphenate-character`](https://developer.mozilla.org/docs/Web/CSS/hyphenate-character)
   - [`css.properties.hyphens`](https://developer.mozilla.org/docs/Web/CSS/hyphens)
   - `css.properties.list-style-type.ethiopic-halehame`
   - `css.properties.list-style-type.ethiopic-halehame-am`
+  - [`css.types.image.image-set`](https://developer.mozilla.org/docs/Web/CSS/image/image-set)
+  - `html.elements.iframe.sandbox.allow-downloads`
+  - [`http.headers.Alt-Svc`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Alt-Svc)
+  - `javascript.builtins.Function.toString.toString_revision`
   - [`javascript.builtins.RegExp.unicodeSets`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicodeSets)
   - `mathml.elements.mtd.columnspan`
   - `mathml.elements.mtd.rowspan`
@@ -340,6 +585,7 @@
   - `javascript.builtins.Intl.NumberFormat.format.number_parameter-string_decimal`
   - [`javascript.builtins.Intl.NumberFormat.formatRange`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/formatRange)
   - [`javascript.builtins.Intl.NumberFormat.formatRangeToParts`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/formatRangeToParts)
+  - `javascript.builtins.Intl.PluralRules.PluralRules.options_parameter`
   - [`javascript.builtins.Intl.PluralRules.selectRange`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/PluralRules/selectRange)
   - [`javascript.builtins.TypedArray.toReversed`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/toReversed)
   - [`javascript.builtins.TypedArray.toSorted`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/toSorted)
@@ -356,13 +602,14 @@
   - {'browser':'safari_ios','version':'16.6'}
 ### These Features became stable across all major browsers:
   - `api.SharedWorker.SharedWorker.ecmascript_modules`
+  - `api.SharedWorker.SharedWorker.options_type_parameter`
   - `api.Worker.Worker.ecmascript_modules`
+  - `api.Worker.Worker.options_type_parameter`
   - `api.Worklet.ecmascript_modules`
   - [`css.properties.-webkit-text-security`](https://developer.mozilla.org/docs/Web/CSS/-webkit-text-security)
   - `css.types.calc-constant.NaN`
   - `css.types.calc-constant.infinity`
   - `javascript.operators.import.worker_support`
-  - `javascript.statements.import.service_worker_support`
   - `javascript.statements.import.worker_support`
 
 ## Jun 2023
@@ -373,6 +620,7 @@
   - [`api.CompressionStream`](https://developer.mozilla.org/docs/Web/API/CompressionStream)
   - [`api.DecompressionStream`](https://developer.mozilla.org/docs/Web/API/DecompressionStream)
   - `api.HTMLInputElement.cancel_event`
+  - `api.Permissions.permission_push`
   - [`api.RTCPeerConnection.connectionState`](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/connectionState)
   - [`api.RTCPeerConnection.connectionstatechange_event`](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/connectionstatechange_event)
   - [`api.RTCPeerConnection.sctp`](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/sctp)
@@ -382,7 +630,6 @@
   - [`api.RTCSctpTransport`](https://developer.mozilla.org/docs/Web/API/RTCSctpTransport)
   - [`api.RTCStatsReport.type_media-source`](https://developer.mozilla.org/docs/Web/API/RTCStatsReport#media_source)
   - [`api.RTCStatsReport.type_peer-connection`](https://developer.mozilla.org/docs/Web/API/RTCPeerConnectionStats)
-  - [`css.properties.background-image.image-set`](https://developer.mozilla.org/docs/Web/CSS/image-set())
   - [`css.properties.content.gradient`](https://developer.mozilla.org/docs/Web/CSS/gradient)
   - `css.selectors.nth-child.of_syntax`
   - `css.selectors.nth-last-child.of_syntax`
@@ -392,23 +639,8 @@
   - [`css.types.color.lch`](https://developer.mozilla.org/docs/Web/CSS/color_value/lch)
   - [`css.types.color.oklab`](https://developer.mozilla.org/docs/Web/CSS/color_value/oklab)
   - [`css.types.color.oklch`](https://developer.mozilla.org/docs/Web/CSS/color_value/oklch)
-  - [`css.types.image.image-set`](https://developer.mozilla.org/docs/Web/CSS/image/image-set)
-  - [`webextensions.api.declarativeNetRequest.MAX_NUMBER_OF_DYNAMIC_AND_SESSION_RULES`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_DYNAMIC_AND_SESSION_RULES)
-  - [`webextensions.api.declarativeNetRequest.MAX_NUMBER_OF_ENABLED_STATIC_RULESETS`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_ENABLED_STATIC_RULESETS)
-  - [`webextensions.api.declarativeNetRequest.MAX_NUMBER_OF_STATIC_RULESETS`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/MAX_NUMBER_OF_STATIC_RULESETS)
-  - [`webextensions.api.declarativeNetRequest.Redirect`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/Redirect)
-  - [`webextensions.api.declarativeNetRequest.ResourceType`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/ResourceType)
-  - [`webextensions.api.declarativeNetRequest.Rule`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/Rule)
-  - [`webextensions.api.declarativeNetRequest.RuleAction`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/RuleAction)
-  - [`webextensions.api.declarativeNetRequest.RuleCondition`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/RuleCondition)
-  - [`webextensions.api.declarativeNetRequest.URLTransform`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/URLTransform)
-  - [`webextensions.api.declarativeNetRequest.getDynamicRules`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/getDynamicRules)
-  - [`webextensions.api.declarativeNetRequest.getEnabledRulesets`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/getEnabledRulesets)
-  - [`webextensions.api.declarativeNetRequest.getSessionRules`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/getSessionRules)
-  - [`webextensions.api.declarativeNetRequest.isRegexSupported`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/isRegexSupported)
-  - [`webextensions.api.declarativeNetRequest.updateDynamicRules`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/updateDynamicRules)
-  - [`webextensions.api.declarativeNetRequest.updateEnabledRulesets`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/updateEnabledRulesets)
-  - [`webextensions.api.declarativeNetRequest.updateSessionRules`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest/updateSessionRules)
+  - `html.elements.iframe.sandbox.allow-storage-access-by-user-activation`
+  - [`webextensions.api.declarativeNetRequest`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/declarativeNetRequest)
   - [`webextensions.manifest.declarative_net_request`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/declarative_net_request)
   - `webextensions.manifest.optional_permissions.declarativeNetRequestFeedback`
   - `webextensions.manifest.permissions.declarativeNetRequest`
@@ -427,8 +659,9 @@
   - [`api.CanvasRenderingContext2D.roundRect`](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/roundRect)
   - `api.FormData.FormData.submitter`
   - [`api.HTMLElement.inert`](https://developer.mozilla.org/docs/Web/API/HTMLElement/inert)
-  - `api.OffscreenCanvasRenderingContext2D.roundRect`
-  - `api.Path2D.roundRect`
+  - [`api.OffscreenCanvasRenderingContext2D.roundRect`](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/roundRect)
+  - [`api.Path2D.roundRect`](https://developer.mozilla.org/docs/Web/API/CanvasRenderingContext2D/roundRect)
+  - `api.createImageBitmap.options_imageOrientation_parameter.from-image`
   - `css.properties.hyphens.language_dutch`
   - `css.properties.hyphens.language_italian`
   - `css.properties.hyphens.language_russian`
@@ -465,7 +698,6 @@
   - [`api.FileSystemFileHandle`](https://developer.mozilla.org/docs/Web/API/FileSystemFileHandle)
   - [`api.FileSystemHandle`](https://developer.mozilla.org/docs/Web/API/FileSystemHandle)
   - [`api.FileSystemSyncAccessHandle`](https://developer.mozilla.org/docs/Web/API/FileSystemSyncAccessHandle)
-  - [`api.GamepadHapticActuator`](https://developer.mozilla.org/docs/Web/API/GamepadHapticActuator)
   - [`api.HTMLCanvasElement.transferControlToOffscreen`](https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/transferControlToOffscreen)
   - [`api.HTMLElement.attachInternals`](https://developer.mozilla.org/docs/Web/API/HTMLElement/attachInternals)
   - [`api.HTMLElement.translate`](https://developer.mozilla.org/docs/Web/API/HTMLElement/translate)
@@ -485,6 +717,7 @@
   - [`api.PerformanceResourceTiming.transferSize`](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/transferSize)
   - [`api.PerformanceServerTiming`](https://developer.mozilla.org/docs/Web/API/PerformanceServerTiming)
   - [`api.PermissionStatus.change_event`](https://developer.mozilla.org/docs/Web/API/PermissionStatus/change_event)
+  - `api.Permissions.permission_notifications`
   - [`api.PushEvent`](https://developer.mozilla.org/docs/Web/API/PushEvent)
   - [`api.PushManager`](https://developer.mozilla.org/docs/Web/API/PushManager)
   - [`api.PushMessageData`](https://developer.mozilla.org/docs/Web/API/PushMessageData)
@@ -495,6 +728,7 @@
   - [`api.Screen.orientation`](https://developer.mozilla.org/docs/Web/API/Screen/orientation)
   - [`api.ScreenOrientation`](https://developer.mozilla.org/docs/Web/API/ScreenOrientation)
   - [`api.ServiceWorkerContainer.messageerror_event`](https://developer.mozilla.org/docs/Web/API/ServiceWorkerContainer/messageerror_event)
+  - [`api.ServiceWorkerGlobalScope.push_event`](https://developer.mozilla.org/docs/Web/API/ServiceWorkerGlobalScope/push_event)
   - [`api.ServiceWorkerRegistration.getNotifications`](https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/getNotifications)
   - [`api.ServiceWorkerRegistration.pushManager`](https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/pushManager)
   - [`api.ServiceWorkerRegistration.showNotification`](https://developer.mozilla.org/docs/Web/API/ServiceWorkerRegistration/showNotification)
@@ -530,7 +764,7 @@
   - [`http.headers.Sec-Fetch-Mode`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-Mode)
   - [`http.headers.Sec-Fetch-Site`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-Site)
   - [`http.headers.Sec-Fetch-User`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Sec-Fetch-User)
-  - [`javascript.classes.static_initialization_blocks`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Class_static_initialization_blocks)
+  - [`javascript.classes.static_initialization_blocks`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Static_initialization_blocks)
   - [`javascript.operators.import_meta.resolve`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/import.meta/resolve)
   - [`javascript.regular_expressions.lookbehind_assertion`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Regular_expressions/Lookbehind_assertion)
   - `webassembly.fixed-width-SIMD`
@@ -539,6 +773,7 @@
   - [`webextensions.api.scripting.registerContentScripts`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/scripting/registerContentScripts)
   - [`webextensions.api.scripting.unregisterContentScripts`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/scripting/unregisterContentScripts)
   - [`webextensions.api.scripting.updateContentScripts`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/scripting/updateContentScripts)
+  - `webextensions.manifest.action.default_icon`
 
 ## Mar 2023
 ### Browsers released:
@@ -562,8 +797,9 @@
   - `css.properties.font-variant.sub`
   - `css.properties.font-variant.super`
   - [`css.selectors.autofill`](https://developer.mozilla.org/docs/Web/CSS/:autofill)
+  - `css.types.calc-constant.e`
   - `css.types.length.container_query_length_units`
-  - `html.elements.input.type_color.list`
+  - [`html.elements.datalist`](https://developer.mozilla.org/docs/Web/HTML/Element/datalist)
   - [`html.global_attributes.autofocus`](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/autofocus)
 
 ## Feb 2023
@@ -573,7 +809,12 @@
   - {'browser':'firefox','version':'110'}
 ### These Features became stable across all major browsers:
   - [`api.MathMLElement`](https://developer.mozilla.org/docs/Web/API/MathMLElement)
+  - `css.types.calc-constant.pi`
+  - `html.elements.form.autocomplete.one-time-code`
+  - `html.elements.textarea.autocomplete.one-time-code`
   - [`http.headers.Content-Security-Policy.unsafe-hashes`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/Sources#unsafe-hashes)
+  - [`mathml.elements.annotation`](https://developer.mozilla.org/docs/Web/MathML/Element/semantics)
+  - [`mathml.elements.annotation-xml`](https://developer.mozilla.org/docs/Web/MathML/Element/semantics)
   - [`mathml.elements.maction`](https://developer.mozilla.org/docs/Web/MathML/Element/maction)
   - [`mathml.elements.math`](https://developer.mozilla.org/docs/Web/MathML/Element/math)
   - [`mathml.elements.merror`](https://developer.mozilla.org/docs/Web/MathML/Element/merror)
@@ -585,6 +826,7 @@
   - [`mathml.elements.mover`](https://developer.mozilla.org/docs/Web/MathML/Element/mover)
   - [`mathml.elements.mpadded`](https://developer.mozilla.org/docs/Web/MathML/Element/mpadded)
   - [`mathml.elements.mphantom`](https://developer.mozilla.org/docs/Web/MathML/Element/mphantom)
+  - [`mathml.elements.mprescripts`](https://developer.mozilla.org/docs/Web/MathML/Element/mmultiscripts)
   - [`mathml.elements.mroot`](https://developer.mozilla.org/docs/Web/MathML/Element/mroot)
   - [`mathml.elements.mrow`](https://developer.mozilla.org/docs/Web/MathML/Element/mrow)
   - [`mathml.elements.ms`](https://developer.mozilla.org/docs/Web/MathML/Element/ms)
@@ -628,7 +870,7 @@
   - [`api.OES_draw_buffers_indexed`](https://developer.mozilla.org/docs/Web/API/OES_draw_buffers_indexed)
   - `css.properties.align-items.flex_context.last_baseline`
   - `css.properties.align-self.flex_context.last_baseline`
-  - [`css.types.calc-constant`](https://developer.mozilla.org/docs/Web/CSS/calc-constant)
+  - `css.types.calc-constant`
   - `css.types.length.vb`
   - `css.types.length.vi`
   - `css.types.length.viewport_percentage_units_dynamic`
@@ -727,10 +969,14 @@
   - [`css.properties.text-align-last`](https://developer.mozilla.org/docs/Web/CSS/text-align-last)
   - `css.properties.user-select.all`
   - [`css.selectors.modal`](https://developer.mozilla.org/docs/Web/CSS/:modal)
-  - [`css.types.basic-shape.path`](https://developer.mozilla.org/docs/Web/CSS/path)
+  - [`css.types.basic-shape.path.offset-path`](https://developer.mozilla.org/docs/Web/CSS/offset-path)
   - `css.types.overflow.clip`
+  - [`css.types.resolution`](https://developer.mozilla.org/docs/Web/CSS/resolution)
+  - `html.elements.textarea.placeholder.line_breaks`
   - `http.headers.Content-Security-Policy.script-src.wasm-unsafe-eval`
-  - `webextensions.manifest.permissions.unlimitedStorage`
+  - [`javascript.classes.public_class_fields`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Public_class_fields)
+  - `webextensions.api.tabs.Tab.pinned`
+  - `webextensions.api.tabs.create.pinned`
 
 ## Sep 2022
 ### Browsers released:
@@ -764,7 +1010,6 @@
   - [`api.PerformanceMeasure.detail`](https://developer.mozilla.org/docs/Web/API/PerformanceMeasure/detail)
   - `api.caches.secure_context_required`
   - `css.properties.align-content.flex_context.start_end`
-  - [`css.properties.backdrop-filter`](https://developer.mozilla.org/docs/Web/CSS/backdrop-filter)
   - [`css.properties.contain.style`](https://developer.mozilla.org/docs/Web/CSS/contain#style)
   - [`css.properties.scroll-snap-stop`](https://developer.mozilla.org/docs/Web/CSS/scroll-snap-stop)
 
@@ -777,7 +1022,7 @@
   - [`api.ReadableStream.pipeThrough`](https://developer.mozilla.org/docs/Web/API/ReadableStream/pipeThrough)
   - [`api.TransformStream`](https://developer.mozilla.org/docs/Web/API/TransformStream)
   - [`api.TransformStreamDefaultController`](https://developer.mozilla.org/docs/Web/API/TransformStreamDefaultController)
-  - [`webextensions.api.scripting`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/scripting/)
+  - [`webextensions.api.scripting`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/scripting)
   - `webextensions.manifest.optional_permissions.scripting`
   - `webextensions.manifest.permissions.scripting`
 
@@ -808,6 +1053,8 @@
   - [`webassembly.api.Tag`](https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/Tag)
   - `webassembly.exception-handling`
   - [`webextensions.api.storage.StorageArea.onChanged`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageArea/onChanged)
+  - [`webextensions.api.storage.local.onChanged`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageArea/onChanged)
+  - [`webextensions.api.storage.sync.onChanged`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageArea/onChanged)
 
 ## May 2022
 ### Browsers released:
@@ -859,6 +1106,7 @@
   - `api.RTCStatsReport.type_outbound-rtp.nackCount`
   - `api.RTCStatsReport.type_remote-inbound-rtp.codecId`
   - `api.RTCStatsReport.type_remote-outbound-rtp.codecId`
+  - `api.ResizeObserver.observe.options_box_parameter`
   - [`api.ResizeObserverEntry.borderBoxSize`](https://developer.mozilla.org/docs/Web/API/ResizeObserverEntry/borderBoxSize)
   - [`api.ResizeObserverEntry.contentBoxSize`](https://developer.mozilla.org/docs/Web/API/ResizeObserverEntry/contentBoxSize)
   - [`api.ResizeObserverSize`](https://developer.mozilla.org/docs/Web/API/ResizeObserverSize)
@@ -875,8 +1123,8 @@
   - `api.createImageBitmap.options_colorSpaceConversion_parameter`
   - `api.createImageBitmap.options_resizeHeight_parameter`
   - `api.createImageBitmap.options_resizeWidth_parameter`
-  - [`api.reportError`](https://developer.mozilla.org/docs/Web/API/reportError)
-  - [`api.structuredClone`](https://developer.mozilla.org/docs/Web/API/structuredClone)
+  - [`api.reportError`](https://developer.mozilla.org/docs/Web/API/Window/reportError)
+  - [`api.structuredClone`](https://developer.mozilla.org/docs/Web/API/Window/structuredClone)
   - `css.at-rules.import.layer`
   - [`css.at-rules.layer`](https://developer.mozilla.org/docs/Web/CSS/@layer)
   - [`css.properties.accent-color`](https://developer.mozilla.org/docs/Web/CSS/accent-color)
@@ -890,7 +1138,6 @@
   - `css.properties.flex-basis.content`
   - `css.properties.hyphenate-character.auto`
   - `css.properties.justify-content.flex_context.start_end`
-  - [`css.properties.mask`](https://developer.mozilla.org/docs/Web/CSS/mask)
   - [`css.properties.offset-path`](https://developer.mozilla.org/docs/Web/CSS/offset-path)
   - `css.properties.overflow-wrap.anywhere`
   - [`css.properties.print-color-adjust`](https://developer.mozilla.org/docs/Web/CSS/print-color-adjust)
@@ -904,8 +1151,10 @@
   - [`css.properties.text-emphasis-style`](https://developer.mozilla.org/docs/Web/CSS/text-emphasis-style)
   - [`css.selectors.backdrop`](https://developer.mozilla.org/docs/Web/CSS/::backdrop)
   - [`css.selectors.focus-visible`](https://developer.mozilla.org/docs/Web/CSS/:focus-visible)
+  - [`css.types.global_keywords.revert-layer`](https://developer.mozilla.org/docs/Web/CSS/revert-layer)
   - [`html.elements.dialog`](https://developer.mozilla.org/docs/Web/HTML/Element/dialog)
   - `html.elements.img.loading`
+  - [`html.global_attributes.nonce`](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/nonce)
   - [`http.headers.Content-Security-Policy.strict-dynamic`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/Sources#strict-dynamic)
   - [`javascript.builtins.Array.at`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/at)
   - `javascript.builtins.Intl.DateTimeFormat.DateTimeFormat.options_parameter.options_timeZoneName_parameter.extended_values`
@@ -913,8 +1162,9 @@
   - [`javascript.builtins.Object.hasOwn`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwn)
   - [`javascript.builtins.String.at`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/at)
   - [`javascript.builtins.TypedArray.at`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/at)
+  - [`webextensions.api.runtime.onConnectExternal`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onConnectExternal)
   - [`webextensions.api.runtime.onMessageExternal`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onMessageExternal)
-  - `webextensions.manifest.background.persistent`
+  - `webextensions.manifest.commands._execute_action`
   - [`webextensions.manifest.content_security_policy.extension_pages`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_security_policy#extension_pages)
 
 ## Mar 2022
@@ -925,7 +1175,7 @@
   - {'browser':'safari','version':'15.4'}
   - {'browser':'safari_ios','version':'15.4'}
 ### These Features became stable across all major browsers:
-  - `api.ImageBitmapRenderingContext.canvas`
+  - [`api.ImageBitmapRenderingContext.canvas`](https://developer.mozilla.org/docs/Web/API/ImageBitmapRenderingContext/canvas)
   - `css.properties.color-scheme.only_dark`
   - `css.properties.color-scheme.only_light`
 
@@ -935,7 +1185,6 @@
   - {'browser':'edge','version':'98'}
   - {'browser':'firefox','version':'97'}
 ### These Features became stable across all major browsers:
-  - `api.Navigator.canShare.data_text_parameter`
   - `api.RTCStatsReport.type_remote-inbound-rtp.roundTripTime`
   - [`css.properties.color-scheme`](https://developer.mozilla.org/docs/Web/CSS/color-scheme)
   - [`css.properties.font-synthesis`](https://developer.mozilla.org/docs/Web/CSS/font-synthesis)
@@ -953,7 +1202,8 @@
   - [`api.Navigator.storage`](https://developer.mozilla.org/docs/Web/API/Navigator/storage)
   - [`api.StorageManager`](https://developer.mozilla.org/docs/Web/API/StorageManager)
   - [`api.WorkerNavigator.storage`](https://developer.mozilla.org/docs/Web/API/WorkerNavigator/storage)
-  - [`api.crossOriginIsolated`](https://developer.mozilla.org/docs/Web/API/crossOriginIsolated)
+  - [`api.crossOriginIsolated`](https://developer.mozilla.org/docs/Web/API/Window/crossOriginIsolated)
+  - [`html.global_attributes.inputmode`](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/inputmode)
   - [`http.headers.Cross-Origin-Embedder-Policy`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Cross-Origin-Embedder-Policy)
   - [`http.headers.Cross-Origin-Opener-Policy`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Cross-Origin-Opener-Policy)
   - [`javascript.builtins.Atomics`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics)
@@ -974,7 +1224,7 @@
   - {'browser':'safari','version':'15.2'}
   - {'browser':'safari_ios','version':'15.2'}
 ### These Features became stable across all major browsers:
-  - `api.Element.attachShadow.init_delegatesFocus_parameter`
+  - [`api.Element.attachShadow.options_delegatesFocus_parameter`](https://developer.mozilla.org/docs/Web/API/Element/attachShadow#delegatesfocus)
   - [`api.HTMLElement.enterKeyHint`](https://developer.mozilla.org/docs/Web/API/HTMLElement/enterKeyHint)
   - [`api.ShadowRoot.delegatesFocus`](https://developer.mozilla.org/docs/Web/API/ShadowRoot/delegatesFocus)
   - `css.properties.block-size.fit-content`
@@ -1003,7 +1253,6 @@
   - [`api.SVGAnimationElement.endEvent_event`](https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/endEvent_event)
   - [`api.SVGAnimationElement.repeatEvent_event`](https://developer.mozilla.org/docs/Web/API/SVGAnimationElement/repeatEvent_event)
   - `api.createImageBitmap.options_imageOrientation_parameter`
-  - `api.createImageBitmap.options_premultiplyAlpha_parameter`
   - `css.properties.image-rendering.pixelated`
   - [`html.elements.input.type_datetime-local`](https://developer.mozilla.org/docs/Web/HTML/Element/input/datetime-local)
 
@@ -1029,7 +1278,6 @@
   - [`api.MediaError.message`](https://developer.mozilla.org/docs/Web/API/MediaError/message)
   - [`api.MediaSession`](https://developer.mozilla.org/docs/Web/API/MediaSession)
   - [`api.Navigator.mediaSession`](https://developer.mozilla.org/docs/Web/API/Navigator/mediaSession)
-  - `api.Navigator.share.data_text_parameter`
   - [`api.Performance.timeOrigin`](https://developer.mozilla.org/docs/Web/API/Performance/timeOrigin)
   - [`api.PerformanceObserver.takeRecords`](https://developer.mozilla.org/docs/Web/API/PerformanceObserver/takeRecords)
   - [`api.SecurityPolicyViolationEvent.disposition`](https://developer.mozilla.org/docs/Web/API/SecurityPolicyViolationEvent/disposition)
@@ -1045,7 +1293,7 @@
   - [`api.WebGLTransformFeedback`](https://developer.mozilla.org/docs/Web/API/WebGLTransformFeedback)
   - [`api.WebGLVertexArrayObject`](https://developer.mozilla.org/docs/Web/API/WebGLVertexArrayObject)
   - [`api.XMLHttpRequest.send.body_URLSearchParams_type`](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/send#URLSearchParams)
-  - [`api.createImageBitmap`](https://developer.mozilla.org/docs/Web/API/createImageBitmap)
+  - [`api.createImageBitmap`](https://developer.mozilla.org/docs/Web/API/Window/createImageBitmap)
   - [`css.properties.aspect-ratio`](https://developer.mozilla.org/docs/Web/CSS/aspect-ratio)
   - [`css.properties.border-end-end-radius`](https://developer.mozilla.org/docs/Web/CSS/border-end-end-radius)
   - [`css.properties.border-end-start-radius`](https://developer.mozilla.org/docs/Web/CSS/border-end-start-radius)
@@ -1080,6 +1328,7 @@
   - [`css.properties.scroll-padding-inline`](https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline)
   - [`css.properties.scroll-padding-inline-end`](https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-end)
   - [`css.properties.scroll-padding-inline-start`](https://developer.mozilla.org/docs/Web/CSS/scroll-padding-inline-start)
+  - `css.selectors.any-link.not_match_link`
   - `css.selectors.link.not_match_link`
   - `css.selectors.visited.not_match_link`
   - `css.types.image.gradient.linear-gradient.premultiplied_gradients`
@@ -1093,104 +1342,30 @@
   - [`javascript.builtins.DataView.setBigInt64`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setBigInt64)
   - [`javascript.builtins.DataView.setBigUint64`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setBigUint64)
   - `javascript.builtins.Error.Error.options_cause_parameter`
-  - `javascript.builtins.Error.cause`
+  - [`javascript.builtins.Error.cause`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/cause)
   - [`javascript.builtins.RegExp.hasIndices`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/hasIndices)
-  - [`javascript.classes.private_class_fields_in`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Private_class_fields)
-  - [`javascript.classes.private_class_methods`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Private_class_fields)
+  - [`javascript.classes.private_class_fields_in`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Private_properties)
+  - [`javascript.classes.private_class_methods`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Private_properties)
   - [`javascript.operators.await.top_level`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/await#top_level_await)
   - [`webassembly.api.compileStreaming_static`](https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/compileStreaming_static)
   - [`webassembly.api.instantiateStreaming_static`](https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/instantiateStreaming_static)
-  - [`webextensions.api.alarms.Alarm`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/alarms/Alarm)
-  - [`webextensions.api.alarms.clear`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/alarms/clear)
-  - [`webextensions.api.alarms.clearAll`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/alarms/clearAll)
-  - [`webextensions.api.alarms.create`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/alarms/create)
-  - [`webextensions.api.alarms.get`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/alarms/get)
-  - [`webextensions.api.alarms.getAll`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/alarms/getAll)
-  - [`webextensions.api.alarms.onAlarm`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/alarms/onAlarm)
-  - [`webextensions.api.browserAction.ColorArray`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/ColorArray)
-  - [`webextensions.api.browserAction.ImageDataType`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/ImageDataType)
-  - [`webextensions.api.browserAction.disable`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/disable)
-  - [`webextensions.api.browserAction.enable`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/enable)
-  - [`webextensions.api.browserAction.getBadgeBackgroundColor`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getBadgeBackgroundColor)
-  - [`webextensions.api.browserAction.getBadgeText`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getBadgeText)
-  - [`webextensions.api.browserAction.getPopup`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getPopup)
-  - [`webextensions.api.browserAction.getTitle`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/getTitle)
-  - [`webextensions.api.browserAction.onClicked`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/onClicked)
-  - [`webextensions.api.browserAction.setBadgeBackgroundColor`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setBadgeBackgroundColor)
-  - [`webextensions.api.browserAction.setBadgeText`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setBadgeText)
-  - [`webextensions.api.browserAction.setIcon`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setIcon)
-  - [`webextensions.api.browserAction.setPopup`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setPopup)
-  - [`webextensions.api.browserAction.setTitle`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/browserAction/setTitle)
-  - [`webextensions.api.commands.Command`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/commands/Command)
-  - [`webextensions.api.commands.getAll`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/commands/getAll)
-  - [`webextensions.api.commands.onCommand`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/commands/onCommand)
-  - [`webextensions.api.cookies.Cookie`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/cookies/Cookie)
-  - [`webextensions.api.cookies.CookieStore`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/cookies/CookieStore)
-  - [`webextensions.api.cookies.get`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/cookies/get)
-  - [`webextensions.api.cookies.getAll`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/cookies/getAll)
-  - [`webextensions.api.cookies.getAllCookieStores`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/cookies/getAllCookieStores)
-  - [`webextensions.api.cookies.remove`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/cookies/remove)
-  - [`webextensions.api.cookies.sameSiteStatus`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/cookies/sameSiteStatus)
-  - [`webextensions.api.cookies.set`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/cookies/set)
-  - [`webextensions.api.events.Event`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/events/Event)
-  - [`webextensions.api.events.UrlFilter`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/events/UrlFilter)
-  - [`webextensions.api.extension.ViewType`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/ViewType)
-  - [`webextensions.api.extension.getBackgroundPage`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/getBackgroundPage)
-  - [`webextensions.api.extension.getURL`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/getURL)
-  - [`webextensions.api.extension.getViews`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/getViews)
-  - [`webextensions.api.extension.inIncognitoContext`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/inIncognitoContext)
-  - [`webextensions.api.extension.isAllowedFileSchemeAccess`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/isAllowedFileSchemeAccess)
-  - [`webextensions.api.extension.isAllowedIncognitoAccess`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extension/isAllowedIncognitoAccess)
-  - [`webextensions.api.extensionTypes.ImageDetails`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes/ImageDetails)
-  - [`webextensions.api.extensionTypes.ImageFormat`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes/ImageFormat)
+  - `webextensions.api.browserAction.setIcon.details_imageData_parameter`
+  - `webextensions.api.commands.Command.description`
+  - `webextensions.api.commands.Command.shortcut`
+  - `webextensions.api.commands.onCommand.name`
+  - `webextensions.api.cookies.CookieStore.id`
+  - `webextensions.api.cookies.CookieStore.tabIds`
+  - `webextensions.api.cookies.sameSiteStatus.lax`
+  - `webextensions.api.cookies.sameSiteStatus.no_restriction`
+  - `webextensions.api.cookies.sameSiteStatus.strict`
   - [`webextensions.api.extensionTypes.RunAt`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/extensionTypes/RunAt)
-  - [`webextensions.api.i18n.getAcceptLanguages`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/i18n/getAcceptLanguages)
-  - [`webextensions.api.i18n.getMessage`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/i18n/getMessage)
-  - [`webextensions.api.i18n.getUILanguage`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/i18n/getUILanguage)
-  - [`webextensions.api.pageAction.ImageDataType`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/ImageDataType)
-  - [`webextensions.api.pageAction.getPopup`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/getPopup)
-  - [`webextensions.api.pageAction.getTitle`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/getTitle)
-  - [`webextensions.api.pageAction.onClicked`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/onClicked)
-  - [`webextensions.api.pageAction.setIcon`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setIcon)
-  - [`webextensions.api.pageAction.setPopup`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setPopup)
-  - [`webextensions.api.pageAction.setTitle`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/pageAction/setTitle)
-  - [`webextensions.api.permissions.Permissions`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/permissions/Permissions)
-  - [`webextensions.api.permissions.contains`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/permissions/contains)
-  - [`webextensions.api.permissions.getAll`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/permissions/getAll)
-  - [`webextensions.api.permissions.onAdded`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/permissions/onAdded)
-  - [`webextensions.api.permissions.onRemoved`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/permissions/onRemoved)
-  - [`webextensions.api.permissions.remove`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/permissions/remove)
-  - [`webextensions.api.permissions.request`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/permissions/request)
-  - [`webextensions.api.runtime.MessageSender`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/MessageSender)
-  - [`webextensions.api.runtime.OnInstalledReason`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/OnInstalledReason)
-  - [`webextensions.api.runtime.PlatformArch`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/PlatformArch)
-  - [`webextensions.api.runtime.PlatformInfo`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/PlatformInfo)
-  - [`webextensions.api.runtime.PlatformOs`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/PlatformOs)
-  - [`webextensions.api.runtime.Port`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/Port)
-  - [`webextensions.api.runtime.connect`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/connect)
-  - [`webextensions.api.runtime.connectNative`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/connectNative)
-  - [`webextensions.api.runtime.getBackgroundPage`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getBackgroundPage)
-  - [`webextensions.api.runtime.getManifest`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getManifest)
-  - [`webextensions.api.runtime.getPlatformInfo`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getPlatformInfo)
-  - [`webextensions.api.runtime.getURL`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/getURL)
-  - [`webextensions.api.runtime.id`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/id)
-  - [`webextensions.api.runtime.lastError`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/lastError)
-  - [`webextensions.api.runtime.onConnect`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onConnect)
-  - [`webextensions.api.runtime.onInstalled`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onInstalled)
+  - [`webextensions.api.i18n`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/i18n)
+  - `webextensions.api.pageAction.setIcon.imageData`
+  - [`webextensions.api.runtime`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime)
   - `webextensions.api.runtime.onInstalled.details.previousVersion`
   - `webextensions.api.runtime.onInstalled.details.reason`
-  - [`webextensions.api.runtime.onMessage`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onMessage)
-  - [`webextensions.api.runtime.onStartup`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/onStartup)
-  - [`webextensions.api.runtime.openOptionsPage`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/openOptionsPage)
-  - [`webextensions.api.runtime.reload`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/reload)
-  - [`webextensions.api.runtime.sendMessage`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/sendMessage)
-  - [`webextensions.api.runtime.sendNativeMessage`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/runtime/sendNativeMessage)
-  - [`webextensions.api.storage.StorageArea`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageArea)
-  - [`webextensions.api.storage.StorageChange`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/storage/StorageChange)
-  - [`webextensions.api.storage.local`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/storage/local)
-  - [`webextensions.api.storage.onChanged`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/storage/onChanged)
-  - [`webextensions.api.storage.sync`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/storage/sync)
-  - [`webextensions.api.tabs.TAB_ID_NONE`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/TAB_ID_NONE)
+  - [`webextensions.api.storage`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/storage)
+  - [`webextensions.api.tabs`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs)
   - `webextensions.api.tabs.Tab.active`
   - `webextensions.api.tabs.Tab.audible`
   - `webextensions.api.tabs.Tab.height`
@@ -1205,95 +1380,23 @@
   - `webextensions.api.tabs.Tab.url`
   - `webextensions.api.tabs.Tab.width`
   - `webextensions.api.tabs.Tab.windowId`
-  - [`webextensions.api.tabs.TabStatus`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/TabStatus)
-  - [`webextensions.api.tabs.WindowType`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/WindowType)
-  - [`webextensions.api.tabs.captureVisibleTab`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/captureVisibleTab)
-  - [`webextensions.api.tabs.connect`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/connect)
   - `webextensions.api.tabs.connect.connectInfo.frameId`
-  - [`webextensions.api.tabs.create`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/create)
-  - [`webextensions.api.tabs.detectLanguage`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/detectLanguage)
-  - [`webextensions.api.tabs.duplicate`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/duplicate)
-  - [`webextensions.api.tabs.executeScript`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/executeScript)
-  - [`webextensions.api.tabs.get`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/get)
-  - [`webextensions.api.tabs.getCurrent`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/getCurrent)
-  - [`webextensions.api.tabs.getZoom`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/getZoom)
-  - [`webextensions.api.tabs.goBack`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/goBack)
-  - [`webextensions.api.tabs.goForward`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/goForward)
-  - [`webextensions.api.tabs.insertCSS`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/insertCSS)
-  - [`webextensions.api.tabs.onActivated`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onActivated)
-  - [`webextensions.api.tabs.onAttached`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onAttached)
-  - [`webextensions.api.tabs.onCreated`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onCreated)
-  - [`webextensions.api.tabs.onDetached`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onDetached)
-  - [`webextensions.api.tabs.onHighlighted`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onHighlighted)
-  - [`webextensions.api.tabs.onMoved`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onMoved)
-  - [`webextensions.api.tabs.onRemoved`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onRemoved)
-  - [`webextensions.api.tabs.onUpdated`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/onUpdated)
-  - `webextensions.api.tabs.onUpdated.changeInfo.audible`
-  - `webextensions.api.tabs.onUpdated.changeInfo.status`
-  - `webextensions.api.tabs.onUpdated.changeInfo.title`
-  - `webextensions.api.tabs.onUpdated.changeInfo.url`
-  - [`webextensions.api.tabs.query`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/query)
-  - `webextensions.api.tabs.query.queryInfo.active`
   - `webextensions.api.tabs.query.queryInfo.audible`
   - `webextensions.api.tabs.query.queryInfo.currentWindow`
-  - `webextensions.api.tabs.query.queryInfo.highlighted`
   - `webextensions.api.tabs.query.queryInfo.index`
   - `webextensions.api.tabs.query.queryInfo.lastFocusedWindow`
-  - `webextensions.api.tabs.query.queryInfo.openerTabId`
-  - `webextensions.api.tabs.query.queryInfo.status`
-  - `webextensions.api.tabs.query.queryInfo.title`
-  - `webextensions.api.tabs.query.queryInfo.url`
-  - `webextensions.api.tabs.query.queryInfo.windowId`
-  - `webextensions.api.tabs.query.queryInfo.windowType`
-  - [`webextensions.api.tabs.reload`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/reload)
-  - [`webextensions.api.tabs.remove`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/remove)
-  - [`webextensions.api.tabs.removeCSS`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/removeCSS)
-  - [`webextensions.api.tabs.sendMessage`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/sendMessage)
-  - [`webextensions.api.tabs.setZoom`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/setZoom)
-  - [`webextensions.api.tabs.update`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/tabs/update)
-  - [`webextensions.api.webNavigation.getAllFrames`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/getAllFrames)
-  - [`webextensions.api.webNavigation.getFrame`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/getFrame)
-  - [`webextensions.api.webNavigation.onBeforeNavigate`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onBeforeNavigate)
-  - [`webextensions.api.webNavigation.onCommitted`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onCommitted)
-  - [`webextensions.api.webNavigation.onCompleted`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onCompleted)
-  - [`webextensions.api.webNavigation.onDOMContentLoaded`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onDOMContentLoaded)
-  - [`webextensions.api.webNavigation.onErrorOccurred`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/webNavigation/onErrorOccurred)
-  - [`webextensions.api.windows.CreateType`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows/CreateType)
+  - `webextensions.api.tabs.sendMessage.options.frameId`
   - [`webextensions.api.windows.WINDOW_ID_CURRENT`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows/WINDOW_ID_CURRENT)
-  - [`webextensions.api.windows.WINDOW_ID_NONE`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows/WINDOW_ID_NONE)
-  - [`webextensions.api.windows.Window`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows/Window)
-  - [`webextensions.api.windows.WindowType`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows/WindowType)
-  - [`webextensions.api.windows.get`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows/get)
-  - [`webextensions.api.windows.getAll`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows/getAll)
-  - [`webextensions.api.windows.getCurrent`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows/getCurrent)
-  - [`webextensions.api.windows.getLastFocused`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows/getLastFocused)
-  - [`webextensions.api.windows.onCreated`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows/onCreated)
-  - [`webextensions.api.windows.onFocusChanged`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows/onFocusChanged)
-  - [`webextensions.api.windows.update`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/API/windows/update)
-  - [`webextensions.manifest.author`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/author)
-  - [`webextensions.manifest.background`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/background)
-  - [`webextensions.manifest.browser_action`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/browser_action)
-  - [`webextensions.manifest.chrome_url_overrides`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/chrome_url_overrides)
-  - [`webextensions.manifest.commands`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/commands)
-  - [`webextensions.manifest.content_scripts`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_scripts)
-  - [`webextensions.manifest.content_security_policy`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/content_security_policy)
-  - [`webextensions.manifest.default_locale`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/default_locale)
-  - [`webextensions.manifest.description`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/description)
-  - [`webextensions.manifest.homepage_url`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/homepage_url)
-  - [`webextensions.manifest.icons`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/icons)
+  - `webextensions.api.windows.Window.alwaysOnTop`
+  - `webextensions.api.windows.get.getInfo`
+  - `webextensions.api.windows.getCurrent.getInfo`
+  - `webextensions.api.windows.getLastFocused.getInfo`
+  - `webextensions.manifest.commands._execute_browser_action`
+  - `webextensions.manifest.commands._execute_page_action`
   - [`webextensions.manifest.manifest_version`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/manifest_version)
-  - [`webextensions.manifest.name`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/name)
-  - [`webextensions.manifest.optional_permissions`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/optional_permissions)
+  - `webextensions.manifest.optional_permissions.nativeMessaging`
   - [`webextensions.manifest.options_ui`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/options_ui)
-  - [`webextensions.manifest.page_action`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/page_action)
-  - [`webextensions.manifest.permissions`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/permissions)
-  - [`webextensions.manifest.short_name`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/short_name)
-  - [`webextensions.manifest.version`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/version)
-  - [`webextensions.manifest.web_accessible_resources`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/manifest.json/web_accessible_resources)
-  - [`webextensions.match_patterns`](https://developer.mozilla.org/docs/Mozilla/Add-ons/WebExtensions/Match_patterns)
-  - `webextensions.match_patterns.scheme.http`
-  - `webextensions.match_patterns.scheme.https`
-  - `webextensions.match_patterns.scheme.wildcard`
+  - `webextensions.manifest.permissions.nativeMessaging`
 
 ## Sep 2021
 ### Browsers released:
@@ -1319,7 +1422,7 @@
   - `api.WheelEvent.wheelDeltaY`
   - [`css.properties.scroll-margin`](https://developer.mozilla.org/docs/Web/CSS/scroll-margin)
   - `javascript.builtins.Intl.DateTimeFormat.DateTimeFormat.options_parameter.options_dayPeriod_parameter`
-  - [`javascript.classes.private_class_fields`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Private_class_fields)
+  - [`javascript.classes.private_class_fields`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Private_properties)
 
 ## Jul 2021
 ### Browsers released:
@@ -1330,8 +1433,8 @@
 ## Jun 2021
 ### These Features became stable across all major browsers:
   - [`api.RTCStatsReport.type_remote-outbound-rtp`](https://developer.mozilla.org/docs/Web/API/RTCStatsReport#remote_outbound_rtp)
-  - `javascript.builtins.Intl.DateTimeFormat.DateTimeFormat.IntlLegacyConstructedSymbol`
-  - `javascript.builtins.Intl.NumberFormat.NumberFormat.IntlLegacyConstructedSymbol`
+  - [`javascript.builtins.Intl.DateTimeFormat.DateTimeFormat.IntlLegacyConstructedSymbol`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/DateTimeFormat/DateTimeFormat#return_value)
+  - [`javascript.builtins.Intl.NumberFormat.NumberFormat.IntlLegacyConstructedSymbol`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/NumberFormat/NumberFormat#return_value)
 
 ## May 2021
 ### Browsers released:
@@ -1355,9 +1458,12 @@
   - [`api.AudioWorkletNode`](https://developer.mozilla.org/docs/Web/API/AudioWorkletNode)
   - [`api.AudioWorkletProcessor`](https://developer.mozilla.org/docs/Web/API/AudioWorkletProcessor)
   - [`api.BaseAudioContext`](https://developer.mozilla.org/docs/Web/API/BaseAudioContext)
+  - `api.BaseAudioContext.createPeriodicWave.constraints_disableNormalization_parameter`
   - `api.BaseAudioContext.decodeAudioData.returns_promise`
   - [`api.BiquadFilterNode.BiquadFilterNode`](https://developer.mozilla.org/docs/Web/API/BiquadFilterNode/BiquadFilterNode)
+  - [`api.Blob.arrayBuffer`](https://developer.mozilla.org/docs/Web/API/Blob/arrayBuffer)
   - [`api.Blob.stream`](https://developer.mozilla.org/docs/Web/API/Blob/stream)
+  - [`api.Blob.text`](https://developer.mozilla.org/docs/Web/API/Blob/text)
   - [`api.CSSConditionRule`](https://developer.mozilla.org/docs/Web/API/CSSConditionRule)
   - [`api.CSSGroupingRule`](https://developer.mozilla.org/docs/Web/API/CSSGroupingRule)
   - [`api.ChannelMergerNode.ChannelMergerNode`](https://developer.mozilla.org/docs/Web/API/ChannelMergerNode/ChannelMergerNode)
@@ -1462,8 +1568,7 @@
   - `javascript.builtins.Intl.NumberFormat.NumberFormat.options_parameter.options_unitDisplay_parameter`
   - `javascript.builtins.Intl.NumberFormat.NumberFormat.options_parameter.options_unit_parameter`
   - [`javascript.builtins.WeakRef`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakRef)
-  - [`javascript.classes.public_class_fields`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Class_elements#Public_fields)
-  - [`javascript.classes.static_class_fields`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Class_fields)
+  - [`javascript.classes.static_class_fields`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/Public_class_fields)
   - [`javascript.statements.export.namespace`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/export)
   - `webassembly.BigInt-to-i64-integration`
 
@@ -1477,7 +1582,8 @@
 ### These Features became stable across all major browsers:
   - [`api.Element.beforeinput_event`](https://developer.mozilla.org/docs/Web/API/Element/beforeinput_event)
   - [`api.InputEvent.getTargetRanges`](https://developer.mozilla.org/docs/Web/API/InputEvent/getTargetRanges)
-  - [`api.MediaSource.sourceclose_event`](https://developer.mozilla.org/docs/Web/API/MediaSource/sourceclose_event)
+  - `api.MediaSource.sourceclose_event`
+  - `api.Navigator.share.data_text_parameter`
   - [`css.properties.text-decoration-thickness`](https://developer.mozilla.org/docs/Web/CSS/text-decoration-thickness)
 
 ## Mar 2021
@@ -1556,8 +1662,6 @@
   - {'browser':'firefox','version':'82'}
 ### These Features became stable across all major browsers:
   - [`api.AudioScheduledSourceNode`](https://developer.mozilla.org/docs/Web/API/AudioScheduledSourceNode)
-  - [`api.Blob.arrayBuffer`](https://developer.mozilla.org/docs/Web/API/Blob/arrayBuffer)
-  - [`api.Blob.text`](https://developer.mozilla.org/docs/Web/API/Blob/text)
   - [`api.BlobEvent`](https://developer.mozilla.org/docs/Web/API/BlobEvent)
   - [`api.Document.getAnimations`](https://developer.mozilla.org/docs/Web/API/Document/getAnimations)
   - [`api.DragEvent`](https://developer.mozilla.org/docs/Web/API/DragEvent)
@@ -1572,6 +1676,7 @@
   - [`api.HTMLIFrameElement.referrerPolicy`](https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/referrerPolicy)
   - [`api.HTMLImageElement.referrerPolicy`](https://developer.mozilla.org/docs/Web/API/HTMLImageElement/referrerPolicy)
   - [`api.HTMLScriptElement.referrerPolicy`](https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/referrerPolicy)
+  - `api.IntersectionObserver.IntersectionObserver.options_root_parameter_Document`
   - [`api.KeyframeEffect.pseudoElement`](https://developer.mozilla.org/docs/Web/API/KeyframeEffect/pseudoElement)
   - `api.MediaQueryList.EventTarget_inheritance`
   - [`api.MediaQueryList.change_event`](https://developer.mozilla.org/docs/Web/API/MediaQueryList/change_event)
@@ -1587,7 +1692,8 @@
   - `api.Window.scrollBy.options_behavior_parameter`
   - `api.Window.scrollTo.options_behavior_parameter`
   - `css.properties.animation-timing-function.jump`
-  - [`css.properties.flex-direction`](https://developer.mozilla.org/docs/Web/CSS/flex-direction)
+  - `css.properties.flex-direction.column-reverse`
+  - `css.properties.flex-direction.row-reverse`
   - [`css.properties.text-orientation`](https://developer.mozilla.org/docs/Web/CSS/text-orientation)
   - `css.properties.transition-timing-function.jump`
   - `css.types.easing-function.steps.jump`
@@ -1597,16 +1703,20 @@
   - `html.elements.img.referrerpolicy`
   - `html.elements.link.referrerpolicy`
   - `html.elements.video.aspect_ratio_computed_from_attributes`
+  - `http.headers.Cache-Control.stale-while-revalidate`
   - `http.headers.Referer.length_limit_4096B`
   - [`javascript.builtins.AggregateError`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AggregateError)
   - [`javascript.builtins.BigInt`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/BigInt)
   - [`javascript.builtins.Intl.Locale`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/Locale)
   - [`javascript.builtins.Intl.RelativeTimeFormat`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/RelativeTimeFormat)
+  - `javascript.builtins.Intl.RelativeTimeFormat.RelativeTimeFormat.options_parameter.options_localeMatcher_parameter`
+  - `javascript.builtins.Intl.RelativeTimeFormat.RelativeTimeFormat.options_parameter.options_numberingSystem_parameter`
+  - `javascript.builtins.Intl.RelativeTimeFormat.RelativeTimeFormat.options_parameter.options_numeric_parameter`
   - [`javascript.builtins.Promise.any`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/any)
   - [`javascript.builtins.Symbol.toStringTag.dom_objects`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toStringTag#toStringTag_available_on_all_DOM_prototype_objects)
   - [`javascript.operators.logical_and_assignment`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_AND_assignment)
   - [`javascript.operators.logical_or_assignment`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_OR_assignment)
-  - [`javascript.operators.nullish_coalescing_assignment`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_nullish_assignment)
+  - [`javascript.operators.nullish_coalescing_assignment`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_assignment)
   - `svg.elements.a.referrerpolicy`
   - [`svg.elements.stop.stop-opacity`](https://developer.mozilla.org/docs/Web/SVG/Attribute/stop-opacity)
 
@@ -1630,7 +1740,7 @@
   - [`api.Animation.persist`](https://developer.mozilla.org/docs/Web/API/Animation/persist)
   - [`api.Animation.ready`](https://developer.mozilla.org/docs/Web/API/Animation/ready)
   - [`api.Animation.remove_event`](https://developer.mozilla.org/docs/Web/API/Animation/remove_event)
-  - [`api.Animation.remove_filling_animation`](https://developer.mozilla.org/docs/web/api/web_animations_api/using_the_web_animations_api#automatically_removing_filling_animations)
+  - [`api.Animation.remove_filling_animation`](https://developer.mozilla.org/docs/Web/API/Web_Animations_API/Using_the_Web_Animations_API#automatically_removing_filling_animations)
   - [`api.Animation.replaceState`](https://developer.mozilla.org/docs/Web/API/Animation/replaceState)
   - [`api.Animation.timeline`](https://developer.mozilla.org/docs/Web/API/Animation/timeline)
   - [`api.AnimationPlaybackEvent`](https://developer.mozilla.org/docs/Web/API/AnimationPlaybackEvent)
@@ -1646,7 +1756,6 @@
   - [`api.KeyframeEffect.getKeyframes`](https://developer.mozilla.org/docs/Web/API/KeyframeEffect/getKeyframes)
   - [`api.KeyframeEffect.setKeyframes`](https://developer.mozilla.org/docs/Web/API/KeyframeEffect/setKeyframes)
   - [`api.RTCStatsReport.type_data-channel`](https://developer.mozilla.org/docs/Web/API/RTCStatsReport#data_channel)
-  - [`css.properties.ruby-position`](https://developer.mozilla.org/docs/Web/CSS/ruby-position)
   - [`css.types.global_keywords.revert`](https://developer.mozilla.org/docs/Web/CSS/revert)
   - `html.elements.iframe.sandbox.allow-top-navigation-by-user-activation`
 
@@ -1662,15 +1771,14 @@
   - [`javascript.regular_expressions.named_backreference`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Regular_expressions/Named_backreference)
   - [`javascript.regular_expressions.named_capturing_group`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Regular_expressions/Named_capturing_group)
   - [`javascript.regular_expressions.unicode_character_class_escape`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Regular_expressions/Unicode_character_class_escape)
-  - [`svg.global_attributes.transform-origin`](https://developer.mozilla.org/docs/Web/SVG/Attribute/transform-origin)
 
 ## Jun 2020
 ### Browsers released:
   - {'browser':'firefox','version':'78'}
 ### These Features became stable across all major browsers:
   - [`api.Element.animationcancel_event`](https://developer.mozilla.org/docs/Web/API/Element/animationcancel_event)
-  - [`css.properties.grid-template-columns.repeat`](https://developer.mozilla.org/docs/Web/CSS/repeat())
-  - [`css.properties.grid-template-rows.repeat`](https://developer.mozilla.org/docs/Web/CSS/repeat())
+  - [`css.properties.grid-template-columns.repeat`](https://developer.mozilla.org/docs/Web/CSS/repeat)
+  - [`css.properties.grid-template-rows.repeat`](https://developer.mozilla.org/docs/Web/CSS/repeat)
 
 ## May 2020
 ### Browsers released:
@@ -1683,7 +1791,7 @@
   - [`css.types.clamp`](https://developer.mozilla.org/docs/Web/CSS/clamp)
   - [`css.types.max`](https://developer.mozilla.org/docs/Web/CSS/max)
   - [`css.types.min`](https://developer.mozilla.org/docs/Web/CSS/min)
-  - [`svg.global_attributes.requiredExtensions`](https://developer.mozilla.org/docs/Web/SVG/Attribute/requiredExtensions)
+  - `svg.global_attributes.requiredExtensions`
 
 ## Apr 2020
 ### Browsers released:
@@ -1703,7 +1811,7 @@
   - [`api.GeolocationCoordinates`](https://developer.mozilla.org/docs/Web/API/GeolocationCoordinates)
   - [`api.GeolocationPosition`](https://developer.mozilla.org/docs/Web/API/GeolocationPosition)
   - [`api.GeolocationPositionError`](https://developer.mozilla.org/docs/Web/API/GeolocationPositionError)
-  - `api.HTMLIFrameElement.allow`
+  - [`api.HTMLIFrameElement.allow`](https://developer.mozilla.org/docs/Web/API/HTMLIFrameElement/allow)
   - [`api.KeyframeEffect`](https://developer.mozilla.org/docs/Web/API/KeyframeEffect)
   - [`api.Navigator.clipboard`](https://developer.mozilla.org/docs/Web/API/Navigator/clipboard)
   - [`api.RTCDTMFSender`](https://developer.mozilla.org/docs/Web/API/RTCDTMFSender)
@@ -1732,7 +1840,7 @@
   - `api.RTCStatsReport.type_remote-candidate.type`
   - [`api.ResizeObserver`](https://developer.mozilla.org/docs/Web/API/ResizeObserver)
   - [`api.ResizeObserverEntry`](https://developer.mozilla.org/docs/Web/API/ResizeObserverEntry)
-  - `api.SVGLengthList.length`
+  - [`api.SVGLengthList.length`](https://developer.mozilla.org/docs/Web/API/SVGLengthList/length)
   - `api.SVGNumberList.length`
   - [`api.SVGPointList.length`](https://developer.mozilla.org/docs/Web/API/SVGPointList/length)
   - `api.SVGStringList.length`
@@ -1741,19 +1849,22 @@
   - [`api.TextMetrics.actualBoundingBoxDescent`](https://developer.mozilla.org/docs/Web/API/TextMetrics/actualBoundingBoxDescent)
   - [`api.TextMetrics.actualBoundingBoxLeft`](https://developer.mozilla.org/docs/Web/API/TextMetrics/actualBoundingBoxLeft)
   - [`api.TextMetrics.actualBoundingBoxRight`](https://developer.mozilla.org/docs/Web/API/TextMetrics/actualBoundingBoxRight)
+  - [`css.properties.cursor`](https://developer.mozilla.org/docs/Web/CSS/cursor)
+  - [`css.properties.font-optical-sizing`](https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing)
   - `css.properties.opacity.percentages`
   - `css.properties.overflow.multiple_keywords`
   - [`css.properties.tab-size.length`](https://developer.mozilla.org/docs/Web/CSS/length)
   - [`css.properties.text-underline-position`](https://developer.mozilla.org/docs/Web/CSS/text-underline-position)
   - `css.properties.white-space.break-spaces`
   - [`css.selectors.part`](https://developer.mozilla.org/docs/Web/CSS/::part)
+  - [`css.types.basic-shape.path`](https://developer.mozilla.org/docs/Web/CSS/basic-shape/path)
   - `css.types.length.Q`
   - `html.elements.iframe.allow`
   - [`html.global_attributes.exportparts`](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/exportparts)
   - [`html.global_attributes.part`](https://developer.mozilla.org/docs/Web/HTML/Global_attributes/part)
   - [`http.headers.Cross-Origin-Resource-Policy`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Cross-Origin-Resource-Policy)
   - [`javascript.grammar.hashbang_comments`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar#Hashbang_comments)
-  - [`javascript.operators.nullish_coalescing`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing_operator)
+  - [`javascript.operators.nullish_coalescing`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Nullish_coalescing)
   - [`javascript.operators.optional_chaining`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Optional_chaining)
   - [`webassembly.api.Global`](https://developer.mozilla.org/docs/WebAssembly/JavaScript_interface/Global)
 
@@ -1770,8 +1881,6 @@
   - [`api.RTCStatsReport.type_outbound-rtp`](https://developer.mozilla.org/docs/Web/API/RTCStatsReport#outbound_rtp)
   - [`api.RTCStatsReport.type_remote-candidate`](https://developer.mozilla.org/docs/Web/API/RTCStatsReport#remote_candidate)
   - [`api.RTCStatsReport.type_remote-inbound-rtp`](https://developer.mozilla.org/docs/Web/API/RTCStatsReport#remote_inbound_rtp)
-  - [`svg.global_attributes.letter-spacing`](https://developer.mozilla.org/docs/Web/SVG/Attribute/letter-spacing)
-  - [`svg.global_attributes.word-spacing`](https://developer.mozilla.org/docs/Web/SVG/Attribute/word-spacing)
 
 ## Feb 2020
 ### Browsers released:
@@ -1782,7 +1891,7 @@
   - [`api.AudioContext.createMediaStreamDestination`](https://developer.mozilla.org/docs/Web/API/AudioContext/createMediaStreamDestination)
   - [`api.AudioParam.maxValue`](https://developer.mozilla.org/docs/Web/API/AudioParam/maxValue)
   - [`api.AudioParam.minValue`](https://developer.mozilla.org/docs/Web/API/AudioParam/minValue)
-  - [`api.BeforeUnloadEvent`](https://developer.mozilla.org/docs/Web/API/BeforeUnloadEvent)
+  - `api.BeforeUnloadEvent.user_interaction`
   - [`api.CSS.escape_static`](https://developer.mozilla.org/docs/Web/API/CSS/escape_static)
   - [`api.CSS.supports_static`](https://developer.mozilla.org/docs/Web/API/CSS/supports_static)
   - `api.CacheStorage.secure_context_required`
@@ -1836,6 +1945,8 @@
   - `api.HTMLCanvasElement.getContext.bitmaprenderer_context`
   - `api.HTMLCanvasElement.getContext.webgl_context`
   - [`api.HTMLCanvasElement.toBlob`](https://developer.mozilla.org/docs/Web/API/HTMLCanvasElement/toBlob)
+  - `api.HTMLCanvasElement.toDataURL.type_parameter_jpeg`
+  - `api.HTMLCanvasElement.toDataURL.type_parameter_png`
   - [`api.HTMLDetailsElement`](https://developer.mozilla.org/docs/Web/API/HTMLDetailsElement)
   - `api.HTMLEmbedElement.align`
   - `api.HTMLEmbedElement.type`
@@ -1844,14 +1955,14 @@
   - [`api.HTMLImageElement.decoding`](https://developer.mozilla.org/docs/Web/API/HTMLImageElement/decoding)
   - [`api.HTMLInputElement.setRangeText`](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/setRangeText)
   - [`api.HTMLInputElement.webkitEntries`](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/webkitEntries)
-  - [`api.HTMLLinkElement.sizes`](https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/sizes)
-  - [`api.HTMLMediaElement.waitingforkey_event`](https://developer.mozilla.org/docs/Web/API/HTMLMediaElement/waitingforkey_event)
+  - `api.HTMLLinkElement.sizes`
+  - `api.HTMLMediaElement.waitingforkey_event`
   - [`api.HTMLOListElement.reversed`](https://developer.mozilla.org/docs/Web/API/HTMLOListElement/reversed)
-  - [`api.HTMLSelectElement.autocomplete`](https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/autocomplete)
+  - `api.HTMLSelectElement.autocomplete`
   - [`api.HTMLSlotElement`](https://developer.mozilla.org/docs/Web/API/HTMLSlotElement)
   - [`api.HTMLTextAreaElement.autocomplete`](https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/autocomplete)
-  - `api.HTMLTextAreaElement.selectionDirection`
-  - `api.HTMLTextAreaElement.setRangeText`
+  - [`api.HTMLTextAreaElement.selectionDirection`](https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/selectionDirection)
+  - [`api.HTMLTextAreaElement.setRangeText`](https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/setRangeText)
   - [`api.HTMLVideoElement.resize_event`](https://developer.mozilla.org/docs/Web/API/HTMLVideoElement/resize_event)
   - [`api.History.scrollRestoration`](https://developer.mozilla.org/docs/Web/API/History/scrollRestoration)
   - [`api.IDBCursor.continuePrimaryKey`](https://developer.mozilla.org/docs/Web/API/IDBCursor/continuePrimaryKey)
@@ -1885,7 +1996,7 @@
   - `api.Navigator.mediaDevices.secure_context_required`
   - [`api.Node.getRootNode`](https://developer.mozilla.org/docs/Web/API/Node/getRootNode)
   - [`api.Node.isConnected`](https://developer.mozilla.org/docs/Web/API/Node/isConnected)
-  - [`api.NodeList.@@iterator`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/@@iterator)
+  - `api.NodeList.@@iterator`
   - [`api.PageTransitionEvent.PageTransitionEvent`](https://developer.mozilla.org/docs/Web/API/PageTransitionEvent/PageTransitionEvent)
   - [`api.Path2D.addPath`](https://developer.mozilla.org/docs/Web/API/Path2D/addPath)
   - [`api.Performance.resourcetimingbufferfull_event`](https://developer.mozilla.org/docs/Web/API/Performance/resourcetimingbufferfull_event)
@@ -1917,6 +2028,7 @@
   - `api.RTCPeerConnection.setLocalDescription.returns_promise`
   - `api.RTCPeerConnection.setRemoteDescription.returns_promise`
   - [`api.RTCPeerConnection.track_event`](https://developer.mozilla.org/docs/Web/API/RTCPeerConnection/track_event)
+  - `api.RTCRtpReceiver.getContributingSources.audioLevel`
   - [`api.RTCRtpReceiver.getSynchronizationSources`](https://developer.mozilla.org/docs/Web/API/RTCRtpReceiver/getSynchronizationSources)
   - [`api.RTCRtpSender.replaceTrack`](https://developer.mozilla.org/docs/Web/API/RTCRtpSender/replaceTrack)
   - [`api.RTCRtpTransceiver.currentDirection`](https://developer.mozilla.org/docs/Web/API/RTCRtpTransceiver/currentDirection)
@@ -1929,6 +2041,9 @@
   - [`api.RTCTrackEvent`](https://developer.mozilla.org/docs/Web/API/RTCTrackEvent)
   - [`api.ReadableStream.ReadableStream`](https://developer.mozilla.org/docs/Web/API/ReadableStream/ReadableStream)
   - [`api.ReadableStream.tee`](https://developer.mozilla.org/docs/Web/API/ReadableStream/tee)
+  - [`api.ReadableStreamDefaultController`](https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultController)
+  - [`api.ReadableStreamDefaultReader`](https://developer.mozilla.org/docs/Web/API/ReadableStreamDefaultReader)
+  - `api.Request.cache.only-if-cached`
   - [`api.SVGAnimateElement`](https://developer.mozilla.org/docs/Web/API/SVGAnimateElement)
   - [`api.SVGAnimateMotionElement`](https://developer.mozilla.org/docs/Web/API/SVGAnimateMotionElement)
   - [`api.SVGAnimateTransformElement`](https://developer.mozilla.org/docs/Web/API/SVGAnimateTransformElement)
@@ -1939,8 +2054,8 @@
   - `api.SVGRadialGradientElement.fr`
   - `api.SVGSVGElement.animationsPaused`
   - [`api.SVGSetElement`](https://developer.mozilla.org/docs/Web/API/SVGSetElement)
-  - [`api.Screen.availLeft`](https://developer.mozilla.org/docs/Web/API/Screen/availLeft)
-  - [`api.Screen.availTop`](https://developer.mozilla.org/docs/Web/API/Screen/availTop)
+  - [`api.Screen.availLeft`](https://developer.mozilla.org/docs/Web/API/ScreenDetailed/availLeft)
+  - [`api.Screen.availTop`](https://developer.mozilla.org/docs/Web/API/ScreenDetailed/availTop)
   - [`api.Selection.modify`](https://developer.mozilla.org/docs/Web/API/Selection/modify)
   - [`api.ServiceWorkerContainer.startMessages`](https://developer.mozilla.org/docs/Web/API/ServiceWorkerContainer/startMessages)
   - [`api.ShadowRoot`](https://developer.mozilla.org/docs/Web/API/ShadowRoot)
@@ -1982,17 +2097,19 @@
   - `api.Window.scrollTo.options_left_parameter`
   - `api.Window.scrollTo.options_top_parameter`
   - [`api.Window.unhandledrejection_event`](https://developer.mozilla.org/docs/Web/API/Window/unhandledrejection_event)
+  - [`api.WorkerGlobalScope.rejectionhandled_event`](https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/rejectionhandled_event)
+  - [`api.WorkerGlobalScope.unhandledrejection_event`](https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/unhandledrejection_event)
   - `api.XMLHttpRequest.getAllResponseHeaders.header_names_lowercase`
   - [`api.XMLHttpRequest.responseType.json_value`](https://developer.mozilla.org/docs/Web/API/XMLHttpRequest/responseType#json)
   - [`api.console.countReset_static`](https://developer.mozilla.org/docs/Web/API/console/countReset_static)
   - [`api.console.timeLog_static`](https://developer.mozilla.org/docs/Web/API/console/timeLog_static)
   - `api.crypto.worker_support`
   - `api.fetch.blob_data_support`
-  - [`api.queueMicrotask`](https://developer.mozilla.org/docs/Web/API/queueMicrotask)
+  - [`api.queueMicrotask`](https://developer.mozilla.org/docs/Web/API/Window/queueMicrotask)
   - `css.at-rules.font-face.OpenType_COLRv0`
   - [`css.at-rules.font-face.font-display`](https://developer.mozilla.org/docs/Web/CSS/@font-face/font-display)
   - `css.at-rules.keyframes.ignore_important_declarations`
-  - [`css.at-rules.media.calc`](https://developer.mozilla.org/docs/Web/CSS/calc())
+  - [`css.at-rules.media.calc`](https://developer.mozilla.org/docs/Web/CSS/calc)
   - [`css.at-rules.media.display-mode`](https://developer.mozilla.org/docs/Web/CSS/@media/display-mode)
   - [`css.at-rules.media.monochrome`](https://developer.mozilla.org/docs/Web/CSS/@media/monochrome)
   - [`css.at-rules.media.prefers-color-scheme`](https://developer.mozilla.org/docs/Web/CSS/@media/prefers-color-scheme)
@@ -2020,15 +2137,11 @@
   - [`css.properties.border-inline-start-color`](https://developer.mozilla.org/docs/Web/CSS/border-inline-start-color)
   - [`css.properties.border-inline-start-style`](https://developer.mozilla.org/docs/Web/CSS/border-inline-start-style)
   - [`css.properties.border-inline-start-width`](https://developer.mozilla.org/docs/Web/CSS/border-inline-start-width)
-  - [`css.properties.box-decoration-break`](https://developer.mozilla.org/docs/Web/CSS/box-decoration-break)
   - [`css.properties.caret-color`](https://developer.mozilla.org/docs/Web/CSS/caret-color)
   - [`css.properties.clip-path`](https://developer.mozilla.org/docs/Web/CSS/clip-path)
-  - `css.properties.column-count.auto`
-  - `css.properties.column-span.all`
-  - `css.properties.column-span.none`
+  - `css.properties.column-width.auto`
   - `css.properties.content.element_replacement`
-  - `css.properties.cursor.url_positioning_syntax`
-  - [`css.properties.custom-property.env`](https://developer.mozilla.org/docs/Web/CSS/env())
+  - [`css.properties.custom-property.env`](https://developer.mozilla.org/docs/Web/CSS/env)
   - `css.properties.display.contents`
   - `css.properties.display.flow-root`
   - `css.properties.font.font_stretch_support`
@@ -2040,6 +2153,9 @@
   - [`css.properties.font-variant-east-asian`](https://developer.mozilla.org/docs/Web/CSS/font-variant-east-asian)
   - [`css.properties.font-variant-ligatures`](https://developer.mozilla.org/docs/Web/CSS/font-variant-ligatures)
   - [`css.properties.font-variant-numeric`](https://developer.mozilla.org/docs/Web/CSS/font-variant-numeric)
+  - `css.properties.grid-auto-flow.column`
+  - `css.properties.grid-auto-flow.dense`
+  - `css.properties.grid-auto-flow.row`
   - `css.properties.grid-template.none`
   - `css.properties.grid-template-areas.none`
   - `css.properties.grid-template-columns.auto`
@@ -2093,7 +2209,6 @@
   - [`css.properties.max-block-size`](https://developer.mozilla.org/docs/Web/CSS/max-block-size)
   - `css.properties.max-height.max-content`
   - `css.properties.max-height.min-content`
-  - `css.properties.max-height.none`
   - [`css.properties.max-inline-size`](https://developer.mozilla.org/docs/Web/CSS/max-inline-size)
   - `css.properties.max-width.max-content`
   - `css.properties.max-width.min-content`
@@ -2106,9 +2221,6 @@
   - [`css.properties.mix-blend-mode`](https://developer.mozilla.org/docs/Web/CSS/mix-blend-mode)
   - [`css.properties.object-fit`](https://developer.mozilla.org/docs/Web/CSS/object-fit)
   - [`css.properties.object-position`](https://developer.mozilla.org/docs/Web/CSS/object-position)
-  - `css.properties.overflow.auto`
-  - `css.properties.overflow-x.auto`
-  - `css.properties.overflow-y.auto`
   - [`css.properties.padding-block-end`](https://developer.mozilla.org/docs/Web/CSS/padding-block-end)
   - [`css.properties.padding-block-start`](https://developer.mozilla.org/docs/Web/CSS/padding-block-start)
   - [`css.properties.padding-inline-end`](https://developer.mozilla.org/docs/Web/CSS/padding-inline-end)
@@ -2116,7 +2228,6 @@
   - [`css.properties.place-content`](https://developer.mozilla.org/docs/Web/CSS/place-content)
   - [`css.properties.place-items`](https://developer.mozilla.org/docs/Web/CSS/place-items)
   - [`css.properties.place-self`](https://developer.mozilla.org/docs/Web/CSS/place-self)
-  - [`css.properties.resize`](https://developer.mozilla.org/docs/Web/CSS/resize)
   - `css.properties.scroll-padding.auto`
   - [`css.properties.scroll-snap-align`](https://developer.mozilla.org/docs/Web/CSS/scroll-snap-align)
   - [`css.properties.shape-image-threshold`](https://developer.mozilla.org/docs/Web/CSS/shape-image-threshold)
@@ -2142,9 +2253,6 @@
   - `css.properties.width.stretch`
   - [`css.properties.will-change`](https://developer.mozilla.org/docs/Web/CSS/will-change)
   - `css.properties.word-spacing.svg_elements`
-  - `css.properties.writing-mode.horizontal-tb`
-  - `css.properties.writing-mode.vertical-lr`
-  - `css.properties.writing-mode.vertical-rl`
   - [`css.selectors.any-link`](https://developer.mozilla.org/docs/Web/CSS/:any-link)
   - `css.selectors.attribute.case_insensitive_modifier`
   - [`css.selectors.cue`](https://developer.mozilla.org/docs/Web/CSS/::cue)
@@ -2152,7 +2260,7 @@
   - [`css.selectors.defined`](https://developer.mozilla.org/docs/Web/CSS/:defined)
   - [`css.selectors.focus-within`](https://developer.mozilla.org/docs/Web/CSS/:focus-within)
   - [`css.selectors.host`](https://developer.mozilla.org/docs/Web/CSS/:host)
-  - [`css.selectors.hostfunction`](https://developer.mozilla.org/docs/Web/CSS/:host())
+  - [`css.selectors.hostfunction`](https://developer.mozilla.org/docs/Web/CSS/:host_function)
   - `css.selectors.indeterminate.radio`
   - `css.selectors.invalid.form`
   - [`css.selectors.placeholder`](https://developer.mozilla.org/docs/Web/CSS/::placeholder)
@@ -2182,23 +2290,25 @@
   - [`html.elements.details`](https://developer.mozilla.org/docs/Web/HTML/Element/details)
   - `html.elements.iframe.sandbox.allow-modals`
   - `html.elements.iframe.sandbox.allow-popups-to-escape-sandbox`
-  - `html.elements.img.usemap.caseless_usemap`
+  - `html.elements.iframe.srcdoc`
   - [`html.elements.link.rel.preconnect`](https://developer.mozilla.org/docs/Web/HTML/Attributes/rel/preconnect)
   - `html.elements.meta.name.referrer`
   - [`html.elements.rb`](https://developer.mozilla.org/docs/Web/HTML/Element/rb)
-  - [`html.elements.rp`](https://developer.mozilla.org/docs/Web/HTML/Element/rp)
-  - [`html.elements.rt`](https://developer.mozilla.org/docs/Web/HTML/Element/rt)
   - `html.elements.script.type.module`
+  - [`html.elements.select.autocomplete`](https://developer.mozilla.org/docs/Web/HTML/Element/select#autocomplete)
   - [`html.elements.slot`](https://developer.mozilla.org/docs/Web/HTML/Element/slot)
   - [`html.elements.summary`](https://developer.mozilla.org/docs/Web/HTML/Element/summary)
   - `html.elements.textarea.autocomplete`
-  - [`html.elements.wbr`](https://developer.mozilla.org/docs/Web/HTML/Element/wbr)
-  - `http.data-url.html_files`
+  - `http.headers.Access-Control-Allow-Headers.wildcard`
+  - `http.headers.Access-Control-Allow-Methods.wildcard`
   - `http.headers.Access-Control-Expose-Headers.wildcard`
+  - `http.headers.Authorization.Digest`
   - [`http.headers.Content-Security-Policy.base-uri`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/base-uri)
+  - [`http.headers.Content-Security-Policy.manifest-src`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Content-Security-Policy/manifest-src)
   - [`http.headers.Referrer-Policy`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Referrer-Policy)
   - `http.headers.Set-Cookie.cookie_prefixes`
-  - [`javascript.builtins.Array.@@species`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/@@species)
+  - [`http.headers.Timing-Allow-Origin`](https://developer.mozilla.org/docs/Web/HTTP/Headers/Timing-Allow-Origin)
+  - [`javascript.builtins.Array.@@species`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/Symbol.species)
   - [`javascript.builtins.Array.flat`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/flat)
   - [`javascript.builtins.Array.flatMap`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap)
   - `javascript.builtins.Array.sort.stable_sorting`
@@ -2209,15 +2319,20 @@
   - [`javascript.builtins.AsyncIterator`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncIterator)
   - `javascript.builtins.Date.UTC.optional_monthIndex`
   - `javascript.builtins.Function.name.inferred_names`
+  - `javascript.builtins.Intl.Collator.Collator.options_ignorePunctuation_parameter`
+  - `javascript.builtins.Intl.Collator.Collator.options_localeMatcher_parameter`
+  - `javascript.builtins.Intl.Collator.Collator.options_numeric_parameter`
+  - `javascript.builtins.Intl.Collator.Collator.options_sensitivity_parameter`
+  - `javascript.builtins.Intl.Collator.Collator.options_usage_parameter`
   - [`javascript.builtins.JSON.json_superset`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON#JavaScript_and_JSON_differences)
   - `javascript.builtins.JSON.stringify.well_formed_stringify`
   - [`javascript.builtins.Object.fromEntries`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries)
-  - [`javascript.builtins.Promise.@@species`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/@@species)
+  - [`javascript.builtins.Promise.@@species`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/Symbol.species)
   - [`javascript.builtins.Promise.allSettled`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/allSettled)
   - [`javascript.builtins.Proxy.handler.getPrototypeOf`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/Proxy/getPrototypeOf)
-  - [`javascript.builtins.RegExp.@@matchAll`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@matchAll)
-  - [`javascript.builtins.RegExp.@@replace`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@replace)
-  - [`javascript.builtins.RegExp.@@split`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@split)
+  - [`javascript.builtins.RegExp.@@matchAll`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/Symbol.matchAll)
+  - [`javascript.builtins.RegExp.@@replace`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/Symbol.replace)
+  - [`javascript.builtins.RegExp.@@split`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/Symbol.split)
   - [`javascript.builtins.RegExp.flags`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/flags)
   - [`javascript.builtins.String.matchAll`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/matchAll)
   - [`javascript.builtins.String.trimEnd`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/trimEnd)
@@ -2237,7 +2352,7 @@
   - [`javascript.operators.async_generator_function`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/async_function*)
   - `javascript.operators.destructuring.rest_in_objects`
   - `javascript.operators.generator_function.trailing_comma`
-  - [`javascript.operators.import`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Import)
+  - [`javascript.operators.import`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/import)
   - [`javascript.operators.import_meta`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/import.meta)
   - `javascript.operators.object_initializer.spread_properties`
   - [`javascript.operators.spread.spread_in_object_literals`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Spread_in_object_literals)
@@ -2245,23 +2360,13 @@
   - [`javascript.statements.for_await_of`](https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/for-await...of)
   - `javascript.statements.try_catch.optional_catch_binding`
   - `svg.elements.a.xlink_actuate`
-  - `svg.elements.a.xlink_show`
-  - `svg.elements.a.xlink_title`
-  - `svg.elements.animate.attributeName`
-  - `svg.elements.animate.attributeType`
-  - [`svg.elements.animate.dur`](https://developer.mozilla.org/docs/Web/SVG/Attribute/dur)
-  - [`svg.elements.animate.from`](https://developer.mozilla.org/docs/Web/SVG/Attribute/from)
-  - [`svg.elements.animate.repeatCount`](https://developer.mozilla.org/docs/Web/SVG/Attribute/repeatCount)
-  - `svg.elements.animate.to`
-  - `svg.elements.animateMotion.calcMode`
-  - [`svg.elements.animateMotion.keyPoints`](https://developer.mozilla.org/docs/Web/SVG/Attribute/keyPoints)
-  - `svg.elements.animateMotion.origin`
-  - `svg.elements.animateMotion.path`
-  - `svg.elements.animateMotion.rotate`
-  - [`svg.elements.animateTransform.by`](https://developer.mozilla.org/docs/Web/SVG/Attribute/by)
-  - `svg.elements.animateTransform.from`
-  - `svg.elements.animateTransform.to`
-  - `svg.elements.animateTransform.type`
+  - [`svg.elements.a.xlink_show`](https://developer.mozilla.org/docs/Web/SVG/Attribute/xlink:show)
+  - [`svg.elements.a.xlink_title`](https://developer.mozilla.org/docs/Web/SVG/Attribute/xlink:title)
+  - [`svg.elements.animate`](https://developer.mozilla.org/docs/Web/SVG/Element/animate)
+  - [`svg.elements.animateMotion`](https://developer.mozilla.org/docs/Web/SVG/Element/animateMotion)
+  - [`svg.elements.animateTransform`](https://developer.mozilla.org/docs/Web/SVG/Element/animateTransform)
+  - [`svg.elements.circle.fill`](https://developer.mozilla.org/docs/Web/SVG/Attribute/fill)
+  - [`svg.elements.ellipse.fill`](https://developer.mozilla.org/docs/Web/SVG/Attribute/fill)
   - [`svg.elements.feConvolveMatrix.bias`](https://developer.mozilla.org/docs/Web/SVG/Attribute/bias)
   - [`svg.elements.feConvolveMatrix.divisor`](https://developer.mozilla.org/docs/Web/SVG/Attribute/divisor)
   - [`svg.elements.feConvolveMatrix.edgeMode`](https://developer.mozilla.org/docs/Web/SVG/Attribute/edgeMode)
@@ -2308,10 +2413,13 @@
   - [`svg.elements.mask.maskContentUnits`](https://developer.mozilla.org/docs/Web/SVG/Attribute/maskContentUnits)
   - [`svg.elements.mask.maskUnits`](https://developer.mozilla.org/docs/Web/SVG/Attribute/maskUnits)
   - `svg.elements.mpath.xlink_href`
+  - [`svg.elements.path.fill`](https://developer.mozilla.org/docs/Web/SVG/Attribute/fill)
   - `svg.elements.pattern.href`
   - [`svg.elements.pattern.patternContentUnits`](https://developer.mozilla.org/docs/Web/SVG/Attribute/patternContentUnits)
   - [`svg.elements.pattern.patternTransform`](https://developer.mozilla.org/docs/Web/SVG/Attribute/patternTransform)
   - [`svg.elements.pattern.patternUnits`](https://developer.mozilla.org/docs/Web/SVG/Attribute/patternUnits)
+  - [`svg.elements.polygon.fill`](https://developer.mozilla.org/docs/Web/SVG/Attribute/fill)
+  - [`svg.elements.polyline.fill`](https://developer.mozilla.org/docs/Web/SVG/Attribute/fill)
   - `svg.elements.radialGradient.cx`
   - `svg.elements.radialGradient.cy`
   - [`svg.elements.radialGradient.fr`](https://developer.mozilla.org/docs/Web/SVG/Attribute/fr)
@@ -2319,24 +2427,32 @@
   - [`svg.elements.radialGradient.fy`](https://developer.mozilla.org/docs/Web/SVG/Attribute/fy)
   - `svg.elements.radialGradient.gradientTransform`
   - `svg.elements.radialGradient.gradientUnits`
-  - `svg.elements.radialGradient.href`
   - `svg.elements.radialGradient.r`
   - [`svg.elements.radialGradient.spreadMethod`](https://developer.mozilla.org/docs/Web/SVG/Attribute/spreadMethod)
   - `svg.elements.radialGradient.xlink_href`
+  - [`svg.elements.rect.fill`](https://developer.mozilla.org/docs/Web/SVG/Attribute/fill)
   - `svg.elements.script.type`
   - `svg.elements.script.xlink_href`
+  - [`svg.elements.set.fill`](https://developer.mozilla.org/docs/Web/SVG/Attribute/fill)
+  - [`svg.elements.set.systemLanguage`](https://developer.mozilla.org/docs/Web/SVG/Attribute/systemLanguage)
   - [`svg.elements.style.media`](https://developer.mozilla.org/docs/Web/SVG/Attribute/media)
   - `svg.elements.style.title`
   - `svg.elements.style.type`
   - `svg.elements.symbol.preserveAspectRatio`
   - `svg.elements.symbol.viewBox`
+  - [`svg.elements.text.fill`](https://developer.mozilla.org/docs/Web/SVG/Attribute/fill)
+  - [`svg.elements.textPath.fill`](https://developer.mozilla.org/docs/Web/SVG/Attribute/fill)
   - [`svg.elements.textPath.spacing`](https://developer.mozilla.org/docs/Web/SVG/Attribute/spacing)
   - `svg.elements.title.tooltip_display`
+  - [`svg.elements.tspan.fill`](https://developer.mozilla.org/docs/Web/SVG/Attribute/fill)
   - `svg.elements.tspan.lengthAdjust`
   - `svg.elements.view.preserveAspectRatio`
   - `svg.elements.view.viewBox`
   - `svg.elements.view.zoomAndPan`
-  - [`svg.global_attributes.vector-effect`](https://developer.mozilla.org/docs/Web/SVG/Attribute/vector-effect)
+  - `svg.global_attributes.class.animation_support`
+  - [`svg.global_attributes.image-rendering`](https://developer.mozilla.org/docs/Web/SVG/Attribute/image-rendering)
+  - [`svg.global_attributes.text-rendering`](https://developer.mozilla.org/docs/Web/SVG/Attribute/text-rendering)
+  - [`svg.global_attributes.xml_space`](https://developer.mozilla.org/docs/Web/SVG/Attribute/xml:space)
 
 ## Jan 2020
 ### Browsers released:
@@ -2347,7 +2463,6 @@
   - [`api.Element.animationiteration_event`](https://developer.mozilla.org/docs/Web/API/Element/animationiteration_event)
   - [`api.Element.animationstart_event`](https://developer.mozilla.org/docs/Web/API/Element/animationstart_event)
   - [`css.properties.column-span`](https://developer.mozilla.org/docs/Web/CSS/column-span)
-  - [`css.properties.font-optical-sizing`](https://developer.mozilla.org/docs/Web/CSS/font-optical-sizing)
 
 
 
@@ -2377,7 +2492,7 @@
   - [`api.Credential`](https://developer.mozilla.org/docs/Web/API/Credential)
   - [`api.CredentialsContainer`](https://developer.mozilla.org/docs/Web/API/CredentialsContainer)
   - [`api.Element.gotpointercapture_event`](https://developer.mozilla.org/docs/Web/API/Element/gotpointercapture_event)
-  - [`api.Element.lostpointercapture_event`](https://developer.mozilla.org/docs/Web/API/HTMLElement/lostpointercapture_event)
+  - [`api.Element.lostpointercapture_event`](https://developer.mozilla.org/docs/Web/API/Element/lostpointercapture_event)
   - [`api.Element.pointercancel_event`](https://developer.mozilla.org/docs/Web/API/Element/pointercancel_event)
   - [`api.Element.pointerdown_event`](https://developer.mozilla.org/docs/Web/API/Element/pointerdown_event)
   - [`api.Element.pointerenter_event`](https://developer.mozilla.org/docs/Web/API/Element/pointerenter_event)
@@ -2421,7 +2536,7 @@
   - [`api.CSSStyleSheet.removeRule`](https://developer.mozilla.org/docs/Web/API/CSSStyleSheet/removeRule)
   - [`api.CSSStyleSheet.rules`](https://developer.mozilla.org/docs/Web/API/CSSStyleSheet/rules)
   - [`api.HTMLTrackElement.cuechange_event`](https://developer.mozilla.org/docs/Web/API/HTMLTrackElement/cuechange_event)
-  - [`css.properties.-webkit-line-clamp`](https://developer.mozilla.org/docs/Web/CSS/-webkit-line-clamp)
+  - [`css.properties.line-clamp`](https://developer.mozilla.org/docs/Web/CSS/-webkit-line-clamp)
 
 ## Jul 2019
 ### Browsers released:
@@ -2469,7 +2584,6 @@
   - [`api.Window.event`](https://developer.mozilla.org/docs/Web/API/Window/event)
   - `api.Worker.Worker.options_name_parameter`
   - `css.properties.gap.grid_context.calc_values`
-  - [`html.elements.datalist`](https://developer.mozilla.org/docs/Web/HTML/Element/datalist)
   - [`html.elements.input.list`](https://developer.mozilla.org/docs/Web/HTML/Element/input#list)
   - [`html.elements.input.type_color`](https://developer.mozilla.org/docs/Web/HTML/Element/input/color)
   - `http.headers.Set-Cookie.SameSite.Lax`
@@ -2477,9 +2591,14 @@
   - `javascript.builtins.RegExp.source.escaping`
   - `javascript.builtins.RegExp.toString.escaping`
   - `svg.elements.a.href`
+  - `svg.elements.image.href`
+  - `svg.elements.linearGradient.href`
+  - `svg.elements.mpath.href`
+  - `svg.elements.radialGradient.href`
+  - `svg.elements.script.href`
+  - `svg.elements.set.href`
   - `svg.elements.textPath.href`
   - `svg.elements.use.href`
-  - [`svg.global_attributes.href`](https://developer.mozilla.org/docs/Web/SVG/Attribute/href)
 
 ## Mar 2019
 ### Browsers released:
@@ -2527,7 +2646,7 @@
 
 ## Nov 2018
 ### These Features became stable across all major browsers:
-  - [`api.CSSStyleDeclaration.@@iterator`](https://developer.mozilla.org/docs/Web/API/CSSStyleDeclaration/@@iterator)
+  - `api.CSSStyleDeclaration.@@iterator`
   - `api.DOMTokenList.replace.boolean_value`
   - [`api.DataTransfer.setDragImage`](https://developer.mozilla.org/docs/Web/API/DataTransfer/setDragImage)
   - [`api.Element.getAttributeNames`](https://developer.mozilla.org/docs/Web/API/Element/getAttributeNames)
@@ -2557,6 +2676,7 @@
   - [`api.HTMLProgressElement.labels`](https://developer.mozilla.org/docs/Web/API/HTMLProgressElement/labels)
   - [`api.HTMLSelectElement.labels`](https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/labels)
   - [`api.HTMLTextAreaElement.labels`](https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/labels)
+  - `api.Headers.iterate_lexicographically`
   - [`api.MediaDeviceInfo.toJSON`](https://developer.mozilla.org/docs/Web/API/MediaDeviceInfo/toJSON)
   - [`api.MediaStreamAudioDestinationNode`](https://developer.mozilla.org/docs/Web/API/MediaStreamAudioDestinationNode)
   - [`api.PerformanceResourceTiming.secureConnectionStart`](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/secureConnectionStart)
@@ -2569,7 +2689,7 @@
   - [`api.TextTrackList.getTrackById`](https://developer.mozilla.org/docs/Web/API/TextTrackList/getTrackById)
   - [`api.TextTrackList.removetrack_event`](https://developer.mozilla.org/docs/Web/API/TextTrackList/removetrack_event)
   - [`api.WorkerGlobalScope.securitypolicyviolation_event`](https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/securitypolicyviolation_event)
-  - [`api.origin`](https://developer.mozilla.org/docs/Web/API/origin)
+  - [`api.origin`](https://developer.mozilla.org/docs/Web/API/Window/origin)
   - [`css.at-rules.media.-webkit-device-pixel-ratio`](https://developer.mozilla.org/docs/Web/CSS/@media/-webkit-device-pixel-ratio)
   - [`css.at-rules.media.-webkit-max-device-pixel-ratio`](https://developer.mozilla.org/docs/Web/CSS/@media/-webkit-device-pixel-ratio)
   - [`css.at-rules.media.-webkit-min-device-pixel-ratio`](https://developer.mozilla.org/docs/Web/CSS/@media/-webkit-device-pixel-ratio)
@@ -2611,8 +2731,6 @@
   - {'browser':'safari_ios','version':'12'}
 
 ## Aug 2018
-### These Features became stable across all major browsers:
-  - `css.properties.cursor.grab`
 
 ## Jul 2018
 ### Browsers released:
@@ -2626,7 +2744,7 @@
   - {'browser':'firefox','version':'61'}
 ### These Features became stable across all major browsers:
   - [`api.Document.body`](https://developer.mozilla.org/docs/Web/API/Document/body)
-  - `api.HTMLScriptElement.noModule`
+  - [`api.HTMLScriptElement.noModule`](https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/noModule)
   - [`api.Navigator.webdriver`](https://developer.mozilla.org/docs/Web/API/Navigator/webdriver)
   - `api.PerformanceEntry.worker_support`
   - `html.elements.script.nomodule`
@@ -2700,12 +2818,12 @@
   - [`api.HTMLInputElement.reportValidity`](https://developer.mozilla.org/docs/Web/API/HTMLInputElement/reportValidity)
   - [`api.HTMLLinkElement.as`](https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/as)
   - [`api.HTMLLinkElement.crossOrigin`](https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/crossOrigin)
-  - `api.HTMLLinkElement.integrity`
+  - [`api.HTMLLinkElement.integrity`](https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/integrity)
   - [`api.HTMLLinkElement.relList`](https://developer.mozilla.org/docs/Web/API/HTMLLinkElement/relList)
   - `api.HTMLMediaElement.play.returns_promise`
-  - `api.HTMLScriptElement.integrity`
+  - [`api.HTMLScriptElement.integrity`](https://developer.mozilla.org/docs/Web/API/HTMLScriptElement/integrity)
   - [`api.HTMLSelectElement.reportValidity`](https://developer.mozilla.org/docs/Web/API/HTMLSelectElement/reportValidity)
-  - `api.HTMLTextAreaElement.minLength`
+  - [`api.HTMLTextAreaElement.minLength`](https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/minLength)
   - [`api.HTMLTextAreaElement.reportValidity`](https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/reportValidity)
   - [`api.HTMLTextAreaElement.textLength`](https://developer.mozilla.org/docs/Web/API/HTMLTextAreaElement/textLength)
   - [`api.InstallEvent`](https://developer.mozilla.org/docs/Web/API/InstallEvent)
@@ -2733,12 +2851,12 @@
   - [`api.URLSearchParams`](https://developer.mozilla.org/docs/Web/API/URLSearchParams)
   - [`api.ValidityState.tooShort`](https://developer.mozilla.org/docs/Web/API/ValidityState/tooShort)
   - [`api.WEBGL_lose_context`](https://developer.mozilla.org/docs/Web/API/WEBGL_lose_context)
-  - [`api.WebGLVertexArrayObjectOES`](https://developer.mozilla.org/docs/Web/API/WebGLVertexArrayObjectOES)
+  - [`api.WebGLVertexArrayObjectOES`](https://developer.mozilla.org/docs/Web/API/WebGLVertexArrayObject)
   - [`api.WindowClient`](https://developer.mozilla.org/docs/Web/API/WindowClient)
   - [`api.WorkerGlobalScope.navigator`](https://developer.mozilla.org/docs/Web/API/WorkerGlobalScope/navigator)
-  - [`api.caches`](https://developer.mozilla.org/docs/Web/API/caches)
+  - [`api.caches`](https://developer.mozilla.org/docs/Web/API/Window/caches)
   - `api.fetch.init_signal_parameter`
-  - [`api.isSecureContext`](https://developer.mozilla.org/docs/Web/API/isSecureContext)
+  - [`api.isSecureContext`](https://developer.mozilla.org/docs/Web/API/Window/isSecureContext)
   - `css.properties.gap.grid_context.percentage_values`
   - `css.properties.transform-origin.svg_elements`
   - `html.elements.a.ping`
@@ -2776,7 +2894,7 @@
   - [`api.Document.alinkColor`](https://developer.mozilla.org/docs/Web/API/Document/alinkColor)
   - [`api.Document.all`](https://developer.mozilla.org/docs/Web/API/Document/all)
   - [`api.Document.bgColor`](https://developer.mozilla.org/docs/Web/API/Document/bgColor)
-  - [`api.Document.captureEvents`](https://developer.mozilla.org/docs/Web/API/Document/captureEvents)
+  - `api.Document.captureEvents`
   - [`api.Document.clear`](https://developer.mozilla.org/docs/Web/API/Document/clear)
   - [`api.Document.close`](https://developer.mozilla.org/docs/Web/API/Document/close)
   - [`api.Document.dir`](https://developer.mozilla.org/docs/Web/API/Document/dir)
@@ -2785,7 +2903,7 @@
   - [`api.Document.linkColor`](https://developer.mozilla.org/docs/Web/API/Document/linkColor)
   - [`api.Document.open`](https://developer.mozilla.org/docs/Web/API/Document/open)
   - [`api.Document.plugins`](https://developer.mozilla.org/docs/Web/API/Document/plugins)
-  - [`api.Document.releaseEvents`](https://developer.mozilla.org/docs/Web/API/Document/releaseEvents)
+  - `api.Document.releaseEvents`
   - [`api.Document.vlinkColor`](https://developer.mozilla.org/docs/Web/API/Document/vlinkColor)
   - [`api.Document.writeln`](https://developer.mozilla.org/docs/Web/API/Document/writeln)
   - [`api.PerformanceResourceTiming.workerStart`](https://developer.mozilla.org/docs/Web/API/PerformanceResourceTiming/workerStart)
